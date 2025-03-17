@@ -38,4 +38,4 @@ jobs:
           git config --global user.name "Bwalya Mambwe"
           git add FPL_Data_*/FPL_Data_GW*.csv
           git commit -m "Auto-commit GW data for GW${{ steps.current_gw.outputs.current_gw }}"
-          git push --quiet "https://$GH_PAT@github.com/your-username/fpl-data-collector.git" main > /dev/null 2>&1
+          git push --quiet "https://$GH_PAT@github.com/Dante777bm/fpl-data-collector.git" main > /dev/null 2>&1
