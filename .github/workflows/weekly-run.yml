@@ -3,7 +3,6 @@ name: Weekly FPL Data Collection
 on:
   schedule:
     - cron: "0 0 * * 1"  # Runs every Monday at midnight (UTC)
-  workflow_dispatch:
 
 jobs:
   run-script:
@@ -15,12 +14,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install pandas requests python-dateutil
 
       - name: Run the script
         run: python fpl_data_collector.py
@@ -29,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: fpl-data
-          path: FPL_Data_*/FPL_Data_GW*.csv  # Correct path with season folder
+          path: FPL_Data_*/FPL_Data_GW*.csv  # Matches season folder + GW files
 
       - name: Commit and push results
         env:
@@ -37,6 +36,6 @@ jobs:
         run: |
           git config --global user.email "bmambwe777@gmail.com"
           git config --global user.name "Bwalya Mambwe"
-          git add FPL_Data_*/FPL_Data_GW*.csv  # Add files in the season folder
-          git commit -m "Auto-commit GW data"
-          git push --quiet "https://$GH_PAT@github.com/Dante777bm/fpl-data-collector.git" main > /dev/null 2>&1
+          git add FPL_Data_*/FPL_Data_GW*.csv
+          git commit -m "Auto-commit GW data for GW${{ steps.current_gw.outputs.current_gw }}"
+          git push --quiet "https://$GH_PAT@github.com/your-username/fpl-data-collector.git" main > /dev/null 2>&1
