@@ -3,7 +3,7 @@ name: Weekly FPL Data Collection
 on:
   schedule:
     - cron: "0 0 * * 1"  # Runs every Monday at midnight (UTC)
-  workflow_dispatch:  # Enables manual runs
+  workflow_dispatch:  # Allows manual runs
 
 jobs:
   run-script:
@@ -15,7 +15,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"  # Specific version
+          python-version: "3.10"
 
       - name: Install dependencies
         run: |
@@ -29,4 +29,14 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: fpl-data
-          path: FPL_Data_*/FPL_Data_GW*.csv
+          path: FPL_Data_GW*.csv  # Adjust path to match your script's output
+
+      - name: Commit and push results
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Uses GitHub's default token
+        run: |
+          git config --global user.email "bmambwe777@gmail.com"
+          git config --global user.name "Bwalya Mambwe"
+          git add FPL_Data_GW*.csv
+          git commit -m "Auto-commit GW data for GW${{ steps.current_gw.outputs.current_gw }}"
+          git push origin main
