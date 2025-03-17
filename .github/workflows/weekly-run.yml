@@ -3,7 +3,7 @@ name: Weekly FPL Data Collection
 on:
   schedule:
     - cron: "0 0 * * 1"  # Runs every Monday at midnight (UTC)
-  workflow_dispatch:  # Allows manual runs
+  workflow_dispatch:
 
 jobs:
   run-script:
@@ -29,14 +29,14 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: fpl-data
-          path: FPL_Data_GW*.csv  # Adjust path to match your script's output
+          path: FPL_Data_*/FPL_Data_GW*.csv  # Correct path with season folder
 
       - name: Commit and push results
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Uses GitHub's default token
+          GH_PAT: ${{ secrets.GH_PAT }}  # Use your PAT secret
         run: |
-          git config --global user.email "bmambwe777@gmail.com"
-          git config --global user.name "Bwalya Mambwe"
-          git add FPL_Data_GW*.csv
-          git commit -m "Auto-commit GW data for GW${{ steps.current_gw.outputs.current_gw }}"
-          git push origin main
+          git config --global user.email "your-email@example.com"
+          git config --global user.name "Your Name"
+          git add FPL_Data_*/FPL_Data_GW*.csv  # Add files in the season folder
+          git commit -m "Auto-commit GW data"
+          git push --quiet "https://$GH_PAT@github.com/Dante777bm/fpl-data-collector.git" main > /dev/null 2>&1
