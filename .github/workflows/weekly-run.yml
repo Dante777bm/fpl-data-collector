@@ -35,8 +35,8 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT }}  # Use your PAT secret
         run: |
-          git config --global user.email "your-email@example.com"
-          git config --global user.name "Your Name"
+          git config --global user.email "bmambwe777@gmail.com"
+          git config --global user.name "Bwalya Mambwe"
           git add FPL_Data_*/FPL_Data_GW*.csv  # Add files in the season folder
           git commit -m "Auto-commit GW data"
           git push --quiet "https://$GH_PAT@github.com/Dante777bm/fpl-data-collector.git" main > /dev/null 2>&1
