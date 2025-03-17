@@ -3,6 +3,8 @@ name: Weekly FPL Data Collection
 on:
   schedule:
     - cron: "0 0 * * 1"  # Runs every Monday at midnight (UTC)
+  # Uncomment to manually trigger the workflow
+  workflow_dispatch:
 
 jobs:
   run-script:
@@ -14,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
+          python-version: "3.x"  # Use "3.10" or your preferred version
 
       - name: Install dependencies
         run: |
@@ -25,7 +27,7 @@ jobs:
         run: python fpl_data_collector.py
 
       - name: Save output files as artifacts
-        uses: actions/upload-artifact@v4  # Changed from v3 to v4
+        uses: actions/upload-artifact@v3
         with:
           name: fpl-data
           path: FPL_Data_*/FPL_Data_GW*.csv
