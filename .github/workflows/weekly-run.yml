@@ -41,5 +41,16 @@ jobs:
           git config --global user.email "bmambwe777@gmail.com"
           git config --global user.name "Dante777bm"
           git add FPL_Data_*/FPL_Data_GW*.csv  # Add files in the season folder
-          git commit -m "Auto-commit GW data for GW${{ github.run_number }}"
-          git push --quiet "https://${{ secrets.GH_PAT }}@github.com/Dante777bm/fpl-data-collector.git" main > /dev/null 2>&1
+          git commit -m "Auto-commit GW data for GW${{ github.run_number }}" || echo "No changes to commit"
+          # Fixed Git push URL with username and PAT
+          git push --quiet "https://Dante777bm:${GH_PAT}@github.com/Dante777bm/fpl-data-collector.git" main
+          # Remove "> /dev/null 2>&1" to see errors during testing
+    ```
+
+---
+
+### **Critical Fixes Explained**
+1. **Git Push URL Structure**  
+   The URL must be formatted as:  
+   ```bash
+   https://<USERNAME>:<PAT>@github.com/<USERNAME>/<REPO>.git
