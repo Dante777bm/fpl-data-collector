@@ -22,7 +22,7 @@ jobs:
           pip install pandas requests python-dateutil
 
       - name: Download FPL static data
-        run: python download_fpl_data.py
+        run: python FPL JSON.py
 
       - name: Run data collection script
         run: python fpl_data_collector.py
