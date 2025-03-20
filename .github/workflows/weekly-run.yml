@@ -21,7 +21,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install pandas requests python-dateutil
 
-      - name: Run the script
+      - name: Download FPL static data
+        run: python download_fpl_data.py
+
+      - name: Run data collection script
         run: python fpl_data_collector.py
 
       - name: Save output files as artifacts
