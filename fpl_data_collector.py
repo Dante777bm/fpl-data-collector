@@ -3,6 +3,7 @@ import requests
 import pandas as pd
 import logging
 import time
+import json
 from concurrent.futures import ThreadPoolExecutor
 
 logging.basicConfig(
@@ -10,15 +11,20 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-def fetch_bootstrap_data():
-    url = "https://fantasy.premierleague.com/api/bootstrap-static/"
-    response = requests.get(url)
-    if response.status_code == 200:
-        logging.info("Bootstrap data fetched successfully.")
-        return response.json()
+def load_bootstrap_data_from_file():
+    file_path = "fpl_data.json"
+    if os.path.exists(file_path):
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                bootstrap_data = json.load(f)
+            logging.info("Bootstrap data loaded from local JSON file.")
+            return bootstrap_data
+        except Exception as e:
+            logging.error(f"Error reading JSON file: {e}")
+            raise
     else:
-        logging.error(f"Failed to fetch bootstrap data: {response.status_code}")
-        raise Exception(f"Failed to fetch bootstrap data: {response.status_code}")
+        logging.error("Local JSON file not found.")
+        raise Exception("Local JSON file not found.")
 
 def fetch_all_player_histories(player_ids):
     player_histories = {}
@@ -143,8 +149,8 @@ def aggregate_player_stats(gw_history):
 def main():
     start_time = time.time()
     try:
-        # Fetch core data
-        bootstrap_data = fetch_bootstrap_data()
+        # Load core data from the local JSON file
+        bootstrap_data = load_bootstrap_data_from_file()
         season = bootstrap_data.get('game_season', 'Unknown_Season').replace('/', '_')
         season_folder = f"FPL_Data_{season}"
         os.makedirs(season_folder, exist_ok=True)
@@ -247,7 +253,7 @@ def main():
             }
             all_player_data.append(row)
         
-        # Save data
+        # Save data to CSV
         df = pd.DataFrame(all_player_data)
         df.to_csv(output_file, index=False)
         logging.info(f"Data saved to {output_file}.")
