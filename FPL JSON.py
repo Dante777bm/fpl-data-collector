@@ -16,13 +16,15 @@ def download_fpl_data():
         data = response.json()
 
         # Save to a JSON file
-        with open("fpl_data.json", "w") as file:
+        with open("fpl_data.json", "w", encoding="utf-8") as file:
             json.dump(data, file, indent=4)
-        
+
         print("FPL data downloaded and saved successfully as 'fpl_data.json'")
+
+        return data  # Return data for further processing if needed
     
     except requests.exceptions.HTTPError as http_err:
-        print(f"HTTP error occurred: {http_err}")
+        print(f"HTTP error occurred ({response.status_code}): {http_err}")
     except requests.exceptions.ConnectionError as conn_err:
         print(f"Connection error: {conn_err}")
     except requests.exceptions.Timeout as timeout_err:
@@ -31,4 +33,4 @@ def download_fpl_data():
         print(f"An error occurred: {err}")
 
 if __name__ == "__main__":
-    download_fpl_data()
+    fpl_data = download_fpl_data()  # Store the data if needed
