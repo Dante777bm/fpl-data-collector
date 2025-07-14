@@ -11,20 +11,17 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-def load_bootstrap_data_from_file():
-    file_path = "fpl_data.json"
-    if os.path.exists(file_path):
-        try:
-            with open(file_path, "r", encoding="utf-8") as f:
-                bootstrap_data = json.load(f)
-            logging.info("Bootstrap data loaded from local JSON file.")
-            return bootstrap_data
-        except Exception as e:
-            logging.error(f"Error reading JSON file: {e}")
-            raise
-    else:
-        logging.error("Local JSON file not found.")
-        raise Exception("Local JSON file not found.")
+def fetch_bootstrap_data():
+    """Fetches FPL bootstrap data from the API."""
+    url = "https://fantasy.premierleague.com/api/bootstrap-static/"
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        logging.info("Bootstrap data fetched successfully.")
+        return response.json()
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Error fetching bootstrap data: {e}")
+        raise
 
 def fetch_all_player_histories(player_ids):
     player_histories = {}
@@ -149,8 +146,8 @@ def aggregate_player_stats(gw_history):
 def main():
     start_time = time.time()
     try:
-        # Load core data from the local JSON file
-        bootstrap_data = load_bootstrap_data_from_file()
+        # Load core data from the API
+        bootstrap_data = fetch_bootstrap_data()
         season = bootstrap_data.get('game_season', 'Unknown_Season').replace('/', '_')
         season_folder = f"FPL_Data_{season}"
         os.makedirs(season_folder, exist_ok=True)
