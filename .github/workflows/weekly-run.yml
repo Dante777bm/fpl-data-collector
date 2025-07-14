@@ -22,9 +22,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Download FPL static data
-        run: python "FPL JSON.py"
-
       - name: Run data collection script
         run: python fpl_data_collector.py
 
@@ -32,16 +29,19 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: fpl-data
-          path: FPL_Data_*/FPL_Data_GW*.csv  # Matches season folder + GW files
+          path: FPL_Data_*/FPL_Data_GW*.csv
 
       - name: Commit and push results
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}  # Use your GitHub PAT secret
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.email "bmambwe777@gmail.com"
           git config --global user.name "Dante777bm"
-          git add FPL_Data_*/FPL_Data_GW*.csv  # Add files in the season folder
-          git commit -m "Auto-commit GW data for GW${{ github.run_number }}" || echo "No changes to commit"
-          
-          # Fixing the Git push command
-          git push https://Dante777bm:${GH_PAT}@github.com/Dante777bm/fpl-data-collector.git main
+          git add FPL_Data_*/FPL_Data_GW*.csv
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-commit latest FPL gameweek data"
+            git push https://Dante777bm:${GH_PAT}@github.com/Dante777bm/fpl-data-collector.git main
+          fi
