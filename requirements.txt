@@ -1,3 +1,2 @@
 pandas
 requests
-python-dateutil  # Required by pandas
