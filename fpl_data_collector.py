@@ -64,7 +64,11 @@ def get_current_gw(bootstrap_data):
         if event.get('is_current'):
             logging.info(f"Current GW identified: {event['id']}.")
             return event['id']
-    logging.warning("No current GW found.")
+    for event in events:
+        if event.get('is_next'):
+            logging.info(f"Next GW identified: {event['id']}.")
+            return event['id']
+    logging.warning("No current or next GW found.")
     return None
 
 def map_team_ids_to_names(bootstrap_data):
@@ -148,7 +152,16 @@ def main():
     try:
         # Load core data from the API
         bootstrap_data = fetch_bootstrap_data()
-        season = bootstrap_data.get('game_season', 'Unknown_Season').replace('/', '_')
+
+        # Get season from events
+        events = bootstrap_data.get('events', [])
+        if not events:
+            logging.error("No events found in bootstrap data. Exiting script.")
+            return
+
+        year = events[0]['deadline_time'].split('-')[0]
+        season = f"{year}-{str(int(year) + 1)[-2:]}"
+
         season_folder = f"FPL_Data_{season}"
         os.makedirs(season_folder, exist_ok=True)
         
