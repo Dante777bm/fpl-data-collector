@@ -1,2 +1,8 @@
 pandas
 requests
+networkx
+python-louvain
+scikit-learn
+numpy
+matplotlib
+seaborn
