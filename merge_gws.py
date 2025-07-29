@@ -46,7 +46,7 @@ def main():
     merged_df = merge_gw_files(gw_files)
 
     if merged_df is not None:
-        output_file = "merged_gws.csv"
+        output_file = os.path.join(current_season_folder, "merged_gws.csv")
         merged_df.to_csv(output_file, index=False)
         print(f"Merged data saved to {output_file}")
 
