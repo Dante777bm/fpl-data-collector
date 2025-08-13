@@ -5,6 +5,7 @@ import logging
 import time
 import json
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timezone
 
 logging.basicConfig(
     level=logging.INFO,
@@ -57,19 +58,6 @@ def fetch_fixtures():
     else:
         logging.error(f"Failed to fetch fixtures: {response.status_code}")
         raise Exception(f"Failed to fetch fixtures: {response.status_code}")
-
-def get_current_gw(bootstrap_data):
-    events = bootstrap_data.get('events', [])
-    for event in events:
-        if event.get('is_current'):
-            logging.info(f"Current GW identified: {event['id']}.")
-            return event['id']
-    for event in events:
-        if event.get('is_next'):
-            logging.info(f"Next GW identified: {event['id']}.")
-            return event['id']
-    logging.warning("No current or next GW found.")
-    return None
 
 def map_team_ids_to_names(bootstrap_data):
     teams = bootstrap_data.get('teams', [])
@@ -147,13 +135,94 @@ def aggregate_player_stats(gw_history):
         'red_cards': sum(gw.get('red_cards', 0) for gw in gw_history)
     }
 
+def process_gameweek(current_gw, bootstrap_data, fixtures, season_folder, team_map, position_map):
+    """Processes and saves data for a single gameweek."""
+    logging.info(f"Starting data processing for GW {current_gw}.")
+
+    output_file = os.path.join(season_folder, f"FPL_Data_GW_{current_gw}.csv")
+
+    players = bootstrap_data.get('elements', [])
+    player_ids = [player['id'] for player in players]
+    player_histories = fetch_all_player_histories(player_ids)
+    all_player_data = []
+
+    for player in players:
+        player_id = player['id']
+        web_name = player.get('web_name', 'N/A')
+        position = position_map.get(player.get('element_type'), 'N/A')
+        team = team_map.get(player.get('team'), 'N/A')
+        cost = player.get('now_cost', 0) / 10
+        selected = player.get('selected_by_percent', 'N/A')
+        form = player.get('form', 'N/A')
+        status = player.get('status', 'N/A')
+
+        player_history = player_histories.get(player_id, {})
+        gw_history = [
+            gw for gw in player_history.get('history', [])
+            if gw.get('round') == current_gw
+        ]
+        aggregated_stats = aggregate_player_stats(gw_history)
+
+        next_opponent, venue = find_next_opponent(
+            player.get('team', 0),
+            fixtures,
+            team_map
+        )
+
+        row = {
+            'Web name': web_name,
+            'Position': position,
+            'Team': team,
+            'Cost': cost,
+            'Selected': selected,
+            'Form': form,
+            'Status': status,
+            'Minutes': aggregated_stats['minutes'],
+            'Goals': aggregated_stats['goals'],
+            'Assist': aggregated_stats['assists'],
+            'Saves': aggregated_stats['saves'],
+            'GC': aggregated_stats['gc'],
+            'Season Goals': player.get('goals_scored', 0),
+            'Season Assists': player.get('assists', 0),
+            'xA': player.get('expected_assists', 0),
+            'xG': player.get('expected_goals', 0),
+            'xGI': player.get('expected_goal_involvements', 0),
+            'xGC': player.get('expected_goals_conceded', 0),
+            'CS': aggregated_stats['cs'],
+            'OGs': aggregated_stats['ogs'],
+            'Pens Missed': aggregated_stats['pens_missed'],
+            'Pens Saved': aggregated_stats['pens_saved'],
+            'Yellow cards': aggregated_stats['yellow_cards'],
+            'Red cards': aggregated_stats['red_cards'],
+            'Starts': aggregated_stats['starts'],
+            'Was home': aggregated_stats['was_home'],
+            'Team H Score': aggregated_stats['team_h_score'],
+            'Team A Score': aggregated_stats['team_a_score'],
+            'Opponent Team': ', '.join(
+                [team_map.get(opponent, 'N/A')
+                 for opponent in aggregated_stats['opponent_team']]
+            ),
+            'Influence': aggregated_stats['influence'],
+            'Creativity': aggregated_stats['creativity'],
+            'Threat': aggregated_stats['threat'],
+            'ICT Index': aggregated_stats['ict_index'],
+            'Bps': aggregated_stats['bps'],
+            'GW Points': aggregated_stats['gw_points'],
+            'Transfers In': aggregated_stats['transfers_in'],
+            'Transfers Out': aggregated_stats['transfers_out'],
+            'Next Fixture': f"{next_opponent} ({venue})"
+                if next_opponent != "N/A" else "N/A",
+        }
+        all_player_data.append(row)
+
+    df = pd.DataFrame(all_player_data)
+    df.to_csv(output_file, index=False)
+    logging.info(f"Data saved to {output_file}.")
+
 def main():
     start_time = time.time()
     try:
-        # Load core data from the API
         bootstrap_data = fetch_bootstrap_data()
-
-        # Get season from events
         events = bootstrap_data.get('events', [])
         if not events:
             logging.error("No events found in bootstrap data. Exiting script.")
@@ -161,112 +230,34 @@ def main():
 
         year = events[0]['deadline_time'].split('-')[0]
         season = f"{year}-{str(int(year) + 1)[-2:]}"
-
         season_folder = f"FPL_Data_{season}"
         os.makedirs(season_folder, exist_ok=True)
         
         fixtures = fetch_fixtures()
-        players = bootstrap_data.get('elements', [])
         team_map = map_team_ids_to_names(bootstrap_data)
         position_map = map_position_ids_to_names(bootstrap_data)
-        current_gw = get_current_gw(bootstrap_data)
         
-        if not current_gw:
-            logging.error("No current GW found. Exiting script.")
-            return
+        now_utc = datetime.now(timezone.utc)
         
-        # Construct full file path
-        output_file = os.path.join(
-            season_folder,
-            f"FPL_Data_GW_{current_gw}.csv"
-        )
-        
-        # Check if file already exists
-        if os.path.exists(output_file):
-            logging.info(f"Data for GW {current_gw} already exists. Skipping save.")
-            return
-        
-        # Process data
-        player_ids = [player['id'] for player in players]
-        player_histories = fetch_all_player_histories(player_ids)
-        all_player_data = []
-        
-        for player in players:
-            player_id = player['id']
-            web_name = player.get('web_name', 'N/A')
-            position = position_map.get(player.get('element_type'), 'N/A')
-            team = team_map.get(player.get('team'), 'N/A')
-            cost = player.get('now_cost', 0) / 10
-            selected = player.get('selected_by_percent', 'N/A')
-            form = player.get('form', 'N/A')
-            status = player.get('status', 'N/A')
+        processed_a_gameweek = False
+        for event in events:
+            gw_id = event['id']
             
-            # Get GW-specific stats
-            player_history = player_histories.get(player_id, {})
-            gw_history = [
-                gw for gw in player_history.get('history', [])
-                if gw.get('round') == current_gw
-            ]
-            aggregated_stats = aggregate_player_stats(gw_history)
+            output_file = os.path.join(season_folder, f"FPL_Data_GW_{gw_id}.csv")
             
-            # Get next fixture
-            next_opponent, venue = find_next_opponent(
-                player.get('team', 0),
-                fixtures,
-                team_map
-            )
+            if os.path.exists(output_file):
+                logging.debug(f"Data for GW {gw_id} already exists. Skipping.")
+                continue
             
-            # Build row data
-            row = {
-                'Web name': web_name,
-                'Position': position,
-                'Team': team,
-                'Cost': cost,
-                'Selected': selected,
-                'Form': form,
-                'Status': status,
-                'Minutes': aggregated_stats['minutes'],
-                'Goals': aggregated_stats['goals'],
-                'Assist': aggregated_stats['assists'],
-                'Saves': aggregated_stats['saves'],
-                'GC': aggregated_stats['gc'],
-                'Season Goals': player.get('goals_scored', 0),
-                'Season Assists': player.get('assists', 0),
-                'xA': player.get('expected_assists', 0),
-                'xG': player.get('expected_goals', 0),
-                'xGI': player.get('expected_goal_involvements', 0),
-                'xGC': player.get('expected_goals_conceded', 0),
-                'CS': aggregated_stats['cs'],
-                'OGs': aggregated_stats['ogs'],
-                'Pens Missed': aggregated_stats['pens_missed'],
-                'Pens Saved': aggregated_stats['pens_saved'],
-                'Yellow cards': aggregated_stats['yellow_cards'],
-                'Red cards': aggregated_stats['red_cards'],
-                'Starts': aggregated_stats['starts'],
-                'Was home': aggregated_stats['was_home'],
-                'Team H Score': aggregated_stats['team_h_score'],
-                'Team A Score': aggregated_stats['team_a_score'],
-                'Opponent Team': ', '.join(
-                    [team_map.get(opponent, 'N/A') 
-                     for opponent in aggregated_stats['opponent_team']]
-                ),
-                'Influence': aggregated_stats['influence'],
-                'Creativity': aggregated_stats['creativity'],
-                'Threat': aggregated_stats['threat'],
-                'ICT Index': aggregated_stats['ict_index'],
-                'Bps': aggregated_stats['bps'],
-                'GW Points': aggregated_stats['gw_points'],
-                'Transfers In': aggregated_stats['transfers_in'],
-                'Transfers Out': aggregated_stats['transfers_out'],
-                'Next Fixture': f"{next_opponent} ({venue})" 
-                    if next_opponent != "N/A" else "N/A",
-            }
-            all_player_data.append(row)
-        
-        # Save data to CSV
-        df = pd.DataFrame(all_player_data)
-        df.to_csv(output_file, index=False)
-        logging.info(f"Data saved to {output_file}.")
+            deadline_str = event['deadline_time']
+            deadline_time = datetime.fromisoformat(deadline_str.replace('Z', '+00:00'))
+
+            if now_utc > deadline_time:
+                process_gameweek(gw_id, bootstrap_data, fixtures, season_folder, team_map, position_map)
+                processed_a_gameweek = True
+
+        if not processed_a_gameweek:
+            logging.info("No new gameweeks to process at this time.")
         
     except Exception as e:
         logging.error(f"An unexpected error occurred: {str(e)}")
