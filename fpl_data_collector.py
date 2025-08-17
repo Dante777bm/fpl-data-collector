@@ -248,6 +248,9 @@ def main():
             
             output_file = os.path.join(season_folder, f"FPL_Data_GW_{gw_id}.csv")
             
+            if os.path.exists(output_file):
+                logging.debug(f"Data for GW {gw_id} already exists. Overwriting.")
+
             deadline_str = event['deadline_time']
             deadline_time = datetime.fromisoformat(deadline_str.replace('Z', '+00:00'))
 
