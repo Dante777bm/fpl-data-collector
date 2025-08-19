@@ -25,11 +25,15 @@ jobs:
       - name: Run data collection script
         run: python fpl_data_collector.py
 
+      - name: Run merge script
+        run: python merge_gws.py
+
       - name: Save output files as artifacts
         uses: actions/upload-artifact@v4
         with:
           name: fpl-data
-          path: FPL_Data_*/FPL_Data_GW*.csv
+          path: |
+            FPL_Data_*/*.csv
 
       - name: Commit and push results
         env:
@@ -37,11 +41,11 @@ jobs:
         run: |
           git config --global user.email "bmambwe777@gmail.com"
           git config --global user.name "Dante777bm"
-          git add FPL_Data_*/FPL_Data_GW*.csv
+          git add FPL_Data_*/*.csv
           # Check if there are changes to commit
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Auto-commit latest FPL gameweek data"
+            git commit -m "Auto-commit latest FPL data"
             git push https://Dante777bm:${GH_PAT}@github.com/Dante777bm/fpl-data-collector.git main
           fi
