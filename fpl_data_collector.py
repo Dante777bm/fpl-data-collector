@@ -240,26 +240,18 @@ def main():
         team_map = map_team_ids_to_names(bootstrap_data)
         position_map = map_position_ids_to_names(bootstrap_data)
         
-        now_utc = datetime.now(timezone.utc)
-        
         processed_a_gameweek = False
         for event in events:
             gw_id = event['id']
-            
-            output_file = os.path.join(season_folder, f"FPL_Data_GW_{gw_id}.csv")
-            
-            if os.path.exists(output_file):
-                logging.debug(f"Data for GW {gw_id} already exists. Overwriting.")
-
-            deadline_str = event['deadline_time']
-            deadline_time = datetime.fromisoformat(deadline_str.replace('Z', '+00:00'))
-
-            if now_utc > deadline_time:
+            if event.get('finished'):
+                logging.info(f"Processing finished gameweek: GW {gw_id}")
                 process_gameweek(gw_id, bootstrap_data, fixtures, season_folder, team_map, position_map)
                 processed_a_gameweek = True
+            else:
+                logging.info(f"Skipping GW {gw_id} as it is not finished yet.")
 
         if not processed_a_gameweek:
-            logging.info("No new gameweeks to process at this time.")
+            logging.info("No new finished gameweeks to process at this time.")
         
     except Exception as e:
         logging.error(f"An unexpected error occurred: {str(e)}")
