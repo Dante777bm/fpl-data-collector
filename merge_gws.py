@@ -20,15 +20,25 @@ def find_gw_files(root_dir):
 def merge_gw_files(gw_files):
     all_dfs = []
     for file in gw_files:
-        df = pd.read_csv(file)
-        gw_number = re.search(r'GW_(\d+)', file).group(1)
-        df['GW'] = gw_number
-        all_dfs.append(df)
+        if os.path.exists(file):
+            print(f"Reading file: {file}")
+            df = pd.read_csv(file)
+            print(f"Columns in {file}: {df.columns.tolist()}")
+            gw_number_match = re.search(r'GW_(\d+)', file)
+            if gw_number_match:
+                gw_number = gw_number_match.group(1)
+                df['GW'] = gw_number
+                all_dfs.append(df)
+            else:
+                print(f"Could not extract GW number from {file}")
+        else:
+            print(f"File not found: {file}")
 
     if not all_dfs:
         return None
 
-    merged_df = pd.concat(all_dfs, ignore_index=True)
+    merged_df = pd.concat(all_dfs, ignore_index=True, join='outer')
+    print(f"Columns in merged_df: {merged_df.columns.tolist()}")
     return merged_df
 
 def main():
