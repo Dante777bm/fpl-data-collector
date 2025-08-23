@@ -4,6 +4,7 @@ import pandas as pd
 import logging
 import time
 import json
+import re
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
@@ -236,6 +237,18 @@ def main():
         season_folder = f"FPL_Data_{season}"
         os.makedirs(season_folder, exist_ok=True)
         
+        # Get already processed gameweeks to avoid reprocessing
+        processed_gws = set()
+        try:
+            for filename in os.listdir(season_folder):
+                match = re.search(r'GW_(\d+)\.csv$', filename)
+                if match:
+                    processed_gws.add(int(match.group(1)))
+            if processed_gws:
+                logging.info(f"Already processed gameweeks: {sorted(list(processed_gws))}")
+        except OSError as e:
+            logging.warning(f"Could not read season folder to check for processed files: {e}")
+
         fixtures = fetch_fixtures()
         team_map = map_team_ids_to_names(bootstrap_data)
         position_map = map_position_ids_to_names(bootstrap_data)
@@ -244,6 +257,10 @@ def main():
         for event in events:
             gw_id = event['id']
             if event.get('finished'):
+                if gw_id in processed_gws:
+                    logging.info(f"Skipping GW {gw_id} as it is already processed.")
+                    continue
+
                 logging.info(f"Processing finished gameweek: GW {gw_id}")
                 process_gameweek(gw_id, bootstrap_data, fixtures, season_folder, team_map, position_map)
                 processed_a_gameweek = True
