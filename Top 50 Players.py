@@ -1,1 +1,131 @@
+import pandas as pd
+import numpy as np
 
+# Read the CSV file
+df = pd.read_csv('merged_gws.csv')
+
+# 1. Calculate player statistics
+# Precompute home/away goals and assists for players
+df['Home_Goals'] = df.apply(lambda row: row['Goals'] if row['Was home'] else 0, axis=1)
+df['Away_Goals'] = df.apply(lambda row: row['Goals'] if not row['Was home'] else 0, axis=1)
+df['Home_Assists'] = df.apply(lambda row: row['Assist'] if row['Was home'] else 0, axis=1)
+df['Away_Assists'] = df.apply(lambda row: row['Assist'] if not row['Was home'] else 0, axis=1)
+
+# Aggregate player stats - using first() for xGI and xGC instead of sum()
+player_df = df.groupby('Web name').agg(
+    Position=('Position', 'first'),
+    Team=('Team', 'first'),
+    Cost=('Cost', 'first'),
+    Selected=('Selected', 'first'),
+    Form=('Form', 'first'),
+    Total_Minutes=('Minutes', 'sum'),
+    Home_Goals=('Home_Goals', 'sum'),
+    Away_Goals=('Away_Goals', 'sum'),
+    Season_Goals=('Season Goals', 'max'),
+    Home_Assists=('Home_Assists', 'sum'),
+    Away_Assists=('Away_Assists', 'sum'),
+    Season_Assists=('Season Assists', 'max'),
+    Total_Saves=('Saves', 'sum'),
+    Total_CS=('CS', 'sum'),
+    Total_Points=('GW Points', 'sum'),
+    Total_BPS=('Bps', 'sum'),
+    Total_Bonus=('Bonus', 'sum'),
+    Season_xGI=('xGI', 'first'),  # Use the original value instead of summing
+    Season_xGC=('xGC', 'first')   # Use the original value instead of summing
+).reset_index()
+
+# 2. Calculate team statistics
+# Create team performance metrics
+team_df = df.copy()
+
+# For team goals and GC, use the team's perspective
+team_df['Team_Goals'] = team_df.apply(lambda row: row['Team H Score'] if row['Was home'] else row['Team A Score'], axis=1)
+team_df['Team_GC'] = team_df.apply(lambda row: row['Team A Score'] if row['Was home'] else row['Team H Score'], axis=1)
+
+# Calculate home/away team stats
+team_home = team_df[team_df['Was home'] == True].groupby('Team').agg(
+    Total_team_HGoals=('Team_Goals', 'sum'),
+    Total_team_HGC=('Team_GC', 'sum')
+).reset_index()
+
+team_away = team_df[team_df['Was home'] == False].groupby('Team').agg(
+    Total_team_AGoals=('Team_Goals', 'sum'),
+    Total_team_AGC=('Team_GC', 'sum')
+).reset_index()
+
+# Total team stats
+team_total = team_df.groupby('Team').agg(
+    Total_team_Goals=('Team_Goals', 'sum'),
+    Total_team_GC=('Team_GC', 'sum')
+).reset_index()
+
+# Merge all team statistics
+team_stats = pd.merge(team_total, team_home, on='Team', how='left')
+team_stats = pd.merge(team_stats, team_away, on='Team', how='left')
+
+# Fill NaN values with 0 (for teams that might not have home or away games)
+team_stats = team_stats.fillna(0)
+
+# 3. Merge team statistics with player data
+final_df = pd.merge(player_df, team_stats, on='Team', how='left')
+
+# 4. Calculate rate statistics with zero-division handling
+# Using Season_xGI and Season_xGC instead of Total_xGI and Total_xGC
+final_df['Min/xGI'] = np.where(
+    final_df['Season_xGI'] > 0, 
+    final_df['Total_Minutes'] / final_df['Season_xGI'], 
+    np.nan
+)
+
+final_df['Min/xGC'] = np.where(
+    final_df['Season_xGC'] > 0, 
+    final_df['Total_Minutes'] / final_df['Season_xGC'], 
+    np.nan
+)
+
+final_df['BPS/90'] = np.where(
+    final_df['Total_Minutes'] > 0, 
+    (final_df['Total_BPS'] * 90) / final_df['Total_Minutes'], 
+    0
+)
+
+final_df['Bonus/90'] = np.where(
+    final_df['Total_Minutes'] > 0, 
+    (final_df['Total_Bonus'] * 90) / final_df['Total_Minutes'], 
+    0
+)
+
+final_df['Saves/90'] = np.where(
+    final_df['Total_Minutes'] > 0, 
+    (final_df['Total_Saves'] * 90) / final_df['Total_Minutes'], 
+    0
+)
+
+# Reorder columns to match the requested format
+column_order = [
+    'Web name', 'Position', 'Team', 'Cost', 'Selected', 'Form',
+    'Home_Goals', 'Away_Goals', 'Season_Goals',
+    'Home_Assists', 'Away_Assists', 'Season_Assists',
+    'Total_Saves', 'Total_CS', 'Total_Points',
+    'Total_team_Goals', 'Total_team_HGoals', 'Total_team_AGoals',
+    'Total_team_GC', 'Total_team_HGC', 'Total_team_AGC',
+    'Min/xGI', 'Min/xGC', 'BPS/90', 'Bonus/90', 'Saves/90'
+]
+
+# Keep only existing columns (in case some aren't present in the data)
+valid_columns = [col for col in column_order if col in final_df.columns]
+remaining_columns = [col for col in final_df.columns if col not in column_order]
+
+# Create the final dataframe with ordered columns
+result_df = final_df[valid_columns + remaining_columns]
+
+# 5. Select only the top 50 players with highest total points
+top_50_players = result_df.sort_values(by='Total_Points', ascending=False).head(50)
+
+# Save only the top 50 players to CSV
+top_50_players.to_csv('top_50_players.csv', index=False)
+
+print("Created CSV with top 50 players based on total points")
+print(f"Total players in output: {len(top_50_players)}")
+print(f"Top player: {top_50_players.iloc[0]['Web name']} with {top_50_players.iloc[0]['Total_Points']} points")
+print(f"Columns: {', '.join(top_50_players.columns)}")
