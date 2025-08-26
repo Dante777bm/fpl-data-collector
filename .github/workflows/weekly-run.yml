@@ -39,6 +39,7 @@ jobs:
 
       - name: Commit and push results
         run: |
+          echo ">>> Running the updated workflow script <<<"
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
           git add -A
