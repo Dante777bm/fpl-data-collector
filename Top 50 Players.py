@@ -1,8 +1,31 @@
 import pandas as pd
 import numpy as np
+import os
+
+def get_current_season_folder():
+    for item in os.listdir("."):
+        if os.path.isdir(item) and item.startswith("FPL_Data_"):
+            if "Unknown" not in item:
+                return item
+    return None
+
+# Get the current season folder
+season_folder = get_current_season_folder()
+if not season_folder:
+    print("Error: Could not find the current season's data folder.")
+    exit()
+
+# Define file paths
+input_csv_path = os.path.join(season_folder, 'merged_gws.csv')
+output_csv_path = os.path.join(season_folder, 'top_50_players.csv')
+
+# Check if the input file exists
+if not os.path.exists(input_csv_path):
+    print(f"Error: The file {input_csv_path} does not exist.")
+    exit()
 
 # Read the CSV file
-df = pd.read_csv('merged_gws.csv')
+df = pd.read_csv(input_csv_path)
 
 # 1. Calculate player statistics
 # Precompute home/away goals and assists for players
@@ -123,9 +146,9 @@ result_df = final_df[valid_columns + remaining_columns]
 top_50_players = result_df.sort_values(by='Total_Points', ascending=False).head(50)
 
 # Save only the top 50 players to CSV
-top_50_players.to_csv('top_50_players.csv', index=False)
+top_50_players.to_csv(output_csv_path, index=False)
 
-print("Created CSV with top 50 players based on total points")
+print(f"Created CSV with top 50 players based on total points at {output_csv_path}")
 print(f"Total players in output: {len(top_50_players)}")
 print(f"Top player: {top_50_players.iloc[0]['Web name']} with {top_50_players.iloc[0]['Total_Points']} points")
 print(f"Columns: {', '.join(top_50_players.columns)}")
