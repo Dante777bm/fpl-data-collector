@@ -256,19 +256,25 @@ def main():
         processed_a_gameweek = False
         for event in events:
             gw_id = event['id']
-            if event.get('finished'):
-                if gw_id in processed_gws:
-                    logging.info(f"Skipping GW {gw_id} as it is already processed.")
-                    continue
+            # We are interested in gameweeks that are either finished or are currently active.
+            if event.get('finished') or event.get('is_current'):
+                # If a gameweek is finished, we only process it once.
+                # If it's the current gameweek, we process it every time to get updates.
+                if event.get('is_current') or (gw_id not in processed_gws):
+                    if event.get('is_current'):
+                        logging.info(f"Processing current gameweek: GW {gw_id}")
+                    else:
+                        logging.info(f"Processing finished gameweek: GW {gw_id}")
 
-                logging.info(f"Processing finished gameweek: GW {gw_id}")
-                process_gameweek(gw_id, bootstrap_data, fixtures, season_folder, team_map, position_map)
-                processed_a_gameweek = True
+                    process_gameweek(gw_id, bootstrap_data, fixtures, season_folder, team_map, position_map)
+                    processed_a_gameweek = True
+                else:
+                    logging.info(f"Skipping already processed finished gameweek: GW {gw_id}")
             else:
-                logging.info(f"Skipping GW {gw_id} as it is not finished yet.")
+                logging.info(f"Skipping GW {gw_id} as it is not finished or current yet.")
 
         if not processed_a_gameweek:
-            logging.info("No new finished gameweeks to process at this time.")
+            logging.info("No new finished or current gameweeks to process at this time.")
         
     except Exception as e:
         logging.error(f"An unexpected error occurred: {str(e)}")
