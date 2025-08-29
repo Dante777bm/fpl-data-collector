@@ -33,6 +33,9 @@ jobs:
       - name: Run merge script
         run: python merge_gws.py
 
+      - name: Run top 50 players script
+        run: python "Top 50 Players.py"
+
       - name: Save output files as artifacts
         uses: actions/upload-artifact@v4
         with:
