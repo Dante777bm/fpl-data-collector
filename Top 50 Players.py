@@ -34,7 +34,7 @@ df['Away_Goals'] = df.apply(lambda row: row['Goals'] if not row['Was home'] else
 df['Home_Assists'] = df.apply(lambda row: row['Assist'] if row['Was home'] else 0, axis=1)
 df['Away_Assists'] = df.apply(lambda row: row['Assist'] if not row['Was home'] else 0, axis=1)
 
-# Aggregate player stats - using first() for xGI and xGC instead of sum()
+# Aggregate player stats
 player_df = df.groupby('Web name').agg(
     Position=('Position', 'first'),
     Team=('Team', 'first'),
@@ -53,47 +53,43 @@ player_df = df.groupby('Web name').agg(
     Total_Points=('GW Points', 'sum'),
     Total_BPS=('Bps', 'sum'),
     Total_Bonus=('Bonus', 'sum'),
-    Season_xGI=('xGI', 'first'),  # Use the original value instead of summing
-    Season_xGC=('xGC', 'first')   # Use the original value instead of summing
+    Season_xGI=('xGI', 'first'),
+    Season_xGC=('xGC', 'first')
 ).reset_index()
 
-# 2. Calculate team statistics
-# Create team performance metrics
-team_df = df.copy()
+# 2. CORRECTED TEAM STATISTICS CALCULATION
+# Create unique match identifier (Team + Opponent + Score)
+df['Match_ID'] = df.apply(lambda row:
+                         f"{row['Team']}_{row['Opponent Team']}_{row['Team H Score']}_{row['Team A Score']}"
+                         if row['Was home'] else
+                         f"{row['Opponent Team']}_{row['Team']}_{row['Team A Score']}_{row['Team H Score']}", axis=1)
 
-# For team goals and GC, use the team's perspective
-team_df['Team_Goals'] = team_df.apply(lambda row: row['Team H Score'] if row['Was home'] else row['Team A Score'], axis=1)
-team_df['Team_GC'] = team_df.apply(lambda row: row['Team A Score'] if row['Was home'] else row['Team H Score'], axis=1)
+# Calculate team goals and GC for each match from team perspective
+team_match_df = df.copy()
+team_match_df['Team_Goals'] = team_match_df.apply(lambda row: row['Team H Score'] if row['Was home'] else row['Team A Score'], axis=1)
+team_match_df['Team_GC'] = team_match_df.apply(lambda row: row['Team A Score'] if row['Was home'] else row['Team H Score'], axis=1)
 
-# Calculate home/away team stats
-team_home = team_df[team_df['Was home'] == True].groupby('Team').agg(
-    Total_team_HGoals=('Team_Goals', 'sum'),
-    Total_team_HGC=('Team_GC', 'sum')
+# Deduplicate to get one row per team per match
+team_match_stats = team_match_df.groupby(['Team', 'Match_ID']).agg(
+    Team_Goals=('Team_Goals', 'first'),
+    Team_GC=('Team_GC', 'first'),
+    Was_Home=('Was home', 'first')
 ).reset_index()
 
-team_away = team_df[team_df['Was home'] == False].groupby('Team').agg(
-    Total_team_AGoals=('Team_Goals', 'sum'),
-    Total_team_AGC=('Team_GC', 'sum')
-).reset_index()
-
-# Total team stats
-team_total = team_df.groupby('Team').agg(
+# Aggregate team statistics across all matches (each match counted once per team)
+team_stats = team_match_stats.groupby('Team').agg(
     Total_team_Goals=('Team_Goals', 'sum'),
-    Total_team_GC=('Team_GC', 'sum')
+    Total_team_HGoals=('Team_Goals', lambda x: x[team_match_stats.loc[x.index, 'Was_Home']].sum()),
+    Total_team_AGoals=('Team_Goals', lambda x: x[~team_match_stats.loc[x.index, 'Was_Home']].sum()),
+    Total_team_GC=('Team_GC', 'sum'),
+    Total_team_HGC=('Team_GC', lambda x: x[team_match_stats.loc[x.index, 'Was_Home']].sum()),
+    Total_team_AGC=('Team_GC', lambda x: x[~team_match_stats.loc[x.index, 'Was_Home']].sum())
 ).reset_index()
-
-# Merge all team statistics
-team_stats = pd.merge(team_total, team_home, on='Team', how='left')
-team_stats = pd.merge(team_stats, team_away, on='Team', how='left')
-
-# Fill NaN values with 0 (for teams that might not have home or away games)
-team_stats = team_stats.fillna(0)
 
 # 3. Merge team statistics with player data
 final_df = pd.merge(player_df, team_stats, on='Team', how='left')
 
 # 4. Calculate rate statistics with zero-division handling
-# Using Season_xGI and Season_xGC instead of Total_xGI and Total_xGC
 final_df['Min/xGI'] = np.where(
     final_df['Season_xGI'] > 0, 
     final_df['Total_Minutes'] / final_df['Season_xGI'], 
