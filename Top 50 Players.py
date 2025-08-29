@@ -57,8 +57,8 @@ player_df = df.groupby('Web name').agg(
     Season_xGC=('xGC', 'first')
 ).reset_index()
 
-# 2. CORRECTED TEAM STATISTICS CALCULATION
-# Create unique match identifier (Team + Opponent + Score)
+# 2. CORRECTED TEAM STATISTICS CALCULATION (with Match_ID deduplication)
+# Create unique match identifier to avoid over-counting stats from multiple players in the same match
 df['Match_ID'] = df.apply(lambda row:
                          f"{row['Team']}_{row['Opponent Team']}_{row['Team H Score']}_{row['Team A Score']}"
                          if row['Was home'] else
@@ -76,47 +76,63 @@ team_match_stats = team_match_df.groupby(['Team', 'Match_ID']).agg(
     Was_Home=('Was home', 'first')
 ).reset_index()
 
-# Aggregate team statistics across all matches (each match counted once per team)
-team_stats = team_match_stats.groupby('Team').agg(
+# Aggregate total stats from the deduplicated frame
+team_total = team_match_stats.groupby('Team').agg(
     Total_team_Goals=('Team_Goals', 'sum'),
-    Total_team_HGoals=('Team_Goals', lambda x: x[team_match_stats.loc[x.index, 'Was_Home']].sum()),
-    Total_team_AGoals=('Team_Goals', lambda x: x[~team_match_stats.loc[x.index, 'Was_Home']].sum()),
-    Total_team_GC=('Team_GC', 'sum'),
-    Total_team_HGC=('Team_GC', lambda x: x[team_match_stats.loc[x.index, 'Was_Home']].sum()),
-    Total_team_AGC=('Team_GC', lambda x: x[~team_match_stats.loc[x.index, 'Was_Home']].sum())
+    Total_team_GC=('Team_GC', 'sum')
 ).reset_index()
+
+# Aggregate home stats from the deduplicated frame
+team_home = team_match_stats[team_match_stats['Was_Home'] == True].groupby('Team').agg(
+    Total_team_HGoals=('Team_Goals', 'sum'),
+    Total_team_HGC=('Team_GC', 'sum')
+).reset_index()
+
+# Aggregate away stats from the deduplicated frame
+team_away = team_match_stats[team_match_stats['Was_Home'] == False].groupby('Team').agg(
+    Total_team_AGoals=('Team_Goals', 'sum'),
+    Total_team_AGC=('Team_GC', 'sum')
+).reset_index()
+
+# Merge all team statistics together
+team_stats = pd.merge(team_total, team_home, on='Team', how='left')
+team_stats = pd.merge(team_stats, team_away, on='Team', how='left')
+
+# Fill NaN values with 0 (for teams that might not have home or away games recorded)
+team_stats = team_stats.fillna(0)
+
 
 # 3. Merge team statistics with player data
 final_df = pd.merge(player_df, team_stats, on='Team', how='left')
 
 # 4. Calculate rate statistics with zero-division handling
 final_df['Min/xGI'] = np.where(
-    final_df['Season_xGI'] > 0, 
-    final_df['Total_Minutes'] / final_df['Season_xGI'], 
+    final_df['Season_xGI'] > 0,
+    final_df['Total_Minutes'] / final_df['Season_xGI'],
     np.nan
 )
 
 final_df['Min/xGC'] = np.where(
-    final_df['Season_xGC'] > 0, 
-    final_df['Total_Minutes'] / final_df['Season_xGC'], 
+    final_df['Season_xGC'] > 0,
+    final_df['Total_Minutes'] / final_df['Season_xGC'],
     np.nan
 )
 
 final_df['BPS/90'] = np.where(
-    final_df['Total_Minutes'] > 0, 
-    (final_df['Total_BPS'] * 90) / final_df['Total_Minutes'], 
+    final_df['Total_Minutes'] > 0,
+    (final_df['Total_BPS'] * 90) / final_df['Total_Minutes'],
     0
 )
 
 final_df['Bonus/90'] = np.where(
-    final_df['Total_Minutes'] > 0, 
-    (final_df['Total_Bonus'] * 90) / final_df['Total_Minutes'], 
+    final_df['Total_Minutes'] > 0,
+    (final_df['Total_Bonus'] * 90) / final_df['Total_Minutes'],
     0
 )
 
 final_df['Saves/90'] = np.where(
-    final_df['Total_Minutes'] > 0, 
-    (final_df['Total_Saves'] * 90) / final_df['Total_Minutes'], 
+    final_df['Total_Minutes'] > 0,
+    (final_df['Total_Saves'] * 90) / final_df['Total_Minutes'],
     0
 )
 
