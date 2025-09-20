@@ -36,6 +36,9 @@ jobs:
       - name: Run top 50 players script
         run: python "Top 50 Players.py"
 
+      - name: Run player model script
+        run: python fpl_player_model.py
+
       - name: Save output files as artifacts
         uses: actions/upload-artifact@v4
         with:
