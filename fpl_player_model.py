@@ -327,12 +327,15 @@ def build_sample_squad(candidates, budget=BUDGET, formation=SQUAD_RULES):
 
 # ---------- Main flow ----------
 def get_current_season_folder():
-    """Gets the current season's data folder."""
-    for item in os.listdir("."):
-        if os.path.isdir(item) and item.startswith("FPL_Data_"):
-            if "Unknown" not in item:
-                return item
-    return None
+    """Gets the most recent season's data folder."""
+    folders = [
+        item for item in os.listdir(".")
+        if os.path.isdir(item) and item.startswith("FPL_Data_") and "Unknown" not in item
+    ]
+    if not folders:
+        return None
+    # Return the latest season folder by sorting
+    return sorted(folders)[-1]
 
 def main():
     current_season_folder = get_current_season_folder()
@@ -340,9 +343,7 @@ def main():
         print("Current season folder not found.", file=sys.stderr)
         sys.exit(1)
 
-    analysis_dir = os.path.join(current_season_folder, "analysis")
-    if not os.path.exists(analysis_dir):
-        os.makedirs(analysis_dir)
+    print(f"Using season folder: {current_season_folder}")
 
     # Define input paths
     merged_csv_path = os.path.join(current_season_folder, "merged_gws.csv")
@@ -353,7 +354,7 @@ def main():
 
     # Team model
     team_model = build_team_model(merged, top50)
-    team_model.to_csv(os.path.join(analysis_dir, "team_model.csv"), index=False)
+    team_model.to_csv(os.path.join(current_season_folder, "team_model.csv"), index=False)
     print("Saved team_model.csv")
 
     # Select top teams
@@ -366,12 +367,12 @@ def main():
 
     # Player model
     player_model = build_player_model(top50, merged, team_model, recent_n=5)
-    player_model.to_csv(os.path.join(analysis_dir, "player_model.csv"), index=False)
+    player_model.to_csv(os.path.join(current_season_folder, "player_model.csv"), index=False)
     print("Saved player_model.csv")
 
     # Extract assets from best teams
     assets = extract_assets_for_teams(player_model, best_teams, top_n=200)
-    assets.to_csv(os.path.join(analysis_dir, "assets_from_best_teams.csv"), index=False)
+    assets.to_csv(os.path.join(current_season_folder, "assets_from_best_teams.csv"), index=False)
     print("Saved assets_from_best_teams.csv")
 
     # Save positional shortlists
@@ -384,11 +385,11 @@ def main():
     for pos, fname in pos_names.items():
         subset = assets[assets["Position"] == pos]
         if not subset.empty:
-            subset.to_csv(os.path.join(analysis_dir, fname), index=False)
+            subset.to_csv(os.path.join(current_season_folder, fname), index=False)
             print(f"Saved {fname}")
 
     # Combined shortlist
-    shortlist_path = os.path.join(analysis_dir, "best_shortlist.csv")
+    shortlist_path = os.path.join(current_season_folder, "best_shortlist.csv")
     assets.head(100).to_csv(shortlist_path, index=False)
     print("Saved", os.path.basename(shortlist_path))
 
@@ -398,7 +399,7 @@ def main():
     if squad.empty:
         print("Could not build a squad under the budget with greedy heuristic. Try increasing budget or expanding candidate pool.")
     else:
-        squad.to_csv(os.path.join(analysis_dir, "squad_sample.csv"), index=False)
+        squad.to_csv(os.path.join(current_season_folder, "squad_sample.csv"), index=False)
         print("Saved squad_sample.csv (sample 15-player squad under budget)")
 
     # Print short previews
