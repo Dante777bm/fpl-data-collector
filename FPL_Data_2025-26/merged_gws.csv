@@ -2917,31 +2917,31 @@ Møller Wolfe,DEF,Wolves,4.5,0.1,1.3,a,0,0,0,0,0,0,1,0.12,0.0,0.12,3.04,0,0,0,0,
 Tchatchoua,DEF,Wolves,4.5,0.0,1.0,a,90,0,0,0,3,0,0,0.04,0.0,0.04,3.06,0,0,0,0,0,0,1,True,1.0,3.0,Leeds,22.0,30.8,6.0,5.9,8,0,1,169,179,Spurs (Home),5
 Krejčí,DEF,Wolves,4.5,0.0,2.7,a,90,1,0,0,3,1,0,0.2,0.68,0.88,2.03,0,0,0,0,0,0,1,True,1.0,3.0,Leeds,49.4,13.6,17.0,8.0,8,0,7,601,88,Spurs (Home),5
 Tolu,FWD,Wolves,5.5,0.1,2.0,a,90,0,0,0,3,0,0,0.03,0.22,0.25,1.83,0,0,0,0,0,0,1,True,1.0,3.0,Leeds,5.0,13.0,47.0,6.5,8,0,2,5982,966,Spurs (Home),5
-Raya,GKP,Arsenal,5.7,28.9,3.5,a,0,0,0,0,0,0,0,0.04,0.0,0.04,4.84,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,131150,49245,Crystal Palace (Away),9
+Raya,GKP,Arsenal,5.7,29.0,3.5,a,0,0,0,0,0,0,0,0.04,0.0,0.04,4.84,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,131150,49245,Crystal Palace (Away),9
 Arrizabalaga,GKP,Arsenal,4.3,0.5,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,221,2623,Crystal Palace (Away),9
 Hein,GKP,Arsenal,4.0,0.3,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,0,1749,Crystal Palace (Away),9
 Setford,GKP,Arsenal,4.0,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,578,1266,Crystal Palace (Away),9
-Gabriel,DEF,Arsenal,6.4,35.1,8.5,d,0,0,0,0,0,1,1,0.11,0.72,0.83,4.84,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,494883,60311,Crystal Palace (Away),9
+Gabriel,DEF,Arsenal,6.4,35.0,8.5,d,0,0,0,0,0,1,1,0.11,0.72,0.83,4.84,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,494883,60311,Crystal Palace (Away),9
 Saliba,DEF,Arsenal,6.0,12.7,3.2,a,0,0,0,0,0,0,0,0.17,0.13,0.3,3.71,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,41394,36714,Crystal Palace (Away),9
-Calafiori,DEF,Arsenal,5.8,15.2,3.2,a,0,0,0,0,0,1,2,0.17,1.88,2.05,3.88,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,99941,49914,Crystal Palace (Away),9
-J.Timber,DEF,Arsenal,6.0,22.2,4.8,a,0,0,0,0,0,2,2,0.56,1.89,2.45,3.74,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,290738,40401,Crystal Palace (Away),9
+Calafiori,DEF,Arsenal,5.8,15.3,3.2,a,0,0,0,0,0,1,2,0.17,1.88,2.05,3.88,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,99941,49914,Crystal Palace (Away),9
+J.Timber,DEF,Arsenal,6.0,22.4,4.8,a,0,0,0,0,0,2,2,0.56,1.89,2.45,3.74,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,290738,40401,Crystal Palace (Away),9
 Kiwior,DEF,Arsenal,5.4,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,0,130,Crystal Palace (Away),9
 Lewis-Skelly,DEF,Arsenal,5.2,1.7,0.5,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.93,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,2864,11301,Crystal Palace (Away),9
 White,DEF,Arsenal,5.4,0.4,0.0,a,0,0,0,0,0,0,0,0.01,0.01,0.02,0.87,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,902,2925,Crystal Palace (Away),9
 Clarke,DEF,Arsenal,3.9,0.5,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,1537,2985,Crystal Palace (Away),9
 Kacurri,DEF,Arsenal,3.9,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,0,1034,Crystal Palace (Away),9
 Nichols,DEF,Arsenal,3.9,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,301,1360,Crystal Palace (Away),9
-Saka,MID,Arsenal,10.0,16.3,4.2,a,0,0,0,0,0,2,0,2.0,1.29,3.29,3.49,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,477223,28838,Crystal Palace (Away),9
+Saka,MID,Arsenal,10.0,16.5,4.2,a,0,0,0,0,0,2,0,2.0,1.29,3.29,3.49,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,477223,28838,Crystal Palace (Away),9
 Ødegaard,MID,Arsenal,7.9,1.5,1.2,i,0,0,0,0,0,0,1,0.81,0.14,0.95,2.36,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,100,16066,Crystal Palace (Away),9
 Madueke,MID,Arsenal,6.9,0.6,0.0,i,0,0,0,0,0,0,0,0.86,0.29,1.15,2.04,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,67,5283,Crystal Palace (Away),9
 Martinelli,MID,Arsenal,6.9,1.2,0.8,a,0,0,0,0,0,1,0,0.08,0.75,0.83,1.58,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,8720,11555,Crystal Palace (Away),9
 Trossard,MID,Arsenal,6.9,0.4,3.8,a,0,0,0,0,0,1,1,0.64,1.26,1.9,2.33,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,13227,2089,Crystal Palace (Away),9
-Rice,MID,Arsenal,6.6,12.4,5.8,a,0,0,0,0,0,1,3,1.24,0.5,1.74,4.13,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,312829,38365,Crystal Palace (Away),9
+Rice,MID,Arsenal,6.6,12.5,5.8,a,0,0,0,0,0,1,3,1.24,0.5,1.74,4.13,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,312829,38365,Crystal Palace (Away),9
 Merino,MID,Arsenal,5.9,0.6,2.0,a,0,0,0,0,0,1,0,0.13,0.34,0.47,1.77,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,5074,9364,Crystal Palace (Away),9
 Fábio Vieira,MID,Arsenal,5.4,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,0,49,Crystal Palace (Away),9
 Nørgaard,MID,Arsenal,5.3,0.1,0.2,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,261,804,Crystal Palace (Away),9
 Nwaneri,MID,Arsenal,5.2,0.2,0.2,a,0,0,0,0,0,0,0,0.08,0.19,0.27,0.33,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,479,1263,Crystal Palace (Away),9
-Zubimendi,MID,Arsenal,5.5,4.0,2.0,a,0,0,0,0,0,2,0,0.86,0.26,1.12,4.42,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,22456,55182,Crystal Palace (Away),9
+Zubimendi,MID,Arsenal,5.5,3.9,2.0,a,0,0,0,0,0,2,0,0.86,0.26,1.12,4.42,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,22456,55182,Crystal Palace (Away),9
 Kabia,MID,Arsenal,4.5,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,0,778,Crystal Palace (Away),9
 Sambi,MID,Arsenal,4.5,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,0,307,Crystal Palace (Away),9
 Havertz,FWD,Arsenal,7.3,0.3,0.0,i,0,0,0,0,0,0,0,0.01,0.0,0.01,0.82,0,0,0,0,0,0,0,True,,,Crystal Palace,0.0,0.0,0.0,0.0,0,0,0,92,706,Crystal Palace (Away),9
@@ -2983,9 +2983,9 @@ Broggio,MID,Aston Villa,4.5,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,
 Dendoncker,MID,Aston Villa,4.5,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Man City,0.0,0.0,0.0,0.0,0,0,0,0,552,Man City (Away),9
 Jimoh-Aloba,MID,Aston Villa,4.5,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Man City,0.0,0.0,0.0,0.0,0,0,0,334,417,Man City (Away),9
 Young,MID,Aston Villa,4.4,0.7,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Man City,0.0,0.0,0.0,0.0,0,0,0,3027,4881,Man City (Away),9
-Watkins,FWD,Aston Villa,8.6,7.0,2.8,a,0,0,0,0,0,1,0,0.22,1.76,1.98,9.22,0,0,0,0,0,0,0,True,,,Man City,0.0,0.0,0.0,0.0,0,0,0,7754,117162,Man City (Away),9
+Watkins,FWD,Aston Villa,8.5,7.0,2.8,a,0,0,0,0,0,1,0,0.22,1.76,1.98,9.22,0,0,0,0,0,0,0,True,,,Man City,0.0,0.0,0.0,0.0,0,0,0,7754,117162,Man City (Away),9
 Redmond,FWD,Aston Villa,4.5,0.4,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Man City,0.0,0.0,0.0,0.0,0,0,0,0,2157,Man City (Away),9
-Elliott,MID,Aston Villa,5.4,0.3,0.2,a,0,0,0,0,0,0,0,0.06,0.19,0.25,1.74,0,0,0,0,0,0,0,True,,,Man City,0.0,0.0,0.0,0.0,0,0,0,783,7967,Man City (Away),9
+Elliott,MID,Aston Villa,5.4,0.3,0.2,n,0,0,0,0,0,0,0,0.06,0.19,0.25,1.74,0,0,0,0,0,0,0,True,,,Man City,0.0,0.0,0.0,0.0,0,0,0,783,7967,Man City (Away),9
 Sancho,MID,Aston Villa,5.9,0.2,0.0,a,0,0,0,0,0,0,0,0.04,0.02,0.06,0.0,0,0,0,0,0,0,0,True,,,Man City,0.0,0.0,0.0,0.0,0,0,0,733,1332,Man City (Away),9
 Guessand,MID,Aston Villa,6.3,0.0,1.2,a,0,0,0,0,0,0,0,0.31,0.32,0.63,5.16,0,0,0,0,0,0,0,True,,,Man City,0.0,0.0,0.0,0.0,0,0,0,184,388,Man City (Away),9
 Wright,GKP,Aston Villa,4.0,0.5,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Man City,0.0,0.0,0.0,0.0,0,0,0,228,1034,Man City (Away),9
@@ -3002,7 +3002,7 @@ Walker,DEF,Burnley,4.4,1.6,3.5,a,0,0,0,0,0,0,1,0.35,0.12,0.47,16.3,0,0,0,0,0,0,0
 Delcroix,DEF,Burnley,3.9,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Wolves,0.0,0.0,0.0,0.0,0,0,0,338,1278,Wolves (Home),9
 Dodgson,DEF,Burnley,4.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Wolves,0.0,0.0,0.0,0.0,0,0,0,0,49,Wolves (Home),9
 Ekdal,DEF,Burnley,4.0,1.3,0.0,a,0,0,0,0,0,0,0,0.16,0.15,0.31,11.24,0,0,0,0,0,0,0,False,,,Wolves,0.0,0.0,0.0,0.0,0,0,0,664,15964,Wolves (Home),9
-Estève,DEF,Burnley,4.0,13.0,1.8,a,0,0,0,0,0,0,0,0.02,0.19,0.21,16.19,0,0,0,0,0,0,0,False,,,Wolves,0.0,0.0,0.0,0.0,0,0,0,25608,41716,Wolves (Home),9
+Estève,DEF,Burnley,4.0,12.9,1.8,a,0,0,0,0,0,0,0,0.02,0.19,0.21,16.19,0,0,0,0,0,0,0,False,,,Wolves,0.0,0.0,0.0,0.0,0,0,0,25608,41716,Wolves (Home),9
 Hartman,DEF,Burnley,4.0,0.7,3.2,a,0,0,0,0,0,0,2,0.7,0.13,0.83,15.68,0,0,0,0,0,0,0,False,,,Wolves,0.0,0.0,0.0,0.0,0,0,0,12875,6535,Wolves (Home),9
 Humphreys,DEF,Burnley,4.0,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.62,0,0,0,0,0,0,0,False,,,Wolves,0.0,0.0,0.0,0.0,0,0,0,171,347,Wolves (Home),9
 Jordan,DEF,Burnley,4.0,0.1,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Wolves,0.0,0.0,0.0,0.0,0,0,0,25,373,Wolves (Home),9
@@ -3065,7 +3065,7 @@ H.Traorè,MID,Bournemouth,4.5,0.4,0.0,u,0,0,0,0,0,0,1,0.0,0.0,0.0,0.4,0,0,0,0,0,
 Sadi,MID,Bournemouth,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Nott'm Forest,0.0,0.0,0.0,0.0,0,0,0,0,304,Nott'm Forest (Away),9
 Silcott-Duberry,MID,Bournemouth,4.4,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Nott'm Forest,0.0,0.0,0.0,0.0,0,0,0,0,1057,Nott'm Forest (Away),9
 Winterburn,MID,Bournemouth,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.31,0,0,0,0,0,0,0,True,,,Nott'm Forest,0.0,0.0,0.0,0.0,0,0,0,0,230,Nott'm Forest (Away),9
-Evanilson,FWD,Bournemouth,7.0,1.8,1.0,i,0,0,0,0,0,1,1,0.3,1.32,1.62,6.22,0,0,0,0,0,0,0,True,,,Nott'm Forest,0.0,0.0,0.0,0.0,0,0,0,1665,115052,Nott'm Forest (Away),9
+Evanilson,FWD,Bournemouth,7.0,1.7,1.0,d,0,0,0,0,0,1,1,0.3,1.32,1.62,6.22,0,0,0,0,0,0,0,True,,,Nott'm Forest,0.0,0.0,0.0,0.0,0,0,0,1665,115052,Nott'm Forest (Away),9
 Enes Ünal,FWD,Bournemouth,5.4,0.0,0.0,d,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Nott'm Forest,0.0,0.0,0.0,0.0,0,0,0,44,74,Nott'm Forest (Away),9
 Adu-Adjei,FWD,Bournemouth,4.4,0.2,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Nott'm Forest,0.0,0.0,0.0,0.0,0,0,0,0,2183,Nott'm Forest (Away),9
 Kroupi.Jr,FWD,Bournemouth,4.6,2.9,4.5,a,0,0,0,0,0,3,0,0.01,1.41,1.42,2.8,0,0,0,0,0,0,0,True,,,Nott'm Forest,0.0,0.0,0.0,0.0,0,0,0,153019,16504,Nott'm Forest (Away),9
@@ -3075,130 +3075,130 @@ Rees-Dottin,MID,Bournemouth,4.4,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,
 Adli,MID,Bournemouth,5.5,0.0,0.5,a,0,0,0,0,0,0,0,0.09,0.1,0.19,3.6,0,0,0,0,0,0,0,True,,,Nott'm Forest,0.0,0.0,0.0,0.0,0,0,0,241,282,Nott'm Forest (Away),9
 A.Jimenez,DEF,Bournemouth,4.5,0.0,0.5,a,0,0,0,0,0,0,0,0.08,0.05,0.13,4.94,0,0,0,0,0,0,0,True,,,Nott'm Forest,0.0,0.0,0.0,0.0,0,0,0,276,177,Nott'm Forest (Away),9
 Milosavljević,DEF,Bournemouth,4.5,0.0,0.2,a,0,0,0,0,0,0,0,0.18,0.0,0.18,0.86,0,0,0,0,0,0,0,True,,,Nott'm Forest,0.0,0.0,0.0,0.0,0,0,0,129,345,Nott'm Forest (Away),9
-Nelson,MID,Brentford,4.8,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,271,438,Liverpool (Away),9
-O.Dango,MID,Brentford,6.0,0.4,1.2,a,0,0,0,0,0,1,0,0.35,1.85,2.2,4.44,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,1724,7510,Liverpool (Away),9
-Kelleher,GKP,Brentford,4.5,8.0,4.2,a,0,0,0,0,0,0,0,0.01,0.0,0.01,10.09,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,20020,28958,Liverpool (Away),9
-Balcombe,GKP,Brentford,4.0,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,433,884,Liverpool (Away),9
-Cox,GKP,Brentford,4.0,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,169,380,Liverpool (Away),9
-Eyestone,GKP,Brentford,4.0,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,99,189,Liverpool (Away),9
-Valdimarsson,GKP,Brentford,3.9,0.7,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,6892,2663,Liverpool (Away),9
-Collins,DEF,Brentford,4.9,1.1,3.0,a,0,0,0,0,0,0,0,0.39,0.23,0.62,10.09,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,2979,6531,Liverpool (Away),9
-Lewis-Potter,DEF,Brentford,4.9,0.3,1.2,a,0,0,0,0,0,0,1,0.14,0.16,0.3,6.8,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,638,2429,Liverpool (Away),9
-Ajer,DEF,Brentford,4.4,0.2,2.0,a,0,0,0,0,0,0,1,0.43,0.25,0.68,1.42,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,688,766,Liverpool (Away),9
-Henry,DEF,Brentford,4.4,0.1,0.2,a,0,0,0,0,0,0,0,0.06,0.13,0.19,4.57,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,132,631,Liverpool (Away),9
-Kayode,DEF,Brentford,4.5,0.4,3.2,a,0,0,0,0,0,0,0,0.99,0.02,1.01,9.85,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,4148,2308,Liverpool (Away),9
-Pinnock,DEF,Brentford,4.3,0.1,0.0,a,0,0,0,0,0,0,0,0.04,0.0,0.04,2.11,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,285,910,Liverpool (Away),9
-Roerslev,DEF,Brentford,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,0,46,Liverpool (Away),9
-Van den Berg,DEF,Brentford,4.5,0.6,2.5,a,0,0,0,0,0,0,0,0.09,0.96,1.05,10.09,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,1569,3911,Liverpool (Away),9
-Arthur,DEF,Brentford,3.9,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,981,1107,Liverpool (Away),9
-Fredrick,DEF,Brentford,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,0,580,Liverpool (Away),9
-Hickey,DEF,Brentford,4.0,0.3,1.0,i,0,0,0,0,0,0,0,0.07,0.02,0.09,2.25,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,190,3503,Liverpool (Away),9
-Ji-soo,DEF,Brentford,3.9,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,0,652,Liverpool (Away),9
-Meghoma,DEF,Brentford,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,0,206,Liverpool (Away),9
-Schade,MID,Brentford,7.0,0.5,2.8,a,0,0,0,0,0,1,2,0.55,2.05,2.6,8.23,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,5981,7210,Liverpool (Away),9
-Damsgaard,MID,Brentford,5.8,0.6,1.8,a,0,0,0,0,0,1,0,1.05,0.29,1.34,6.67,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,1967,5130,Liverpool (Away),9
-Milambo,MID,Brentford,5.3,0.0,0.0,i,0,0,0,0,0,0,0,0.01,0.0,0.01,1.49,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,29,423,Liverpool (Away),9
-Carvalho,MID,Brentford,4.9,0.2,0.2,a,0,0,0,0,0,1,0,0.03,0.7,0.73,2.08,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,372,2316,Liverpool (Away),9
-Henderson,MID,Brentford,5.0,0.4,2.2,a,0,0,0,0,0,0,2,0.58,0.03,0.61,6.55,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,2762,4020,Liverpool (Away),9
-Janelt,MID,Brentford,4.9,0.0,0.8,a,0,0,0,0,0,0,0,0.02,0.1,0.12,0.31,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,75,80,Liverpool (Away),9
-Jensen,MID,Brentford,4.9,0.1,3.2,a,0,0,0,0,0,2,0,0.1,0.52,0.62,3.03,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,1733,514,Liverpool (Away),9
-Nunes,MID,Brentford,4.9,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,97,30,Liverpool (Away),9
-Onyeka,MID,Brentford,4.9,0.1,0.5,a,0,0,0,0,0,0,2,0.36,0.0,0.36,1.64,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,94,308,Liverpool (Away),9
-Yarmoliuk,MID,Brentford,5.0,0.1,3.0,a,0,0,0,0,0,0,1,0.41,0.23,0.64,9.85,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,1540,838,Liverpool (Away),9
-Donovan,MID,Brentford,4.5,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,627,754,Liverpool (Away),9
-Konak,MID,Brentford,4.4,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,766,1597,Liverpool (Away),9
-Maghoma,MID,Brentford,4.5,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,55,59,Liverpool (Away),9
-Peart-Harris,MID,Brentford,4.4,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,223,222,Liverpool (Away),9
-Trevitt,MID,Brentford,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,0,21,Liverpool (Away),9
-Thiago,FWD,Brentford,6.1,4.8,5.8,a,0,0,0,0,0,5,0,0.18,3.56,3.74,9.49,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,148621,47372,Liverpool (Away),9
-Morgan,FWD,Brentford,4.4,0.4,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Liverpool,0.0,0.0,0.0,0.0,0,0,0,2189,4170,Liverpool (Away),9
-Steele,GKP,Brighton,4.3,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,313,1350,Man Utd (Home),9
-Verbruggen,GKP,Brighton,4.4,4.1,1.2,a,0,0,0,0,0,0,0,0.01,0.0,0.01,10.67,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,7119,24019,Man Utd (Home),9
-McGill,GKP,Brighton,4.0,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,467,1093,Man Utd (Home),9
-Rushworth,GKP,Brighton,4.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,8,Man Utd (Home),9
-Scherpen,GKP,Brighton,4.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,5,Man Utd (Home),9
-Boscagli,DEF,Brighton,4.3,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,98,355,Man Utd (Home),9
-Coppola,DEF,Brighton,4.3,0.1,0.2,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.21,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,95,249,Man Utd (Home),9
-De Cuyper,DEF,Brighton,4.4,2.2,2.5,a,0,0,0,0,0,1,0,0.55,0.7,1.25,5.57,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,2415,20470,Man Utd (Home),9
-Dunk,DEF,Brighton,4.5,1.1,1.0,a,0,0,0,0,0,0,1,0.05,0.35,0.4,10.67,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,4691,7229,Man Utd (Home),9
-Estupiñan,DEF,Brighton,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,20,Man Utd (Home),9
-F.Kadıoğlu,DEF,Brighton,4.4,0.2,1.5,a,0,0,0,0,0,0,0,0.58,0.18,0.76,7.06,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,1058,1040,Man Utd (Home),9
-Lamptey,DEF,Brighton,4.4,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,720,Man Utd (Home),9
-Van Hecke,DEF,Brighton,4.4,1.1,4.5,a,0,0,0,0,0,1,0,0.22,0.46,0.67,10.67,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,20124,7209,Man Utd (Home),9
-Veltman,DEF,Brighton,4.4,0.1,0.0,d,0,0,0,0,0,0,0,0.01,0.0,0.01,5.82,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,39,1504,Man Utd (Home),9
-Webster,DEF,Brighton,4.4,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,52,55,Man Utd (Home),9
-Cashin,DEF,Brighton,4.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,14,Man Utd (Home),9
-Slater,DEF,Brighton,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,692,Man Utd (Home),9
-Tasker,DEF,Brighton,3.9,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,590,637,Man Utd (Home),9
-Mitoma,MID,Brighton,6.3,2.8,0.5,d,0,0,0,0,0,1,1,0.29,0.76,1.05,7.99,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,925,48547,Man Utd (Home),9
-Georginio,MID,Brighton,5.7,0.4,2.5,a,0,0,0,0,0,0,3,0.73,0.39,1.12,5.5,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,5928,3306,Man Utd (Home),9
-March,MID,Brighton,5.8,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,26,40,Man Utd (Home),9
-Minteh,MID,Brighton,6.0,3.5,2.2,a,0,0,0,0,0,1,2,1.5,1.73,3.23,10.23,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,37277,53753,Man Utd (Home),9
-Enciso,MID,Brighton,5.4,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,24,Man Utd (Home),9
-Gruda,MID,Brighton,5.4,0.1,1.5,d,0,0,0,0,0,1,1,0.4,1.57,1.97,2.9,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,53,1658,Man Utd (Home),9
-Hinshelwood,MID,Brighton,5.2,0.0,0.0,i,0,0,0,0,0,0,0,0.01,0.0,0.01,2.32,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,16,239,Man Utd (Home),9
-O'Riley,MID,Brighton,5.5,0.4,0.0,u,0,0,0,0,0,1,0,0.17,1.21,1.38,2.12,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,2064,Man Utd (Home),9
-Sima,MID,Brighton,5.4,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,28,Man Utd (Home),9
-Ayari,MID,Brighton,4.9,0.3,1.5,a,0,0,0,0,0,1,0,0.46,0.54,1.0,8.62,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,3369,4627,Man Utd (Home),9
-Baleba,MID,Brighton,4.8,2.2,1.2,a,0,0,0,0,0,0,0,0.14,0.08,0.22,6.53,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,6678,15342,Man Utd (Home),9
-Gomez,MID,Brighton,4.9,0.1,1.2,a,0,0,0,0,0,0,0,0.13,0.28,0.41,4.74,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,176,1558,Man Utd (Home),9
-Milner,MID,Brighton,5.0,0.1,0.5,a,0,0,0,0,0,1,0,0.12,0.79,0.91,2.67,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,715,1086,Man Utd (Home),9
-Sarmiento,MID,Brighton,4.9,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,58,Man Utd (Home),9
-Watson,MID,Brighton,4.9,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,77,105,Man Utd (Home),9
-Wieffer,MID,Brighton,4.9,0.1,2.8,a,0,0,0,0,0,0,2,0.53,0.15,0.68,4.43,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,1124,298,Man Utd (Home),9
-Yalcouye,MID,Brighton,5.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,11,Man Utd (Home),9
-Knight,MID,Brighton,4.5,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,511,594,Man Utd (Home),9
-Mazilu,MID,Brighton,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,134,Man Utd (Home),9
-Moran,MID,Brighton,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,96,Man Utd (Home),9
-Welbeck,FWD,Brighton,6.4,3.8,6.2,a,0,0,0,0,0,4,0,0.44,3.02,3.46,7.12,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,179218,19882,Man Utd (Home),9
-Ferguson,FWD,Brighton,5.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,10,Man Utd (Home),9
-Tzimas,FWD,Brighton,5.3,0.1,1.5,a,0,0,0,0,0,0,1,0.0,0.33,0.33,1.46,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,1114,1031,Man Utd (Home),9
-Kostoulas,FWD,Brighton,4.8,0.3,0.2,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.08,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,1670,2215,Man Utd (Home),9
-Oriola,MID,Brighton,4.5,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Man Utd,0.0,0.0,0.0,0.0,0,0,0,270,29,Man Utd (Home),9
-Buonanotte,MID,Chelsea,4.8,0.1,0.0,a,0,0,0,0,0,0,0,0.09,0.0,0.09,0.55,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,225,971,Sunderland (Away),9
-Sánchez,GKP,Chelsea,4.9,14.3,2.0,a,0,0,0,0,0,0,0,0.01,0.0,0.01,10.47,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,47431,47248,Sunderland (Away),9
-Jörgensen,GKP,Chelsea,4.4,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,1.79,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,264,1002,Sunderland (Away),9
-Penders,GKP,Chelsea,4.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,0,4,Sunderland (Away),9
-Slonina,GKP,Chelsea,3.9,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,1223,469,Sunderland (Away),9
-Cucurella,DEF,Chelsea,6.1,22.7,3.8,a,0,0,0,0,0,0,2,1.11,0.24,1.35,10.87,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,134086,41278,Sunderland (Away),9
-James,DEF,Chelsea,5.5,7.4,6.2,a,0,0,0,0,0,1,3,0.89,0.34,1.23,11.02,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,389037,10003,Sunderland (Away),9
-Chalobah,DEF,Chelsea,5.1,8.1,0.8,a,0,0,0,0,0,2,1,0.55,0.75,1.3,7.72,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,90058,25993,Sunderland (Away),9
-Colwill,DEF,Chelsea,4.8,0.1,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,40,265,Sunderland (Away),9
-Gusto,DEF,Chelsea,4.9,1.1,2.0,s,0,0,0,0,0,0,1,0.27,0.07,0.34,7.83,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,468,21965,Sunderland (Away),9
-B.Badiashile,DEF,Chelsea,4.4,0.0,0.0,i,0,0,0,0,0,0,0,0.02,0.0,0.02,2.17,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,16,538,Sunderland (Away),9
-Fofana,DEF,Chelsea,4.4,0.2,0.0,a,0,0,0,0,0,0,0,0.01,0.0,0.01,2.44,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,1043,730,Sunderland (Away),9
-M.Sarr,DEF,Chelsea,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,0,16,Sunderland (Away),9
-Tosin,DEF,Chelsea,4.4,0.5,0.2,a,0,0,0,0,0,0,0,0.07,0.05,0.11,5.25,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,2627,5552,Sunderland (Away),9
-Acheampong,DEF,Chelsea,3.9,1.9,4.0,a,0,0,0,0,0,1,0,0.01,0.6,0.61,6.37,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,80194,6814,Sunderland (Away),9
-Anselmino,DEF,Chelsea,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,0,205,Sunderland (Away),9
-Palmer,MID,Chelsea,10.3,9.9,0.0,i,0,0,0,0,0,1,0,0.12,0.8,0.92,2.54,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,765,88863,Sunderland (Away),9
-Neto,MID,Chelsea,7.0,5.1,4.0,a,0,0,0,0,0,2,1,1.69,0.78,2.47,7.88,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,193709,15650,Sunderland (Away),9
-Enzo,MID,Chelsea,6.7,15.2,2.8,a,0,0,0,0,0,3,2,0.51,3.76,4.27,9.86,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,273234,202673,Sunderland (Away),9
-Estêvão,MID,Chelsea,6.5,2.5,3.5,a,0,0,0,0,0,1,2,1.23,1.67,2.9,1.71,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,45033,24550,Sunderland (Away),9
-Gittens,MID,Chelsea,6.2,0.1,0.5,a,0,0,0,0,0,0,0,0.16,0.13,0.29,4.45,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,718,827,Sunderland (Away),9
-Nkunku,MID,Chelsea,5.9,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,0,175,Sunderland (Away),9
-Caicedo,MID,Chelsea,5.9,18.1,3.2,a,0,0,0,0,0,3,0,0.25,0.53,0.78,11.73,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,370445,59003,Sunderland (Away),9
-George,MID,Chelsea,4.9,0.1,0.0,a,0,0,0,0,0,0,0,0.08,0.25,0.33,1.53,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,349,406,Sunderland (Away),9
-Lavia,MID,Chelsea,4.9,0.0,0.8,a,0,0,0,0,0,0,0,0.04,0.0,0.04,2.79,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,658,405,Sunderland (Away),9
-Mudryk,MID,Chelsea,5.0,0.0,0.0,s,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,37,53,Sunderland (Away),9
-Andrey Santos,MID,Chelsea,4.5,0.3,0.5,a,0,0,0,0,0,0,0,0.05,0.7,0.75,2.76,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,3564,2689,Sunderland (Away),9
-D.Essugo,MID,Chelsea,4.3,0.1,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,2215,561,Sunderland (Away),9
-Paez,MID,Chelsea,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,0,6,Sunderland (Away),9
-João Pedro,FWD,Chelsea,7.5,57.2,1.5,a,0,0,0,0,0,2,3,0.44,1.57,2.01,11.07,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,161401,590979,Sunderland (Away),9
-Delap,FWD,Chelsea,6.2,0.9,0.0,i,0,0,0,0,0,0,0,0.03,0.23,0.26,0.31,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,159,3619,Sunderland (Away),9
-N.Jackson,FWD,Chelsea,6.5,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,0,144,Sunderland (Away),9
-Marc Guiu,FWD,Chelsea,4.2,7.0,0.5,a,0,0,0,0,0,0,0,0.01,0.39,0.4,2.89,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,40468,92730,Sunderland (Away),9
-Garnacho,MID,Chelsea,6.4,0.3,0.8,a,0,0,0,0,0,0,0,0.1,0.05,0.15,2.78,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,3488,6360,Sunderland (Away),9
-Hato,DEF,Chelsea,4.7,0.2,0.8,a,0,0,0,0,0,0,0,0.01,0.0,0.01,2.51,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,586,1170,Sunderland (Away),9
-Emenalo,MID,Chelsea,4.5,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Sunderland,0.0,0.0,0.0,0.0,0,0,0,130,79,Sunderland (Away),9
+Nelson,MID,Brentford,4.8,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,271,438,Crystal Palace (Home),9
+O.Dango,MID,Brentford,6.0,0.4,4.0,a,90,1,1,0,2,2,1,0.38,2.16,2.54,6.28,0,0,0,0,0,0,1,True,3.0,2.0,Liverpool,30.0,3.7,50.0,8.4,25,1,11,1724,7510,Crystal Palace (Home),9
+Kelleher,GKP,Brentford,4.5,8.0,4.8,a,90,0,0,3,2,0,0,0.01,0.0,0.01,12.3,0,0,0,0,0,0,1,True,3.0,2.0,Liverpool,19.8,0.0,0.0,2.0,10,0,2,20020,28958,Crystal Palace (Home),9
+Balcombe,GKP,Brentford,4.0,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,433,884,Crystal Palace (Home),9
+Cox,GKP,Brentford,4.0,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,169,380,Crystal Palace (Home),9
+Eyestone,GKP,Brentford,4.0,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,99,189,Crystal Palace (Home),9
+Valdimarsson,GKP,Brentford,3.9,0.7,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,6892,2663,Crystal Palace (Home),9
+Collins,DEF,Brentford,4.9,1.1,3.8,a,90,0,0,0,2,0,0,0.39,0.31,0.7,12.3,0,0,0,0,0,0,1,True,3.0,2.0,Liverpool,33.4,0.1,23.0,5.7,8,0,3,2979,6531,Crystal Palace (Home),9
+Lewis-Potter,DEF,Brentford,4.9,0.3,1.2,a,11,0,0,0,1,0,1,0.34,0.16,0.5,7.27,0,0,0,0,1,0,0,True,3.0,2.0,Liverpool,9.2,28.0,4.0,4.1,0,0,0,638,2429,Crystal Palace (Home),9
+Ajer,DEF,Brentford,4.4,0.2,3.0,a,90,0,1,0,2,0,2,0.56,0.28,0.84,3.26,0,0,0,0,0,0,1,True,3.0,2.0,Liverpool,5.0,0.8,14.0,2.0,10,0,4,688,766,Crystal Palace (Home),9
+Henry,DEF,Brentford,4.4,0.1,0.5,a,1,0,0,0,0,0,0,0.06,0.13,0.19,4.94,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,3,0,1,132,631,Crystal Palace (Home),9
+Kayode,DEF,Brentford,4.5,0.4,3.5,a,90,0,0,0,2,0,0,1.11,0.09,1.2,12.06,0,0,0,0,0,0,1,True,3.0,2.0,Liverpool,20.8,29.6,7.0,5.7,15,0,1,4148,2308,Crystal Palace (Home),9
+Pinnock,DEF,Brentford,4.3,0.1,0.0,a,0,0,0,0,0,0,0,0.04,0.0,0.04,2.11,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,285,910,Crystal Palace (Home),9
+Roerslev,DEF,Brentford,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,0,46,Crystal Palace (Home),9
+Van den Berg,DEF,Brentford,4.5,0.6,3.2,a,90,0,0,0,2,0,0,0.1,0.96,1.06,12.3,0,0,0,0,0,0,1,True,3.0,2.0,Liverpool,27.8,0.6,0.0,2.8,4,0,3,1569,3911,Crystal Palace (Home),9
+Arthur,DEF,Brentford,3.9,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,981,1107,Crystal Palace (Home),9
+Fredrick,DEF,Brentford,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,0,580,Crystal Palace (Home),9
+Hickey,DEF,Brentford,4.0,0.3,1.0,d,0,0,0,0,0,0,0,0.07,0.02,0.09,2.25,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,190,3503,Crystal Palace (Home),9
+Ji-soo,DEF,Brentford,3.9,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,0,652,Crystal Palace (Home),9
+Meghoma,DEF,Brentford,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,0,206,Crystal Palace (Home),9
+Schade,MID,Brentford,7.0,0.5,4.5,a,78,1,0,0,1,2,2,0.74,2.67,3.41,9.97,0,0,0,0,1,0,1,True,3.0,2.0,Liverpool,42.0,51.6,23.0,11.7,25,1,7,5981,7210,Crystal Palace (Home),9
+Damsgaard,MID,Brentford,5.8,0.6,3.5,a,78,0,1,0,1,1,1,1.25,0.36,1.61,8.41,0,0,0,0,0,0,1,True,3.0,2.0,Liverpool,27.6,16.5,20.0,6.4,26,2,7,1967,5130,Crystal Palace (Home),9
+Milambo,MID,Brentford,5.3,0.0,0.0,i,0,0,0,0,0,0,0,0.01,0.0,0.01,1.49,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,29,423,Crystal Palace (Home),9
+Carvalho,MID,Brentford,4.9,0.2,0.2,a,0,0,0,0,0,1,0,0.03,0.7,0.73,2.08,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,372,2316,Crystal Palace (Home),9
+Henderson,MID,Brentford,5.0,0.4,2.8,a,90,0,0,0,2,0,2,0.6,0.06,0.66,8.76,0,0,0,0,0,0,1,True,3.0,2.0,Liverpool,11.2,14.7,1.0,2.7,13,0,2,2762,4020,Crystal Palace (Home),9
+Janelt,MID,Brentford,4.9,0.0,1.8,a,61,0,0,0,2,0,0,0.22,0.1,0.32,1.8,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,13.6,18.8,6.0,3.8,11,0,4,75,80,Crystal Palace (Home),9
+Jensen,MID,Brentford,4.9,0.1,3.5,a,11,0,0,0,1,2,0,0.11,0.52,0.63,3.5,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,2.8,0.9,0.0,0.4,2,0,1,1733,514,Crystal Palace (Home),9
+Nunes,MID,Brentford,4.9,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,97,30,Crystal Palace (Home),9
+Onyeka,MID,Brentford,4.9,0.1,0.8,a,1,0,0,0,0,0,2,0.36,0.0,0.36,2.01,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,1.0,0.0,0.0,0.1,3,0,1,94,308,Crystal Palace (Home),9
+Yarmoliuk,MID,Brentford,5.0,0.1,3.2,d,28,0,0,0,0,0,1,0.41,0.23,0.64,10.57,0,0,0,0,0,0,1,True,3.0,2.0,Liverpool,4.4,0.2,0.0,0.5,5,0,1,1540,838,Crystal Palace (Home),9
+Donovan,MID,Brentford,4.5,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,627,754,Crystal Palace (Home),9
+Konak,MID,Brentford,4.4,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,766,1597,Crystal Palace (Home),9
+Maghoma,MID,Brentford,4.5,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,55,59,Crystal Palace (Home),9
+Peart-Harris,MID,Brentford,4.4,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,223,222,Crystal Palace (Home),9
+Trevitt,MID,Brentford,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,0,21,Crystal Palace (Home),9
+Thiago,FWD,Brentford,6.1,5.1,7.0,a,90,1,0,0,2,6,0,0.2,4.56,4.76,11.7,0,0,0,0,1,0,1,True,3.0,2.0,Liverpool,40.8,3.4,75.0,11.9,19,0,5,148621,47372,Crystal Palace (Home),9
+Morgan,FWD,Brentford,4.4,0.4,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,3.0,2.0,Liverpool,0.0,0.0,0.0,0.0,0,0,0,2189,4170,Crystal Palace (Home),9
+Steele,GKP,Brighton,4.3,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,313,1350,Leeds (Away),9
+Verbruggen,GKP,Brighton,4.4,4.1,1.5,a,90,0,0,5,4,0,0,0.01,0.0,0.01,11.96,0,0,0,0,0,0,1,False,4.0,2.0,Man Utd,38.0,0.0,0.0,3.8,10,0,1,7119,24019,Leeds (Away),9
+McGill,GKP,Brighton,4.0,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,467,1093,Leeds (Away),9
+Rushworth,GKP,Brighton,4.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,8,Leeds (Away),9
+Scherpen,GKP,Brighton,4.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,5,Leeds (Away),9
+Boscagli,DEF,Brighton,4.3,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,98,355,Leeds (Away),9
+Coppola,DEF,Brighton,4.3,0.1,0.2,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.21,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,95,249,Leeds (Away),9
+De Cuyper,DEF,Brighton,4.4,2.1,2.5,a,58,0,0,0,2,1,0,0.75,0.74,1.49,6.19,0,0,0,0,0,0,1,False,4.0,2.0,Man Utd,6.0,25.3,4.0,3.5,4,0,0,2415,20470,Leeds (Away),9
+Dunk,DEF,Brighton,4.5,1.1,1.0,a,90,0,0,0,4,0,1,0.06,0.56,0.62,11.96,0,0,0,0,0,0,1,False,4.0,2.0,Man Utd,12.6,1.3,7.0,2.1,1,0,0,4691,7229,Leeds (Away),9
+Estupiñan,DEF,Brighton,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,20,Leeds (Away),9
+F.Kadıoğlu,DEF,Brighton,4.4,0.2,1.2,a,90,0,0,0,4,0,0,0.63,0.31,0.94,8.35,0,0,0,0,1,0,1,False,4.0,2.0,Man Utd,12.8,7.1,12.0,3.2,-4,0,-1,1058,1040,Leeds (Away),9
+Lamptey,DEF,Brighton,4.4,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,720,Leeds (Away),9
+Van Hecke,DEF,Brighton,4.4,1.1,5.0,a,90,0,0,0,4,1,0,0.25,0.46,0.7,11.96,0,0,0,0,0,0,1,False,4.0,2.0,Man Utd,31.6,16.1,0.0,4.8,0,0,2,20124,7209,Leeds (Away),9
+Veltman,DEF,Brighton,4.4,0.1,0.0,d,0,0,0,0,0,0,0,0.01,0.0,0.01,5.82,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,39,1504,Leeds (Away),9
+Webster,DEF,Brighton,4.4,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,52,55,Leeds (Away),9
+Cashin,DEF,Brighton,4.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,14,Leeds (Away),9
+Slater,DEF,Brighton,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,692,Leeds (Away),9
+Tasker,DEF,Brighton,3.9,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,590,637,Leeds (Away),9
+Mitoma,MID,Brighton,6.3,2.7,0.5,d,0,0,0,0,0,1,1,0.29,0.76,1.05,7.99,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,925,48547,Leeds (Away),9
+Georginio,MID,Brighton,5.7,0.4,3.0,a,78,0,0,0,3,0,3,0.8,0.39,1.19,6.36,0,0,0,0,0,0,1,False,4.0,2.0,Man Utd,4.6,13.7,4.0,2.2,8,0,2,5928,3306,Leeds (Away),9
+March,MID,Brighton,5.8,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,26,40,Leeds (Away),9
+Minteh,MID,Brighton,6.0,3.5,3.5,a,90,0,1,0,4,1,3,1.52,1.76,3.28,11.52,0,0,0,0,0,0,1,False,4.0,2.0,Man Utd,4.4,12.3,10.0,2.7,16,0,5,37277,53753,Leeds (Away),9
+Enciso,MID,Brighton,5.4,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,24,Leeds (Away),9
+Gruda,MID,Brighton,5.4,0.1,1.5,d,0,0,0,0,0,1,1,0.4,1.57,1.97,2.9,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,53,1658,Leeds (Away),9
+Hinshelwood,MID,Brighton,5.2,0.0,0.0,i,0,0,0,0,0,0,0,0.01,0.0,0.01,2.32,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,16,239,Leeds (Away),9
+O'Riley,MID,Brighton,5.5,0.4,0.0,u,0,0,0,0,0,1,0,0.17,1.21,1.38,2.12,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,2064,Leeds (Away),9
+Sima,MID,Brighton,5.4,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,28,Leeds (Away),9
+Ayari,MID,Brighton,4.9,0.3,1.8,a,59,0,0,0,2,1,0,0.47,0.62,1.09,9.24,0,0,0,0,0,0,1,False,4.0,2.0,Man Utd,1.0,3.4,8.0,1.2,10,0,1,3369,4627,Leeds (Away),9
+Baleba,MID,Brighton,4.7,2.1,1.2,a,58,0,0,0,2,0,0,0.14,0.13,0.27,7.15,0,0,0,0,1,0,1,False,4.0,2.0,Man Utd,0.0,2.5,2.0,0.4,6,0,0,6678,15342,Leeds (Away),9
+Gomez,MID,Brighton,4.9,0.1,1.5,a,30,0,0,0,2,0,0,0.13,0.32,0.45,5.41,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,7.8,2.0,2.0,1.2,3,0,1,176,1558,Leeds (Away),9
+Milner,MID,Brighton,5.0,0.1,1.5,a,31,0,1,0,2,1,1,0.4,0.79,1.19,3.34,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,24.4,32.2,0.0,5.7,24,0,4,715,1086,Leeds (Away),9
+Sarmiento,MID,Brighton,4.9,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,58,Leeds (Away),9
+Watson,MID,Brighton,4.9,0.0,0.2,a,31,0,0,0,2,0,0,0.01,0.04,0.05,0.67,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,5.6,1.3,7.0,1.4,7,0,1,77,105,Leeds (Away),9
+Wieffer,MID,Brighton,4.9,0.1,3.8,a,86,0,0,0,3,0,2,0.55,0.15,0.7,5.33,0,0,0,0,0,0,1,False,4.0,2.0,Man Utd,26.0,23.8,2.0,5.2,24,0,4,1124,298,Leeds (Away),9
+Yalcouye,MID,Brighton,5.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,11,Leeds (Away),9
+Knight,MID,Brighton,4.5,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,511,594,Leeds (Away),9
+Mazilu,MID,Brighton,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,134,Leeds (Away),9
+Moran,MID,Brighton,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,96,Leeds (Away),9
+Welbeck,FWD,Brighton,6.4,4.1,7.8,a,90,1,0,0,4,5,0,0.47,3.23,3.7,8.41,0,0,0,0,0,0,1,False,4.0,2.0,Man Utd,40.2,27.1,28.0,9.5,32,0,6,179218,19882,Leeds (Away),9
+Ferguson,FWD,Brighton,5.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,0,10,Leeds (Away),9
+Tzimas,FWD,Brighton,5.3,0.1,1.8,a,3,0,0,0,1,0,1,0.05,0.35,0.4,1.86,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,2.0,20.3,6.0,2.8,3,0,1,1114,1031,Leeds (Away),9
+Kostoulas,FWD,Brighton,4.8,0.3,1.5,a,11,1,0,0,1,1,0,0.01,0.27,0.28,0.51,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,34.2,0.5,40.0,7.5,29,0,5,1670,2215,Leeds (Away),9
+Oriola,MID,Brighton,4.5,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,4.0,2.0,Man Utd,0.0,0.0,0.0,0.0,0,0,0,270,29,Leeds (Away),9
+Buonanotte,MID,Chelsea,4.8,0.1,0.0,a,0,0,0,0,0,0,0,0.09,0.0,0.09,0.55,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,225,971,Spurs (Home),9
+Sánchez,GKP,Chelsea,4.9,14.2,2.2,a,90,0,0,2,2,0,0,0.01,0.0,0.01,11.78,0,0,0,0,0,0,1,True,1.0,2.0,Sunderland,17.2,0.0,0.0,1.7,6,0,1,47431,47248,Spurs (Home),9
+Jörgensen,GKP,Chelsea,4.4,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,1.79,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,264,1002,Spurs (Home),9
+Penders,GKP,Chelsea,4.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,0,4,Spurs (Home),9
+Slonina,GKP,Chelsea,3.9,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,1223,469,Spurs (Home),9
+Cucurella,DEF,Chelsea,6.1,22.7,4.0,a,90,0,0,0,2,0,2,1.33,0.36,1.69,12.18,0,0,0,0,0,0,1,True,1.0,2.0,Sunderland,17.0,40.7,11.0,6.9,12,0,1,134086,41278,Spurs (Home),9
+James,DEF,Chelsea,5.5,7.5,6.5,a,90,0,0,0,2,1,3,1.01,0.34,1.35,12.33,0,0,0,0,0,0,1,True,1.0,2.0,Sunderland,20.2,31.3,0.0,5.2,15,0,1,389037,10003,Spurs (Home),9
+Chalobah,DEF,Chelsea,5.1,8.1,1.0,a,90,0,0,0,2,2,1,0.57,0.77,1.34,9.03,0,0,0,0,0,0,1,True,1.0,2.0,Sunderland,25.8,3.2,7.0,3.6,8,0,1,90058,25993,Spurs (Home),9
+Colwill,DEF,Chelsea,4.8,0.1,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,40,265,Spurs (Home),9
+Gusto,DEF,Chelsea,4.9,1.0,2.0,a,0,0,0,0,0,0,1,0.27,0.07,0.34,7.83,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,468,21965,Spurs (Home),9
+B.Badiashile,DEF,Chelsea,4.4,0.0,0.0,i,0,0,0,0,0,0,0,0.02,0.0,0.02,2.17,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,16,538,Spurs (Home),9
+Fofana,DEF,Chelsea,4.4,0.2,0.0,a,0,0,0,0,0,0,0,0.01,0.0,0.01,2.44,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,1043,730,Spurs (Home),9
+M.Sarr,DEF,Chelsea,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,0,16,Spurs (Home),9
+Tosin,DEF,Chelsea,4.4,0.5,0.5,a,14,0,0,0,1,0,0,0.07,0.05,0.11,5.39,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,5.2,0.1,0.0,0.5,1,0,1,2627,5552,Spurs (Home),9
+Acheampong,DEF,Chelsea,3.9,1.9,4.5,a,75,0,0,0,1,1,0,0.04,0.6,0.64,7.53,0,0,0,0,0,0,1,True,1.0,2.0,Sunderland,23.6,5.0,0.0,2.9,12,0,2,80194,6814,Spurs (Home),9
+Anselmino,DEF,Chelsea,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,0,205,Spurs (Home),9
+Palmer,MID,Chelsea,10.3,9.8,0.0,i,0,0,0,0,0,1,0,0.12,0.8,0.92,2.54,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,765,88863,Spurs (Home),9
+Neto,MID,Chelsea,7.0,5.2,6.0,a,84,0,1,0,1,2,2,1.72,0.78,2.5,9.07,0,0,0,0,0,0,1,True,1.0,2.0,Sunderland,19.6,17.3,0.0,3.7,28,3,8,193709,15650,Spurs (Home),9
+Enzo,MID,Chelsea,6.7,15.2,3.2,a,90,0,0,0,2,3,2,0.94,3.89,4.83,11.17,0,0,0,0,0,0,1,True,1.0,2.0,Sunderland,21.2,41.6,46.0,10.9,22,0,2,273234,202673,Spurs (Home),9
+Estêvão,MID,Chelsea,6.5,2.5,3.8,a,32,0,0,0,1,1,2,1.32,1.75,3.07,2.0,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,1.2,12.2,15.0,2.8,3,0,1,45033,24550,Spurs (Home),9
+Gittens,MID,Chelsea,6.2,0.1,0.8,a,14,0,0,0,1,0,0,0.18,0.13,0.31,4.59,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,5.2,21.1,0.0,2.6,4,0,1,718,827,Spurs (Home),9
+Nkunku,MID,Chelsea,5.9,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,0,175,Spurs (Home),9
+Caicedo,MID,Chelsea,5.9,18.2,3.8,a,90,0,0,0,2,3,0,0.41,0.57,0.98,13.04,0,0,0,0,0,0,1,True,1.0,2.0,Sunderland,15.4,26.7,4.0,4.6,16,0,2,370445,59003,Spurs (Home),9
+George,MID,Chelsea,4.9,0.1,0.2,a,5,0,0,0,1,0,0,0.08,0.32,0.4,1.65,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,4.0,0.4,4,0,1,349,406,Spurs (Home),9
+Lavia,MID,Chelsea,4.9,0.0,0.8,a,0,0,0,0,0,0,0,0.04,0.0,0.04,2.79,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,658,405,Spurs (Home),9
+Mudryk,MID,Chelsea,5.0,0.0,0.0,s,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,37,53,Spurs (Home),9
+Andrey Santos,MID,Chelsea,4.5,0.3,0.5,a,5,0,0,0,1,0,0,0.05,0.7,0.75,2.88,0,0,0,0,1,0,0,True,1.0,2.0,Sunderland,0.0,0.1,0.0,0.0,-1,0,0,3564,2689,Spurs (Home),9
+D.Essugo,MID,Chelsea,4.3,0.1,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,2215,561,Spurs (Home),9
+Paez,MID,Chelsea,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,0,6,Spurs (Home),9
+João Pedro,FWD,Chelsea,7.5,56.0,2.0,a,84,0,0,0,1,2,3,0.46,1.57,2.03,12.26,0,0,0,0,0,0,1,True,1.0,2.0,Sunderland,10.4,13.6,6.0,3.0,5,0,2,161401,590979,Spurs (Home),9
+Delap,FWD,Chelsea,6.2,0.9,0.0,d,0,0,0,0,0,0,0,0.03,0.23,0.26,0.31,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,159,3619,Spurs (Home),9
+N.Jackson,FWD,Chelsea,6.5,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,0,144,Spurs (Home),9
+Marc Guiu,FWD,Chelsea,4.2,7.0,1.0,a,75,0,0,0,1,0,0,0.01,0.61,0.62,4.05,0,0,0,0,0,0,1,True,1.0,2.0,Sunderland,0.0,1.1,24.0,2.3,4,0,2,40468,92730,Spurs (Home),9
+Garnacho,MID,Chelsea,6.4,0.3,2.2,a,57,1,0,0,1,1,0,0.14,0.27,0.41,3.8,0,0,0,0,0,0,1,True,1.0,2.0,Sunderland,31.0,4.3,61.0,9.6,18,0,6,3488,6360,Spurs (Home),9
+Hato,DEF,Chelsea,4.7,0.2,0.8,a,0,0,0,0,0,0,0,0.01,0.0,0.01,2.51,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,586,1170,Spurs (Home),9
+Emenalo,MID,Chelsea,4.5,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,1.0,2.0,Sunderland,0.0,0.0,0.0,0.0,0,0,0,130,79,Spurs (Home),9
 Henderson,GKP,Crystal Palace,5.0,7.6,1.5,a,0,0,0,0,0,0,0,0.05,0.0,0.05,10.88,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,6824,45476,Arsenal (Home),9
 Benitez,GKP,Crystal Palace,4.0,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,244,938,Arsenal (Home),9
 Matthews,GKP,Crystal Palace,4.0,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,70,371,Arsenal (Home),9
-Muñoz,DEF,Crystal Palace,5.6,13.4,5.0,a,0,0,0,0,0,1,3,1.74,0.88,2.62,10.88,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,112735,39554,Arsenal (Home),9
-Lacroix,DEF,Crystal Palace,5.1,3.8,2.0,a,0,0,0,0,0,0,1,0.18,0.33,0.51,10.88,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,4466,45826,Arsenal (Home),9
+Muñoz,DEF,Crystal Palace,5.6,13.5,5.0,a,0,0,0,0,0,1,3,1.74,0.88,2.62,10.88,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,112735,39554,Arsenal (Home),9
+Lacroix,DEF,Crystal Palace,5.1,3.7,2.0,a,0,0,0,0,0,0,1,0.18,0.33,0.51,10.88,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,4466,45826,Arsenal (Home),9
 Mitchell,DEF,Crystal Palace,5.0,2.3,1.5,a,0,0,0,0,0,1,0,0.49,0.39,0.88,10.88,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,3767,24788,Arsenal (Home),9
 Sosa,DEF,Crystal Palace,4.9,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,205,637,Arsenal (Home),9
-Guéhi,DEF,Crystal Palace,4.9,32.0,3.5,a,0,0,0,0,0,1,3,0.97,0.8,1.77,10.88,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,121670,87881,Arsenal (Home),9
+Guéhi,DEF,Crystal Palace,4.9,32.2,3.5,a,0,0,0,0,0,1,3,0.97,0.8,1.77,10.88,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,121670,87881,Arsenal (Home),9
 Richards,DEF,Crystal Palace,4.5,3.3,2.5,a,0,0,0,0,0,0,0,0.8,0.39,1.19,10.88,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,17608,20931,Arsenal (Home),9
 Chadi Riad,DEF,Crystal Palace,4.0,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,20,41,Arsenal (Home),9
 Clyne,DEF,Crystal Palace,3.9,0.5,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,727,2665,Arsenal (Home),9
@@ -3207,7 +3207,7 @@ Kporha,DEF,Crystal Palace,4.0,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,
 Sarr,MID,Crystal Palace,6.5,8.3,5.0,a,0,0,0,0,0,3,1,0.29,3.23,3.52,8.48,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,93820,87587,Arsenal (Home),9
 Doucouré,MID,Crystal Palace,4.9,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,21,18,Arsenal (Home),9
 Esse,MID,Crystal Palace,4.8,0.1,0.0,a,0,0,0,0,0,0,0,0.01,0.0,0.01,0.27,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,316,864,Arsenal (Home),9
-Hughes,MID,Crystal Palace,4.9,0.1,0.2,a,0,0,0,0,0,0,0,0.57,0.15,0.72,4.91,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,235,925,Arsenal (Home),9
+Hughes,MID,Crystal Palace,4.8,0.1,0.2,a,0,0,0,0,0,0,0,0.57,0.15,0.72,4.91,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,235,925,Arsenal (Home),9
 Kamada,MID,Crystal Palace,5.0,0.1,2.8,a,0,0,0,0,0,0,2,0.95,0.42,1.37,7.61,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,1194,2566,Arsenal (Home),9
 Lerma,MID,Crystal Palace,4.9,0.1,0.5,a,0,0,0,0,0,0,0,0.04,0.52,0.56,2.96,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,108,352,Arsenal (Home),9
 Wharton,MID,Crystal Palace,5.0,0.5,2.0,a,0,0,0,0,0,0,1,1.68,0.2,1.88,8.62,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,4077,4842,Arsenal (Home),9
@@ -3220,7 +3220,7 @@ M.França,MID,Crystal Palace,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0
 Ozoh,MID,Crystal Palace,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,0,2,Arsenal (Home),9
 Rodney,MID,Crystal Palace,4.5,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,243,262,Arsenal (Home),9
 Umeh,MID,Crystal Palace,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,0,95,Arsenal (Home),9
-Mateta,FWD,Crystal Palace,7.6,13.0,5.2,a,0,0,0,0,0,5,0,0.47,7.85,8.32,9.01,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,436003,71414,Arsenal (Home),9
+Mateta,FWD,Crystal Palace,7.6,13.6,5.2,a,0,0,0,0,0,5,0,0.47,7.85,8.32,9.01,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,436003,71414,Arsenal (Home),9
 Nketiah,FWD,Crystal Palace,5.4,0.5,1.5,a,0,0,0,0,0,1,0,0.35,0.65,1.0,3.04,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,7510,8987,Arsenal (Home),9
 Édouard,FWD,Crystal Palace,5.0,0.3,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.27,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,0,1443,Arsenal (Home),9
 Marsh,FWD,Crystal Palace,4.5,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Arsenal,0.0,0.0,0.0,0.0,0,0,0,1705,3174,Arsenal (Home),9
@@ -3245,7 +3245,7 @@ Ndiaye,MID,Everton,6.5,11.2,3.2,a,0,0,0,0,0,3,1,1.6,2.2,3.8,10.05,0,0,0,0,0,0,0,
 McNeil,MID,Everton,5.6,0.1,0.2,a,0,0,0,0,0,0,0,0.0,0.24,0.24,1.81,0,0,0,0,0,0,0,True,,,Spurs,0.0,0.0,0.0,0.0,0,0,0,592,904,Spurs (Away),9
 Alcaraz,MID,Everton,5.2,0.1,0.8,a,0,0,0,0,0,0,0,0.06,0.16,0.22,5.26,0,0,0,0,0,0,0,True,,,Spurs,0.0,0.0,0.0,0.0,0,0,0,412,556,Spurs (Away),9
 Gana,MID,Everton,5.4,0.1,1.5,a,0,0,0,0,0,1,0,0.42,0.76,1.18,10.71,0,0,0,0,0,0,0,True,,,Spurs,0.0,0.0,0.0,0.0,0,0,0,1148,1370,Spurs (Away),9
-Garner,MID,Everton,5.0,1.0,2.8,a,0,0,0,0,0,1,1,1.06,0.67,1.73,12.26,0,0,0,0,0,0,0,True,,,Spurs,0.0,0.0,0.0,0.0,0,0,0,8823,10035,Spurs (Away),9
+Garner,MID,Everton,5.0,0.9,2.8,a,0,0,0,0,0,1,1,1.06,0.67,1.73,12.26,0,0,0,0,0,0,0,True,,,Spurs,0.0,0.0,0.0,0.0,0,0,0,8823,10035,Spurs (Away),9
 Iroegbunam,MID,Everton,4.9,0.0,1.2,a,0,0,0,0,0,0,1,0.01,0.15,0.16,4.83,0,0,0,0,0,0,0,True,,,Spurs,0.0,0.0,0.0,0.0,0,0,0,63,132,Spurs (Away),9
 Armstrong,MID,Everton,4.5,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Spurs,0.0,0.0,0.0,0.0,0,0,0,0,360,Spurs (Away),9
 Bates,MID,Everton,4.4,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Spurs,0.0,0.0,0.0,0.0,0,0,0,319,474,Spurs (Away),9
@@ -3263,104 +3263,105 @@ Onyango,MID,Everton,4.5,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,Tr
 Campbell,DEF,Everton,4.0,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Spurs,0.0,0.0,0.0,0.0,0,0,0,319,647,Spurs (Away),9
 Dibling,MID,Everton,5.5,0.0,0.5,a,0,0,0,0,0,0,0,0.0,0.0,0.0,1.64,0,0,0,0,0,0,0,True,,,Spurs,0.0,0.0,0.0,0.0,0,0,0,200,281,Spurs (Away),9
 Röhl,MID,Everton,5.0,0.0,0.2,a,0,0,0,0,0,0,0,0.0,0.06,0.06,1.09,0,0,0,0,0,0,0,True,,,Spurs,0.0,0.0,0.0,0.0,0,0,0,47,16,Spurs (Away),9
-Leno,GKP,Fulham,5.0,1.4,1.5,a,0,0,0,0,0,0,0,0.0,0.0,0.0,10.95,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,4533,5877,Newcastle (Home),9
-Benda,GKP,Fulham,4.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,0,7,Newcastle (Home),9
-Robinson,DEF,Fulham,5.0,0.6,0.2,i,0,0,0,0,0,0,0,0.08,0.0,0.08,0.23,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,117,11320,Newcastle (Home),9
-Andersen,DEF,Fulham,4.5,3.2,1.8,i,0,0,0,0,0,0,0,0.74,0.43,1.17,9.63,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,1418,102266,Newcastle (Home),9
-Bassey,DEF,Fulham,4.5,0.5,0.5,a,0,0,0,0,0,0,0,0.06,0.16,0.22,9.65,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,3435,3881,Newcastle (Home),9
-Castagne,DEF,Fulham,4.4,0.1,1.5,a,0,0,0,0,0,0,0,0.12,0.42,0.54,8.21,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,1506,657,Newcastle (Home),9
-Diop,DEF,Fulham,4.4,0.1,0.8,a,0,0,0,0,0,0,0,0.01,0.0,0.01,1.92,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,287,263,Newcastle (Home),9
-J.Cuenca,DEF,Fulham,4.4,0.0,1.0,a,0,0,0,0,0,0,0,0.01,0.0,0.01,2.42,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,445,145,Newcastle (Home),9
-Tete,DEF,Fulham,4.5,0.1,0.0,a,0,0,0,0,0,0,0,0.43,0.07,0.5,6.85,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,794,925,Newcastle (Home),9
-Amissah,DEF,Fulham,3.9,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,364,549,Newcastle (Home),9
-Iwobi,MID,Fulham,6.5,1.5,2.0,a,0,0,0,0,0,1,2,1.21,0.4,1.61,9.85,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,9481,16064,Newcastle (Home),9
-Smith Rowe,MID,Fulham,5.7,0.5,0.8,a,0,0,0,0,0,1,0,0.07,0.79,0.86,2.01,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,951,4323,Newcastle (Home),9
-Adama,MID,Fulham,5.2,0.2,1.0,a,0,0,0,0,0,0,0,0.51,0.08,0.59,2.72,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,578,909,Newcastle (Home),9
-Andreas,MID,Fulham,5.3,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,0,354,Newcastle (Home),9
-Sessegnon,MID,Fulham,5.4,0.1,3.2,a,0,0,0,0,0,1,1,0.64,0.45,1.09,9.24,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,3473,1256,Newcastle (Home),9
-Wilson,MID,Fulham,5.3,0.4,1.5,a,0,0,0,0,0,1,1,0.34,0.94,1.28,5.9,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,3295,3882,Newcastle (Home),9
-Berge,MID,Fulham,4.9,0.1,1.5,a,0,0,0,0,0,0,0,0.29,0.41,0.7,10.52,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,394,347,Newcastle (Home),9
-Cairney,MID,Fulham,4.9,0.0,1.0,d,0,0,0,0,0,0,0,0.07,0.34,0.41,2.69,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,23,212,Newcastle (Home),9
-Lukić,MID,Fulham,5.0,0.1,1.2,d,0,0,0,0,0,0,2,0.94,0.82,1.76,7.96,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,40,942,Newcastle (Home),9
-Godo,MID,Fulham,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,0,153,Newcastle (Home),9
-Harris,MID,Fulham,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,0,1,Newcastle (Home),9
-King,MID,Fulham,4.5,4.0,1.5,a,0,0,0,0,0,0,0,0.29,0.77,1.06,8.69,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,40967,39137,Newcastle (Home),9
-Reed,MID,Fulham,4.4,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,710,2001,Newcastle (Home),9
-Raúl,FWD,Fulham,6.2,0.8,2.0,a,0,0,0,0,0,1,0,0.02,0.51,0.53,3.27,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,5842,5355,Newcastle (Home),9
-Muniz,FWD,Fulham,5.4,1.1,0.0,i,0,0,0,0,0,1,1,0.01,0.86,0.87,5.45,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,373,25273,Newcastle (Home),9
-Lecomte,GKP,Fulham,4.0,0.6,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,385,1507,Newcastle (Home),9
-Chukwueze,MID,Fulham,5.4,0.0,1.2,i,0,0,0,0,0,0,1,0.39,0.18,0.57,0.67,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,24,523,Newcastle (Home),9
-Kevin,MID,Fulham,6.0,0.1,0.8,a,0,0,0,0,0,0,0,0.11,0.05,0.16,1.6,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,488,1372,Newcastle (Home),9
-Kusi-Asare,FWD,Fulham,4.5,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Newcastle,0.0,0.0,0.0,0.0,0,0,0,784,923,Newcastle (Home),9
+Leno,GKP,Fulham,5.0,1.4,2.0,a,90,0,0,5,2,0,0,0.0,0.0,0.0,13.09,0,0,0,0,0,0,1,False,2.0,1.0,Newcastle,36.2,0.0,0.0,3.6,13,0,2,4533,5877,Wolves (Away),9
+Benda,GKP,Fulham,4.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,0.0,0.0,0.0,0.0,0,0,0,0,7,Wolves (Away),9
+Robinson,DEF,Fulham,5.0,0.6,0.2,i,0,0,0,0,0,0,0,0.08,0.0,0.08,0.23,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,0.0,0.0,0.0,0.0,0,0,0,117,11320,Wolves (Away),9
+Andersen,DEF,Fulham,4.5,3.1,1.8,i,0,0,0,0,0,0,0,0.74,0.43,1.17,9.63,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,0.0,0.0,0.0,0.0,0,0,0,1418,102266,Wolves (Away),9
+Bassey,DEF,Fulham,4.5,0.5,0.8,a,90,0,0,0,2,0,0,0.06,0.16,0.22,11.79,0,0,0,0,0,0,1,False,2.0,1.0,Newcastle,8.2,1.4,0.0,1.0,-1,0,1,3435,3881,Wolves (Away),9
+Castagne,DEF,Fulham,4.4,0.1,1.8,a,1,0,0,0,0,0,0,0.12,0.42,0.54,8.23,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,1.0,0.0,0.0,0.1,3,0,1,1506,657,Wolves (Away),9
+Diop,DEF,Fulham,4.4,0.1,1.0,a,90,0,0,0,2,0,0,0.02,0.0,0.02,4.06,0,0,0,0,0,0,1,False,2.0,1.0,Newcastle,12.6,0.5,0.0,1.3,5,0,1,287,263,Wolves (Away),9
+J.Cuenca,DEF,Fulham,4.4,0.0,1.0,a,0,0,0,0,0,0,0,0.01,0.0,0.01,2.42,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,0.0,0.0,0.0,0.0,0,0,0,445,145,Wolves (Away),9
+Tete,DEF,Fulham,4.5,0.1,0.5,a,90,0,0,0,2,0,0,0.44,0.07,0.51,8.97,0,0,0,0,1,0,1,False,2.0,1.0,Newcastle,21.0,1.5,0.0,2.3,8,0,2,794,925,Wolves (Away),9
+Amissah,DEF,Fulham,3.9,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,0.0,0.0,0.0,0.0,0,0,0,364,549,Wolves (Away),9
+Iwobi,MID,Fulham,6.5,1.5,2.2,a,90,0,0,0,2,1,2,1.22,0.5,1.72,11.97,0,0,0,0,1,0,1,False,2.0,1.0,Newcastle,0.8,5.7,13.0,2.0,6,0,1,9481,16064,Wolves (Away),9
+Smith Rowe,MID,Fulham,5.7,0.5,1.0,a,45,0,0,0,1,1,0,0.1,0.89,0.99,2.94,0,0,0,0,0,0,1,False,2.0,1.0,Newcastle,10.8,13.9,15.0,4.0,5,0,1,951,4323,Wolves (Away),9
+Adama,MID,Fulham,5.2,0.2,1.5,a,75,0,0,0,1,0,0,0.53,0.14,0.67,4.04,0,0,0,0,0,0,1,False,2.0,1.0,Newcastle,1.4,4.2,6.0,1.2,13,0,2,578,909,Wolves (Away),9
+Andreas,MID,Fulham,5.3,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,0.0,0.0,0.0,0.0,0,0,0,0,354,Wolves (Away),9
+Sessegnon,MID,Fulham,5.4,0.1,4.2,a,90,0,0,0,2,1,1,0.69,0.45,1.14,11.38,0,0,0,0,0,0,1,False,2.0,1.0,Newcastle,16.0,13.3,0.0,2.9,14,0,4,3473,1256,Wolves (Away),9
+Wilson,MID,Fulham,5.3,0.4,1.5,a,0,0,0,0,0,1,1,0.34,0.94,1.28,5.9,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,0.0,0.0,0.0,0.0,0,0,0,3295,3882,Wolves (Away),9
+Berge,MID,Fulham,4.9,0.1,2.0,a,90,0,0,0,2,0,0,0.31,0.45,0.76,12.66,0,0,0,0,0,0,1,False,2.0,1.0,Newcastle,14.0,12.7,9.0,3.6,15,0,2,394,347,Wolves (Away),9
+Cairney,MID,Fulham,4.9,0.0,1.2,a,5,0,0,0,1,0,0,0.07,0.34,0.41,3.2,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,0.2,0.3,0.0,0.1,3,0,1,23,212,Wolves (Away),9
+Lukić,MID,Fulham,5.0,0.1,3.5,a,84,1,0,0,1,1,2,1.01,1.35,2.36,9.59,0,0,0,0,0,0,1,False,2.0,1.0,Newcastle,41.8,27.5,35.0,10.4,34,2,9,40,942,Wolves (Away),9
+Godo,MID,Fulham,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,0.0,0.0,0.0,0.0,0,0,0,0,153,Wolves (Away),9
+Harris,MID,Fulham,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,0.0,0.0,0.0,0.0,0,0,0,0,1,Wolves (Away),9
+King,MID,Fulham,4.5,4.0,1.8,a,14,0,0,0,1,0,0,0.29,0.77,1.06,9.51,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,4.4,0.0,0.0,0.4,3,0,1,40967,39137,Wolves (Away),9
+Reed,MID,Fulham,4.4,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,0.0,0.0,0.0,0.0,0,0,0,710,2001,Wolves (Away),9
+Raúl,FWD,Fulham,6.2,0.8,3.2,a,90,0,1,0,2,1,1,0.05,1.22,1.27,5.41,0,0,0,0,0,0,1,False,2.0,1.0,Newcastle,10.2,4.1,72.0,8.6,15,0,5,5842,5355,Wolves (Away),9
+Muniz,FWD,Fulham,5.4,1.1,0.0,d,0,0,0,0,0,1,1,0.01,0.86,0.87,5.45,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,0.0,0.0,0.0,0.0,0,0,0,373,25273,Wolves (Away),9
+Lecomte,GKP,Fulham,4.0,0.6,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,0.0,0.0,0.0,0.0,0,0,0,385,1507,Wolves (Away),9
+Chukwueze,MID,Fulham,5.4,0.0,1.2,i,0,0,0,0,0,0,1,0.39,0.18,0.57,0.67,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,0.0,0.0,0.0,0.0,0,0,0,24,523,Wolves (Away),9
+Kevin,MID,Fulham,6.0,0.1,1.0,a,45,0,0,0,1,0,0,0.18,0.05,0.23,2.8,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,10.2,20.6,8.0,3.9,6,0,1,488,1372,Wolves (Away),9
+Kusi-Asare,FWD,Fulham,4.5,0.1,0.2,a,1,0,0,0,0,0,0,0.0,0.0,0.0,0.02,0,0,0,0,0,0,0,False,2.0,1.0,Newcastle,0.0,0.0,0.0,0.0,2,0,1,784,923,Wolves (Away),9
 Meslier,GKP,Leeds,4.3,0.4,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,366,2163,Brighton (Home),9
 Cairns,GKP,Leeds,4.0,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,118,661,Brighton (Home),9
 Darlow,GKP,Leeds,4.0,2.4,1.0,a,0,0,0,0,0,0,0,0.01,0.0,0.01,4.43,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,6603,12212,Brighton (Home),9
-Bogle,DEF,Leeds,4.5,0.2,2.8,a,90,0,0,0,1,0,1,0.42,0.68,1.1,7.89,0,0,0,0,0,0,1,True,2.0,1.0,West Ham,25.2,14.5,17.0,5.7,16,0,4,2116,2573,Brighton (Home),9
-Struijk,DEF,Leeds,4.5,0.3,1.0,d,0,0,0,0,0,0,0,0.08,0.81,0.89,8.32,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,581,7238,Brighton (Home),9
-Bijol,DEF,Leeds,3.9,0.1,1.0,a,90,0,0,0,1,0,0,0.0,0.0,0.0,0.63,0,0,0,0,0,0,1,True,2.0,1.0,West Ham,25.8,10.2,0.0,3.6,18,0,4,411,1035,Brighton (Home),9
+Bogle,DEF,Leeds,4.5,0.2,2.2,a,90,0,0,0,1,0,1,0.42,0.66,1.08,7.91,0,0,0,0,0,0,1,True,2.0,1.0,West Ham,23.2,14.5,17.0,5.5,16,0,2,2116,2573,Brighton (Home),9
+Struijk,DEF,Leeds,4.5,0.3,1.0,a,0,0,0,0,0,0,0,0.08,0.81,0.89,8.32,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,581,7238,Brighton (Home),9
+Bijol,DEF,Leeds,3.9,0.1,1.0,a,90,0,0,0,1,0,0,0.0,0.0,0.0,0.65,0,0,0,0,0,0,1,True,2.0,1.0,West Ham,24.8,10.2,0.0,3.5,18,0,4,411,1035,Brighton (Home),9
 Bornauw,DEF,Leeds,3.9,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,134,506,Brighton (Home),9
 Byram,DEF,Leeds,3.9,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.79,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,414,1921,Brighton (Home),9
-Gudmundsson,DEF,Leeds,4.0,5.4,1.0,a,43,0,0,0,0,0,0,1.05,0.17,1.22,8.35,0,0,0,0,0,0,1,True,2.0,1.0,West Ham,9.0,14.2,0.0,2.3,7,0,1,13786,37661,Brighton (Home),9
-Rodon,DEF,Leeds,4.1,5.9,5.5,a,90,1,0,0,1,2,0,0.07,0.69,0.76,8.95,0,0,0,0,0,0,1,True,2.0,1.0,West Ham,61.8,10.1,33.0,10.5,35,3,13,40063,35972,Brighton (Home),9
+Gudmundsson,DEF,Leeds,4.0,5.3,1.0,d,43,0,0,0,0,0,0,1.04,0.17,1.21,8.36,0,0,0,0,0,0,1,True,2.0,1.0,West Ham,9.0,14.2,2.0,2.5,7,0,1,13786,37661,Brighton (Home),9
+Rodon,DEF,Leeds,4.1,6.0,5.5,a,90,1,0,0,1,2,0,0.07,0.68,0.75,8.97,0,0,0,0,0,0,1,True,2.0,1.0,West Ham,61.6,10.1,33.0,10.5,35,3,13,40063,35972,Brighton (Home),9
 Schmidt,DEF,Leeds,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,0,411,Brighton (Home),9
-Aaronson,MID,Leeds,5.4,0.1,5.5,a,86,1,0,0,0,1,2,1.27,1.62,2.89,5.52,1,0,0,0,0,0,1,True,2.0,1.0,West Ham,53.0,32.5,40.0,12.6,35,3,11,1830,1960,Brighton (Home),9
+Aaronson,MID,Leeds,5.4,0.1,5.5,a,86,1,0,0,0,1,2,1.27,1.62,2.89,5.57,1,0,0,0,0,0,1,True,2.0,1.0,West Ham,53.0,32.5,40.0,12.6,35,3,11,1830,1960,Brighton (Home),9
 Gnonto,MID,Leeds,5.2,0.1,0.0,d,0,0,0,0,0,0,0,0.06,0.18,0.24,2.49,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,15,832,Brighton (Home),9
-Harrison,MID,Leeds,5.2,0.1,1.2,a,45,0,0,0,1,0,0,0.21,0.28,0.49,2.75,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,8.8,2.9,9.0,2.1,8,0,1,595,610,Brighton (Home),9
-James,MID,Leeds,5.3,0.1,0.5,a,3,0,0,0,1,0,0,0.37,0.43,0.8,3.35,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,3,0,1,676,686,Brighton (Home),9
-Ampadu,MID,Leeds,4.9,0.1,2.5,d,90,0,0,0,1,0,0,0.18,0.37,0.55,5.34,0,0,0,0,0,0,1,True,2.0,1.0,West Ham,16.4,15.1,6.0,3.8,13,0,4,335,1031,Brighton (Home),9
+Harrison,MID,Leeds,5.2,0.1,1.2,a,45,0,0,0,1,0,0,0.21,0.28,0.49,2.76,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,7.8,2.9,9.0,2.0,7,0,1,595,610,Brighton (Home),9
+James,MID,Leeds,5.3,0.1,0.5,a,3,0,0,0,1,0,0,0.37,0.43,0.8,3.32,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,3,0,1,676,686,Brighton (Home),9
+Ampadu,MID,Leeds,4.9,0.1,2.5,a,90,0,0,0,1,0,0,0.18,0.37,0.55,5.36,0,0,0,0,0,0,1,True,2.0,1.0,West Ham,15.6,15.1,6.0,3.7,12,0,4,335,1031,Brighton (Home),9
 Greenwood,MID,Leeds,4.9,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,0,149,Brighton (Home),9
-Gruev,MID,Leeds,4.8,0.0,0.0,a,18,0,0,0,1,0,0,0.01,0.0,0.01,3.88,0,0,0,0,1,0,0,True,2.0,1.0,West Ham,0.4,0.3,0.0,0.1,2,0,0,79,230,Brighton (Home),9
+Gruev,MID,Leeds,4.8,0.0,0.0,a,18,0,0,0,1,0,0,0.01,0.0,0.01,3.86,0,0,0,0,1,0,0,True,2.0,1.0,West Ham,0.4,0.3,0.0,0.1,2,0,0,79,230,Brighton (Home),9
 Ramazani,MID,Leeds,4.9,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,0,54,Brighton (Home),9
-Tanaka,MID,Leeds,4.8,0.1,1.5,a,71,0,0,0,0,0,0,0.1,0.16,0.26,3.34,1,0,0,0,0,0,1,True,2.0,1.0,West Ham,0.0,1.0,1.0,0.1,7,0,3,421,754,Brighton (Home),9
+Tanaka,MID,Leeds,4.8,0.1,1.5,a,71,0,0,0,0,0,0,0.1,0.16,0.26,3.38,1,0,0,0,0,0,1,True,2.0,1.0,West Ham,0.0,0.9,1.0,0.0,3,0,3,421,754,Brighton (Home),9
 Crew,MID,Leeds,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,0,17,Brighton (Home),9
 Gelhardt,MID,Leeds,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,0,50,Brighton (Home),9
 Gyabi,MID,Leeds,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,0,166,Brighton (Home),9
 Piroe,FWD,Leeds,5.1,0.4,0.5,a,0,0,0,0,0,0,0,0.06,0.51,0.57,2.16,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,1622,5114,Brighton (Home),9
 Bamford,FWD,Leeds,4.9,0.4,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,0,3302,Brighton (Home),9
 Mateo Joseph,FWD,Leeds,5.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,0,22,Brighton (Home),9
-Nmecha,FWD,Leeds,5.0,0.7,1.0,a,3,0,0,0,1,1,0,0.05,1.7,1.75,2.85,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.3,0.0,0.0,4,0,1,4066,9785,Brighton (Home),9
-Longstaff,MID,Leeds,4.9,1.0,6.2,a,90,0,1,0,1,1,2,0.83,0.43,1.26,6.28,0,0,0,0,0,0,1,True,2.0,1.0,West Ham,32.6,15.9,0.0,4.9,27,1,6,32865,12050,Brighton (Home),9
+Nmecha,FWD,Leeds,5.0,0.7,1.0,a,3,0,0,0,1,1,0,0.05,1.7,1.75,2.82,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.3,0.0,0.0,4,0,1,4066,9785,Brighton (Home),9
+Longstaff,MID,Leeds,4.9,1.0,6.2,a,90,0,1,0,1,1,2,0.81,0.43,1.24,6.3,0,0,0,0,0,0,1,True,2.0,1.0,West Ham,32.4,15.8,0.0,4.8,27,1,6,32865,12050,Brighton (Home),9
 Stach,MID,Leeds,5.1,3.1,1.5,a,0,0,0,0,0,1,2,0.63,0.8,1.43,8.29,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,19505,46717,Brighton (Home),9
-Perri,GKP,Leeds,4.5,0.2,0.2,a,90,0,0,2,1,0,0,0.0,0.0,0.0,4.52,0,0,0,0,1,0,1,True,2.0,1.0,West Ham,22.4,0.0,0.0,2.2,8,0,1,823,1203,Brighton (Home),9
-Calvert-Lewin,FWD,Leeds,5.5,1.7,2.0,a,86,0,0,0,0,1,1,0.46,1.84,2.3,4.05,1,0,0,0,0,0,1,True,2.0,1.0,West Ham,2.2,12.1,6.0,2.0,4,0,2,29726,37621,Brighton (Home),9
-Okafor,MID,Leeds,5.5,0.2,3.5,d,45,0,1,0,0,2,1,0.36,1.34,1.7,3.51,0,0,0,0,0,0,1,True,2.0,1.0,West Ham,2.0,0.9,21.0,2.4,10,0,4,980,8258,Brighton (Home),9
-Justin,DEF,Leeds,4.0,0.2,0.2,a,46,0,0,0,1,0,0,0.0,0.0,0.0,0.85,0,0,0,0,1,0,0,True,2.0,1.0,West Ham,10.8,1.1,0.0,1.2,0,0,0,547,1350,Brighton (Home),9
+Perri,GKP,Leeds,4.5,0.2,0.2,a,90,0,0,2,1,0,0,0.0,0.0,0.0,4.54,0,0,0,0,1,0,1,True,2.0,1.0,West Ham,22.4,0.0,0.0,2.2,8,0,1,823,1203,Brighton (Home),9
+Calvert-Lewin,FWD,Leeds,5.5,1.7,2.0,a,86,0,0,0,0,1,1,0.46,1.77,2.23,4.1,1,0,0,0,0,0,1,True,2.0,1.0,West Ham,2.2,12.1,6.0,2.0,5,0,2,29726,37621,Brighton (Home),9
+Okafor,MID,Leeds,5.5,0.2,3.5,a,45,0,1,0,0,2,1,0.36,1.36,1.72,3.52,0,0,0,0,0,0,1,True,2.0,1.0,West Ham,2.0,0.9,21.0,2.4,10,0,4,980,8258,Brighton (Home),9
+Justin,DEF,Leeds,4.0,0.2,0.2,a,46,0,0,0,1,0,0,0.0,0.0,0.0,0.86,0,0,0,0,1,0,0,True,2.0,1.0,West Ham,10.8,1.1,0.0,1.2,0,0,0,547,1350,Brighton (Home),9
 Gray,FWD,Leeds,4.5,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,West Ham,0.0,0.0,0.0,0.0,0,0,0,748,1023,Brighton (Home),9
-A.Becker,GKP,Liverpool,5.4,6.5,0.5,i,0,0,0,0,0,0,0,0.01,0.0,0.01,6.87,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,273,79798,Brentford (Home),9
-Mamardashvili,GKP,Liverpool,4.3,0.9,0.8,a,0,0,0,0,0,0,0,0.0,0.0,0.0,2.34,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,15272,5776,Brentford (Home),9
-Pécsi,GKP,Liverpool,3.9,0.4,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,1311,1790,Brentford (Home),9
-Woodman,GKP,Liverpool,3.9,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,2021,1068,Brentford (Home),9
-Frimpong,DEF,Liverpool,5.8,6.2,0.5,i,0,0,0,0,0,0,1,0.34,0.09,0.43,1.96,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,3099,82813,Brentford (Home),9
-Kerkez,DEF,Liverpool,5.8,3.8,0.8,a,0,0,0,0,0,0,0,0.14,0.11,0.25,7.45,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,4856,37166,Brentford (Home),9
-Robertson,DEF,Liverpool,5.8,1.0,0.2,a,0,0,0,0,0,0,0,0.42,0.13,0.55,1.76,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,1228,3711,Brentford (Home),9
-Virgil,DEF,Liverpool,6.0,26.1,1.5,a,0,0,0,0,0,0,0,0.14,0.41,0.55,9.21,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,39311,169255,Brentford (Home),9
-Konaté,DEF,Liverpool,5.4,2.8,1.8,a,0,0,0,0,0,0,0,0.31,0.61,0.92,7.54,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,12495,20505,Brentford (Home),9
-Bradley,DEF,Liverpool,5.0,0.2,0.8,a,0,0,0,0,0,0,0,0.17,0.06,0.23,3.75,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,4169,1255,Brentford (Home),9
-Gomez,DEF,Liverpool,4.9,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.3,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,325,655,Brentford (Home),9
-Tsimikas,DEF,Liverpool,4.8,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,0,303,Brentford (Home),9
-Nallo,DEF,Liverpool,3.9,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,105,632,Brentford (Home),9
-R.Williams,DEF,Liverpool,3.9,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,190,811,Brentford (Home),9
-Ramsay,DEF,Liverpool,3.9,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,250,899,Brentford (Home),9
-M.Salah,MID,Liverpool,14.3,28.8,1.5,a,0,0,0,0,0,2,2,1.14,2.38,3.52,8.78,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,14393,859539,Brentford (Home),9
-Wirtz,MID,Liverpool,8.1,8.1,1.0,a,0,0,0,0,0,0,0,0.97,1.0,1.96,6.78,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,22539,69392,Brentford (Home),9
-Luis Díaz,MID,Liverpool,8.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,0,46,Brentford (Home),9
-Gakpo,MID,Liverpool,7.6,15.0,3.8,a,0,0,0,0,0,3,2,1.43,2.77,4.2,7.1,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,396097,43393,Brentford (Home),9
-Chiesa,MID,Liverpool,6.4,0.3,2.2,a,0,0,0,0,0,2,1,0.06,0.72,0.78,1.57,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,4153,2007,Brentford (Home),9
-Mac Allister,MID,Liverpool,6.3,1.3,1.5,a,0,0,0,0,0,0,1,0.23,0.34,0.57,5.62,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,4355,7519,Brentford (Home),9
-Szoboszlai,MID,Liverpool,6.5,3.8,2.5,a,0,0,0,0,0,1,0,0.78,1.0,1.78,9.21,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,35568,29073,Brentford (Home),9
-C.Jones,MID,Liverpool,5.4,0.1,0.8,a,0,0,0,0,0,0,1,0.9,0.28,1.18,3.71,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,1078,527,Brentford (Home),9
-Gravenberch,MID,Liverpool,5.7,5.2,3.0,d,0,0,0,0,0,2,2,0.39,0.4,0.79,6.87,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,32544,177403,Brentford (Home),9
-Endo,MID,Liverpool,4.9,0.1,0.2,a,0,0,0,0,0,0,1,0.0,0.0,0.0,1.71,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,156,690,Brentford (Home),9
-Bajcetic,MID,Liverpool,4.4,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,40,256,Brentford (Home),9
-McConnell,MID,Liverpool,4.4,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,0,124,Brentford (Home),9
-Morton,MID,Liverpool,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,0,3,Brentford (Home),9
-Nyoni,MID,Liverpool,4.3,0.5,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,29795,5117,Brentford (Home),9
-Darwin,FWD,Liverpool,6.5,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,0,76,Brentford (Home),9
-Danns,FWD,Liverpool,4.4,0.1,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,100,1375,Brentford (Home),9
-Isak,FWD,Liverpool,10.5,7.6,2.2,d,0,0,0,0,0,0,1,0.03,0.94,0.97,3.32,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,17340,359252,Brentford (Home),9
-Ekitiké,FWD,Liverpool,8.6,16.9,0.5,a,0,0,0,0,0,3,1,0.22,1.98,2.2,4.92,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,224463,193693,Brentford (Home),9
-Ngumoha,MID,Liverpool,4.5,0.6,0.2,a,0,0,0,0,0,1,0,0.1,0.37,0.47,0.56,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,2859,7274,Brentford (Home),9
-Leoni,DEF,Liverpool,4.9,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Brentford,0.0,0.0,0.0,0.0,0,0,0,22,57,Brentford (Home),9
+A.Becker,GKP,Liverpool,5.4,6.4,0.5,i,0,0,0,0,0,0,0,0.01,0.0,0.01,6.87,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,273,79798,Aston Villa (Away),9
+Mamardashvili,GKP,Liverpool,4.3,0.9,1.2,a,90,0,0,5,3,0,0,0.0,0.0,0.0,4.55,0,0,0,0,0,0,1,False,3.0,2.0,Brentford,38.8,0.0,0.0,3.9,11,0,2,15272,5776,Aston Villa (Away),9
+Pécsi,GKP,Liverpool,3.9,0.4,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,1311,1790,Aston Villa (Away),9
+Woodman,GKP,Liverpool,3.9,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,2021,1068,Aston Villa (Away),9
+Frimpong,DEF,Liverpool,5.8,6.1,0.5,i,0,0,0,0,0,0,1,0.34,0.09,0.43,1.96,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,3099,82813,Aston Villa (Away),9
+Kerkez,DEF,Liverpool,5.8,3.8,2.2,a,60,1,0,0,3,1,0,0.16,0.71,0.87,9.45,0,0,0,0,1,0,1,False,3.0,2.0,Brentford,42.2,7.1,35.0,8.4,11,0,6,4856,37166,Aston Villa (Away),9
+Robertson,DEF,Liverpool,5.8,1.0,0.5,a,29,0,0,0,0,0,0,0.43,0.13,0.56,1.97,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,6.4,1.0,2.0,0.9,7,0,1,1228,3711,Aston Villa (Away),9
+Virgil,DEF,Liverpool,6.0,26.0,2.2,a,90,0,0,0,3,0,0,0.17,0.41,0.58,11.42,0,0,0,0,0,0,1,False,3.0,2.0,Brentford,32.4,13.3,4.0,5.0,8,0,3,39311,169255,Aston Villa (Away),9
+Konaté,DEF,Liverpool,5.4,2.8,2.5,a,90,0,0,0,3,0,0,0.32,0.61,0.93,9.75,0,0,0,0,0,0,1,False,3.0,2.0,Brentford,25.6,11.6,4.0,4.1,10,0,3,12495,20505,Aston Villa (Away),9
+Bradley,DEF,Liverpool,5.0,0.2,1.8,a,61,0,1,0,3,0,1,0.19,0.06,0.25,5.75,0,0,0,0,0,0,1,False,3.0,2.0,Brentford,13.8,3.2,0.0,1.7,9,0,4,4169,1255,Aston Villa (Away),9
+Gomez,DEF,Liverpool,4.9,0.1,0.2,a,7,0,0,0,0,0,0,0.04,0.15,0.19,0.45,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.3,6.0,0.5,2,0,1,325,655,Aston Villa (Away),9
+Tsimikas,DEF,Liverpool,4.8,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,0,303,Aston Villa (Away),9
+Nallo,DEF,Liverpool,3.8,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,105,632,Aston Villa (Away),9
+R.Williams,DEF,Liverpool,3.9,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,190,811,Aston Villa (Away),9
+Ramsay,DEF,Liverpool,3.9,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,250,899,Aston Villa (Away),9
+M.Salah,MID,Liverpool,14.3,28.4,3.0,a,90,1,0,0,3,3,2,1.2,2.93,4.13,10.99,0,0,0,0,1,0,1,False,3.0,2.0,Brentford,34.8,16.5,55.0,10.6,12,0,6,14393,859539,Aston Villa (Away),9
+Wirtz,MID,Liverpool,8.1,8.0,1.5,a,82,0,0,0,3,0,0,1.31,1.22,2.52,8.85,0,0,0,0,0,0,1,False,3.0,2.0,Brentford,6.4,17.8,8.0,3.2,8,0,2,22539,69392,Aston Villa (Away),9
+Luis Díaz,MID,Liverpool,8.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,0,46,Aston Villa (Away),9
+Gakpo,MID,Liverpool,7.6,15.1,4.2,a,60,0,0,0,3,3,2,2.0,2.8,4.8,9.1,0,0,0,0,0,0,1,False,3.0,2.0,Brentford,2.0,29.3,3.0,3.4,13,0,2,396097,43393,Aston Villa (Away),9
+Chiesa,MID,Liverpool,6.4,0.3,2.5,a,29,0,0,0,0,2,1,0.07,0.82,0.89,1.78,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,6.6,1.0,9.0,1.7,6,0,1,4153,2007,Aston Villa (Away),9
+Mac Allister,MID,Liverpool,6.3,1.3,1.8,a,28,0,0,0,0,0,1,0.29,0.51,0.8,5.83,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,8.8,19.1,5.0,3.3,7,0,1,4355,7519,Aston Villa (Away),9
+Szoboszlai,MID,Liverpool,6.5,3.8,5.0,a,90,0,1,0,3,1,1,0.99,1.02,2.01,11.42,0,0,0,0,0,0,1,False,3.0,2.0,Brentford,59.0,42.8,13.0,11.5,38,3,10,35568,29073,Aston Villa (Away),9
+C.Jones,MID,Liverpool,5.4,0.1,1.2,d,69,0,0,0,3,0,1,0.95,0.34,1.29,5.78,0,0,0,0,0,0,1,False,3.0,2.0,Brentford,15.0,6.7,9.0,3.1,20,0,2,1078,527,Aston Villa (Away),9
+Gravenberch,MID,Liverpool,5.6,5.1,3.0,d,0,0,0,0,0,2,2,0.39,0.4,0.79,6.87,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,32544,177403,Aston Villa (Away),9
+Endo,MID,Liverpool,4.9,0.1,0.2,a,0,0,0,0,0,0,1,0.0,0.0,0.0,1.71,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,156,690,Aston Villa (Away),9
+Bajcetic,MID,Liverpool,4.3,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,40,256,Aston Villa (Away),9
+McConnell,MID,Liverpool,4.4,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,0,124,Aston Villa (Away),9
+Morton,MID,Liverpool,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,0,3,Aston Villa (Away),9
+Nyoni,MID,Liverpool,4.3,0.5,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,29795,5117,Aston Villa (Away),9
+Darwin,FWD,Liverpool,6.5,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,0,76,Aston Villa (Away),9
+Danns,FWD,Liverpool,4.4,0.1,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,100,1375,Aston Villa (Away),9
+Isak,FWD,Liverpool,10.5,7.3,2.2,d,0,0,0,0,0,0,1,0.03,0.94,0.97,3.32,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,17340,359252,Aston Villa (Away),9
+Ekitiké,FWD,Liverpool,8.6,16.9,1.0,a,90,0,0,0,3,3,1,0.23,2.28,2.51,7.13,0,0,0,0,0,0,1,False,3.0,2.0,Brentford,3.2,12.3,17.0,3.3,0,0,2,224463,193693,Aston Villa (Away),9
+Ngumoha,MID,Liverpool,4.5,0.6,0.5,a,20,0,0,0,0,1,0,0.11,0.37,0.48,0.71,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,1.0,10.8,2.0,1.4,2,0,1,2859,7274,Aston Villa (Away),9
+Leoni,DEF,Liverpool,4.9,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,22,57,Aston Villa (Away),9
+Morrison,MID,Liverpool,4.5,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,3.0,2.0,Brentford,0.0,0.0,0.0,0.0,0,0,0,0,0,Aston Villa (Away),9
 Trafford,GKP,Man City,4.7,1.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,3.97,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,335,6931,Aston Villa (Home),9
 Ederson M.,GKP,Man City,5.3,1.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,0,3443,Aston Villa (Home),9
 Ortega Moreno,GKP,Man City,4.8,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,114,502,Aston Villa (Home),9
@@ -3370,7 +3371,7 @@ Gvardiol,DEF,Man City,5.9,5.7,3.5,a,0,0,0,0,0,0,1,0.23,0.1,0.33,3.71,0,0,0,0,0,0
 Akanji,DEF,Man City,5.4,0.3,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,0,934,Aston Villa (Home),9
 Aké,DEF,Man City,5.4,0.7,1.8,a,0,0,0,0,0,0,0,0.17,0.28,0.45,2.16,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,1445,1701,Aston Villa (Home),9
 Khusanov,DEF,Man City,5.4,0.3,0.0,i,0,0,0,0,0,0,0,0.02,0.0,0.02,3.13,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,56,2116,Aston Villa (Home),9
-Matheus N.,DEF,Man City,5.3,0.7,6.0,a,0,0,0,0,0,1,1,0.28,0.2,0.48,4.06,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,23898,3394,Aston Villa (Home),9
+Matheus N.,DEF,Man City,5.3,0.8,6.0,a,0,0,0,0,0,1,1,0.28,0.2,0.48,4.06,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,23898,3394,Aston Villa (Home),9
 Rúben,DEF,Man City,5.5,4.5,4.2,a,0,0,0,0,0,0,0,0.18,0.0,0.18,7.3,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,26397,13851,Aston Villa (Home),9
 Stones,DEF,Man City,5.5,0.7,0.0,a,0,0,0,0,0,0,0,0.04,0.0,0.04,4.04,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,1293,3998,Aston Villa (Home),9
 Lewis,DEF,Man City,4.9,1.8,0.5,a,0,0,0,0,0,0,1,0.91,0.02,0.93,2.57,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,1359,16960,Aston Villa (Home),9
@@ -3381,102 +3382,102 @@ Foden,MID,Man City,8.1,5.3,1.8,a,0,0,0,0,0,1,0,1.03,0.79,1.82,4.64,0,0,0,0,0,0,0
 Savinho,MID,Man City,6.9,0.5,2.8,a,0,0,0,0,0,0,1,0.43,0.2,0.63,3.58,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,5943,1788,Aston Villa (Home),9
 Bernardo,MID,Man City,6.3,0.6,0.8,a,0,0,0,0,0,0,1,1.08,0.1,1.18,4.56,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,2642,5314,Aston Villa (Home),9
 Cherki,MID,Man City,6.3,2.0,0.2,a,0,0,0,0,0,1,0,0.48,0.2,0.68,0.83,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,7353,5590,Aston Villa (Home),9
-Doku,MID,Man City,6.6,6.7,3.0,a,0,0,0,0,0,0,4,1.52,0.95,2.47,4.2,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,27608,174621,Aston Villa (Home),9
+Doku,MID,Man City,6.6,6.6,3.0,a,0,0,0,0,0,0,4,1.52,0.95,2.47,4.2,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,27608,174621,Aston Villa (Home),9
 Gündoğan,MID,Man City,6.3,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,0,178,Aston Villa (Home),9
 Rodrigo,MID,Man City,6.3,0.5,0.2,i,0,0,0,0,0,0,0,0.22,0.14,0.36,3.76,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,48,5806,Aston Villa (Home),9
 Kovačić,MID,Man City,5.9,0.0,0.2,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,397,268,Aston Villa (Home),9
 N.Gonzalez,MID,Man City,5.9,0.1,2.5,d,0,0,0,0,0,0,0,0.37,0.1,0.47,4.91,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,577,677,Aston Villa (Home),9
 Bobb,MID,Man City,5.4,0.3,1.2,a,0,0,0,0,0,0,1,0.88,0.37,1.25,4.56,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,1255,3601,Aston Villa (Home),9
 Echeverri,MID,Man City,5.4,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,0,28,Aston Villa (Home),9
-Reijnders,MID,Man City,5.7,28.6,1.5,a,0,0,0,0,0,1,2,0.56,1.29,1.85,8.22,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,39997,485984,Aston Villa (Home),9
+Reijnders,MID,Man City,5.7,28.4,1.5,a,0,0,0,0,0,1,2,0.56,1.29,1.85,8.22,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,39997,485984,Aston Villa (Home),9
 Nypan,MID,Man City,5.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,0,24,Aston Villa (Home),9
 Phillips,MID,Man City,4.8,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,162,281,Aston Villa (Home),9
-Haaland,FWD,Man City,14.7,67.7,9.2,a,0,0,0,0,0,11,1,0.59,8.62,9.21,8.0,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,478726,8452,Aston Villa (Home),9
-Donnarumma,GKP,Man City,5.7,10.3,3.5,a,0,0,0,0,0,0,0,0.0,0.0,0.0,4.52,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,90639,26442,Aston Villa (Home),9
+Haaland,FWD,Man City,14.7,68.0,9.2,a,0,0,0,0,0,11,1,0.59,8.62,9.21,8.0,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,478726,8452,Aston Villa (Home),9
+Donnarumma,GKP,Man City,5.7,10.4,3.5,a,0,0,0,0,0,0,0,0.0,0.0,0.0,4.52,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,90639,26442,Aston Villa (Home),9
 Mukasa,MID,Man City,4.5,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,124,156,Aston Villa (Home),9
 Mfuni,DEF,Man City,4.0,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,154,197,Aston Villa (Home),9
 McAidoo,MID,Man City,4.5,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Aston Villa,0.0,0.0,0.0,0.0,0,0,0,124,71,Aston Villa (Home),9
-Mbeumo,MID,Man Utd,8.1,15.3,4.2,a,0,0,0,0,0,2,1,1.8,2.33,4.13,12.11,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,274596,38115,Brighton (Away),9
-Bayindir,GKP,Man Utd,4.9,0.4,0.5,a,0,0,0,0,0,0,0,0.05,0.0,0.05,9.24,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,531,3078,Brighton (Away),9
-Onana,GKP,Man Utd,4.9,0.2,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,468,Brighton (Away),9
-Harrison,GKP,Man Utd,4.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,3,Brighton (Away),9
-Heaton,GKP,Man Utd,4.0,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,212,867,Brighton (Away),9
-Mee,GKP,Man Utd,4.0,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,97,305,Brighton (Away),9
-De Ligt,DEF,Man Utd,5.0,2.9,3.2,a,0,0,0,0,0,0,0,0.45,0.89,1.34,12.7,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,23037,10180,Brighton (Away),9
-Martinez,DEF,Man Utd,4.8,0.1,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,57,199,Brighton (Away),9
-Mazraoui,DEF,Man Utd,4.9,0.2,0.0,a,0,0,0,0,0,0,0,0.13,0.0,0.13,1.59,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,507,860,Brighton (Away),9
-D.Leon,DEF,Man Utd,4.3,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,90,276,Brighton (Away),9
-Dalot,DEF,Man Utd,4.4,1.0,3.5,a,0,0,0,0,0,0,2,0.78,0.06,0.84,8.23,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,11997,3109,Brighton (Away),9
-Dorgu,DEF,Man Utd,4.4,3.7,0.5,a,0,0,0,0,0,0,1,0.58,0.24,0.82,10.07,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,3261,47654,Brighton (Away),9
-Maguire,DEF,Man Utd,4.4,0.9,3.2,d,0,0,0,0,0,1,1,0.02,0.32,0.34,6.2,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,23907,4453,Brighton (Away),9
-Shaw,DEF,Man Utd,4.5,0.3,2.2,a,0,0,0,0,0,0,0,0.13,0.08,0.21,12.05,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,5411,1646,Brighton (Away),9
-Yoro,DEF,Man Utd,4.5,1.8,2.0,a,0,0,0,0,0,0,1,0.04,0.29,0.33,7.02,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,3703,12628,Brighton (Away),9
-Amass,DEF,Man Utd,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,355,Brighton (Away),9
-Fredricson,DEF,Man Utd,3.9,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,132,456,Brighton (Away),9
-Heaven,DEF,Man Utd,3.9,1.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.03,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,954,7708,Brighton (Away),9
-Malacia,DEF,Man Utd,3.9,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,547,1830,Brighton (Away),9
-B.Fernandes,MID,Man Utd,8.9,17.0,2.5,a,0,0,0,0,0,2,1,1.42,3.89,5.31,12.28,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,112314,79684,Brighton (Away),9
-Cunha,MID,Man Utd,7.9,3.7,1.2,a,0,0,0,0,0,0,0,0.56,1.4,1.96,8.48,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,19912,21761,Brighton (Away),9
-Rashford,MID,Man Utd,7.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,24,Brighton (Away),9
-Amad,MID,Man Utd,6.3,1.2,1.5,a,0,0,0,0,0,0,2,1.03,1.89,2.92,6.99,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,16157,5821,Brighton (Away),9
-Antony,MID,Man Utd,5.9,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,115,Brighton (Away),9
-Mount,MID,Man Utd,5.9,0.3,3.5,d,0,0,0,0,0,1,0,0.52,0.5,1.02,4.14,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,7651,3198,Brighton (Away),9
-Casemiro,MID,Man Utd,5.5,0.2,1.0,a,0,0,0,0,0,1,1,0.09,1.04,1.13,4.87,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,2728,1610,Brighton (Away),9
-Mainoo,MID,Man Utd,4.8,0.5,0.8,a,0,0,0,0,0,0,0,0.11,0.07,0.18,2.97,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,1662,3408,Brighton (Away),9
-Ugarte,MID,Man Utd,4.8,0.1,1.0,a,0,0,0,0,0,0,0,0.03,0.05,0.08,7.4,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,1194,1155,Brighton (Away),9
-Collyer,MID,Man Utd,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,161,Brighton (Away),9
-Fitzgerald,MID,Man Utd,4.4,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,102,170,Brighton (Away),9
-J.Fletcher,MID,Man Utd,4.4,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,104,256,Brighton (Away),9
-Kone,MID,Man Utd,4.4,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,237,436,Brighton (Away),9
-Moorhouse,MID,Man Utd,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,89,Brighton (Away),9
-Højlund,FWD,Man Utd,6.3,0.3,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,534,Brighton (Away),9
-Zirkzee,FWD,Man Utd,5.8,0.4,0.2,a,0,0,0,0,0,0,0,0.03,0.79,0.82,1.48,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,1361,2279,Brighton (Away),9
-Obi,FWD,Man Utd,4.3,1.7,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,19510,17802,Brighton (Away),9
-Wheatley,FWD,Man Utd,4.5,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,527,Brighton (Away),9
-Šeško,FWD,Man Utd,7.3,5.2,4.5,a,0,0,0,0,0,2,0,0.15,1.6,1.75,7.96,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,38803,44370,Brighton (Away),9
-Lammens,GKP,Man Utd,5.0,0.9,3.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,3.46,0,0,0,0,0,0,0,True,,,Brighton,0.0,0.0,0.0,0.0,0,0,0,53788,2921,Brighton (Away),9
-J.Ramsey,MID,Newcastle,5.3,0.2,0.2,a,0,0,0,0,0,0,0,0.13,0.03,0.16,1.05,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,792,869,Fulham (Away),9
-Wissa,FWD,Newcastle,7.4,0.5,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,171,2848,Fulham (Away),9
-Pope,GKP,Newcastle,5.2,12.0,2.8,a,0,0,0,0,0,0,1,0.0,0.0,0.0,5.89,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,119920,36394,Fulham (Away),9
-Gillespie,GKP,Newcastle,4.0,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,130,431,Fulham (Away),9
-Odysseas,GKP,Newcastle,4.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,0,54,Fulham (Away),9
-Hall,DEF,Newcastle,5.2,0.9,0.0,i,0,0,0,0,0,0,0,0.05,0.04,0.09,1.0,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,67,16100,Fulham (Away),9
-Schär,DEF,Newcastle,5.4,1.9,0.0,a,0,0,0,0,0,0,0,0.07,0.08,0.15,1.72,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,5342,15889,Fulham (Away),9
-Botman,DEF,Newcastle,4.9,0.7,2.5,a,0,0,0,0,0,0,0,0.24,0.13,0.37,4.42,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,10013,4170,Fulham (Away),9
-Burn,DEF,Newcastle,5.1,10.7,3.2,a,0,0,0,0,0,0,1,0.18,0.05,0.23,5.89,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,143544,42496,Fulham (Away),9
-Livramento,DEF,Newcastle,5.0,3.8,1.5,i,0,0,0,0,0,0,1,0.33,0.0,0.33,4.28,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,212,115727,Fulham (Away),9
-Trippier,DEF,Newcastle,5.0,2.7,1.8,a,0,0,0,0,0,0,0,0.61,0.0,0.61,3.34,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,20015,13581,Fulham (Away),9
-Krafth,DEF,Newcastle,4.4,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,48,167,Fulham (Away),9
-Lascelles,DEF,Newcastle,4.3,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.04,0.04,0.55,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,93,300,Fulham (Away),9
-A.Murphy,DEF,Newcastle,3.9,0.6,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,1484,3361,Fulham (Away),9
-Ashby,DEF,Newcastle,3.9,0.1,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,72,1466,Fulham (Away),9
-Pivas,DEF,Newcastle,3.9,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,326,1124,Fulham (Away),9
-Targett,DEF,Newcastle,4.0,0.2,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,0,1309,Fulham (Away),9
-Gordon,MID,Newcastle,7.5,3.2,2.0,a,0,0,0,0,0,0,0,0.24,1.28,1.52,2.78,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,68618,29487,Fulham (Away),9
-Elanga,MID,Newcastle,6.8,4.1,1.2,a,0,0,0,0,0,0,0,0.21,0.61,0.82,2.53,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,5394,47038,Fulham (Away),9
-Barnes,MID,Newcastle,6.4,0.4,0.8,a,0,0,0,0,0,0,0,0.87,0.71,1.58,1.67,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,4251,5667,Fulham (Away),9
-Bruno G.,MID,Newcastle,6.5,2.4,4.5,a,0,0,0,0,0,2,1,0.78,0.68,1.46,5.33,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,28822,16394,Fulham (Away),9
-J.Murphy,MID,Newcastle,6.1,0.9,1.2,a,0,0,0,0,0,0,1,0.76,1.41,2.17,3.48,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,4004,10941,Fulham (Away),9
-Joelinton,MID,Newcastle,5.9,0.3,1.8,a,0,0,0,0,0,0,0,0.36,0.55,0.91,3.69,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,2503,2508,Fulham (Away),9
-Tonali,MID,Newcastle,5.4,1.4,2.8,d,0,0,0,0,0,0,1,1.04,0.37,1.41,5.39,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,11911,16872,Fulham (Away),9
-Antoñito C.,MID,Newcastle,4.9,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,0,98,Fulham (Away),9
-Willock,MID,Newcastle,5.0,0.1,0.0,a,0,0,0,0,0,0,0,0.01,0.09,0.1,0.52,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,431,455,Fulham (Away),9
-Hayden,MID,Newcastle,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,0,34,Fulham (Away),9
-Kuol,MID,Newcastle,4.4,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,0,261,Fulham (Away),9
-L.Miley,MID,Newcastle,4.4,2.1,1.2,a,0,0,0,0,0,0,1,0.31,0.03,0.34,1.32,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,18720,14373,Fulham (Away),9
-White,MID,Newcastle,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,0,22,Fulham (Away),9
-Osula,FWD,Newcastle,5.5,0.3,0.8,a,0,0,0,0,0,1,0,0.02,0.4,0.42,1.77,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,1558,4096,Fulham (Away),9
-Neave,FWD,Newcastle,4.4,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,861,1515,Fulham (Away),9
-Ramsdale,GKP,Newcastle,4.8,0.6,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,736,2548,Fulham (Away),9
-Thiaw,DEF,Newcastle,4.9,0.4,3.0,a,0,0,0,0,0,0,0,0.04,0.7,0.74,4.04,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,11573,2498,Fulham (Away),9
-Seung soo,MID,Newcastle,4.4,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,1331,2173,Fulham (Away),9
-Woltemade,FWD,Newcastle,7.5,21.2,5.2,a,0,0,0,0,0,4,0,0.2,2.64,2.84,3.6,0,0,0,0,0,0,0,True,,,Fulham,0.0,0.0,0.0,0.0,0,0,0,968397,28074,Fulham (Away),9
+Mbeumo,MID,Man Utd,8.1,16.4,8.0,a,90,2,0,0,2,4,1,2.04,2.89,4.93,13.23,0,0,0,0,0,0,1,True,4.0,2.0,Brighton,81.0,36.6,53.0,17.1,65,3,15,274596,38115,Nott'm Forest (Home),9
+Bayindir,GKP,Man Utd,4.9,0.4,0.5,a,0,0,0,0,0,0,0,0.05,0.0,0.05,9.24,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,531,3078,Nott'm Forest (Home),9
+Onana,GKP,Man Utd,4.9,0.2,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,468,Nott'm Forest (Home),9
+Harrison,GKP,Man Utd,4.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,3,Nott'm Forest (Home),9
+Heaton,GKP,Man Utd,3.9,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,212,867,Nott'm Forest (Home),9
+Mee,GKP,Man Utd,4.0,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,97,305,Nott'm Forest (Home),9
+De Ligt,DEF,Man Utd,5.0,2.9,3.5,a,90,0,0,0,2,0,0,0.45,0.89,1.34,13.82,0,0,0,0,0,0,1,True,4.0,2.0,Brighton,16.8,1.4,0.0,1.8,9,0,1,23037,10180,Nott'm Forest (Home),9
+Martinez,DEF,Man Utd,4.8,0.1,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,57,199,Nott'm Forest (Home),9
+Mazraoui,DEF,Man Utd,4.9,0.2,0.0,a,0,0,0,0,0,0,0,0.13,0.0,0.13,1.59,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,507,860,Nott'm Forest (Home),9
+D.Leon,DEF,Man Utd,4.3,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,90,276,Nott'm Forest (Home),9
+Dalot,DEF,Man Utd,4.4,1.0,3.8,a,90,0,0,0,2,0,2,0.86,0.09,0.95,9.35,0,0,0,0,0,0,1,True,4.0,2.0,Brighton,9.6,14.8,1.0,2.5,4,0,1,11997,3109,Nott'm Forest (Home),9
+Dorgu,DEF,Man Utd,4.4,3.6,0.2,a,20,0,0,0,2,0,1,0.58,0.24,0.82,10.63,0,0,0,0,1,0,0,True,4.0,2.0,Brighton,3.4,0.8,0.0,0.4,-7,0,-1,3261,47654,Nott'm Forest (Home),9
+Maguire,DEF,Man Utd,4.4,0.9,3.2,d,0,0,0,0,0,1,1,0.02,0.32,0.34,6.2,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,23907,4453,Nott'm Forest (Home),9
+Shaw,DEF,Man Utd,4.5,0.4,4.5,a,64,0,1,0,0,0,1,0.13,0.08,0.21,12.61,1,0,0,0,0,0,1,True,4.0,2.0,Brighton,21.4,11.4,0.0,3.3,31,0,9,5411,1646,Nott'm Forest (Home),9
+Yoro,DEF,Man Utd,4.5,1.8,2.2,a,90,0,0,0,2,0,1,0.05,0.29,0.34,8.14,0,0,0,0,0,0,1,True,4.0,2.0,Brighton,12.8,2.8,0.0,1.6,8,0,1,3703,12628,Nott'm Forest (Home),9
+Amass,DEF,Man Utd,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,355,Nott'm Forest (Home),9
+Fredricson,DEF,Man Utd,3.9,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,132,456,Nott'm Forest (Home),9
+Heaven,DEF,Man Utd,3.9,1.0,0.8,a,25,0,1,0,2,0,1,0.08,0.0,0.08,0.59,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,26.6,10.3,0.0,3.7,11,0,3,954,7708,Nott'm Forest (Home),9
+Malacia,DEF,Man Utd,3.9,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,547,1830,Nott'm Forest (Home),9
+B.Fernandes,MID,Man Utd,8.9,16.9,3.5,a,90,0,0,0,2,2,1,1.61,4.27,5.88,13.4,0,0,0,0,0,0,1,True,4.0,2.0,Brighton,30.4,30.6,48.0,10.9,27,0,4,112314,79684,Nott'm Forest (Home),9
+Cunha,MID,Man Utd,7.9,3.7,3.2,a,81,1,0,0,1,1,0,0.86,1.49,2.35,9.28,0,0,0,0,0,0,1,True,4.0,2.0,Brighton,51.2,27.7,18.0,9.7,41,1,8,19912,21761,Nott'm Forest (Home),9
+Rashford,MID,Man Utd,7.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,24,Nott'm Forest (Home),9
+Amad,MID,Man Utd,6.3,1.2,2.2,a,69,0,0,0,0,0,2,1.04,1.89,2.93,7.55,1,0,0,0,0,0,1,True,4.0,2.0,Brighton,2.2,5.6,8.0,1.6,11,0,3,16157,5821,Nott'm Forest (Home),9
+Antony,MID,Man Utd,5.9,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,115,Nott'm Forest (Home),9
+Mount,MID,Man Utd,5.9,0.3,3.5,d,0,0,0,0,0,1,0,0.52,0.5,1.02,4.14,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,7651,3198,Nott'm Forest (Home),9
+Casemiro,MID,Man Utd,5.5,0.3,4.8,a,69,1,1,0,0,2,2,0.11,1.06,1.17,5.43,1,0,0,0,0,0,1,True,4.0,2.0,Brighton,65.8,16.7,9.0,9.2,43,2,15,2728,1610,Nott'm Forest (Home),9
+Mainoo,MID,Man Utd,4.8,0.5,1.0,a,20,0,0,0,2,0,0,0.12,0.07,0.19,3.53,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,3.6,12.1,2.0,1.8,3,0,1,1662,3408,Nott'm Forest (Home),9
+Ugarte,MID,Man Utd,4.8,0.1,1.2,a,9,0,0,0,1,0,0,0.03,0.05,0.08,7.72,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,5.6,0.8,0.0,0.6,6,0,1,1194,1155,Nott'm Forest (Home),9
+Collyer,MID,Man Utd,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,161,Nott'm Forest (Home),9
+Fitzgerald,MID,Man Utd,4.4,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,102,170,Nott'm Forest (Home),9
+J.Fletcher,MID,Man Utd,4.4,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,104,256,Nott'm Forest (Home),9
+Kone,MID,Man Utd,4.4,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,237,436,Nott'm Forest (Home),9
+Moorhouse,MID,Man Utd,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,89,Nott'm Forest (Home),9
+Højlund,FWD,Man Utd,6.3,0.3,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,534,Nott'm Forest (Home),9
+Zirkzee,FWD,Man Utd,5.8,0.4,0.5,a,8,0,0,0,1,0,0,0.03,0.79,0.82,1.8,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,5.2,1.1,2.0,0.8,3,0,1,1361,2279,Nott'm Forest (Home),9
+Obi,FWD,Man Utd,4.3,1.6,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,19510,17802,Nott'm Forest (Home),9
+Wheatley,FWD,Man Utd,4.5,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,4.0,2.0,Brighton,0.0,0.0,0.0,0.0,0,0,0,0,527,Nott'm Forest (Home),9
+Šeško,FWD,Man Utd,7.3,5.2,5.5,a,81,0,1,0,1,2,1,0.16,1.81,1.97,8.76,0,0,0,0,1,0,1,True,4.0,2.0,Brighton,16.8,13.9,11.0,4.2,10,0,4,38803,44370,Nott'm Forest (Home),9
+Lammens,GKP,Man Utd,5.0,1.0,3.5,a,90,0,0,3,2,0,0,0.0,0.0,0.0,4.58,0,0,0,0,0,0,1,True,4.0,2.0,Brighton,20.4,0.0,0.0,2.0,9,0,2,53788,2921,Nott'm Forest (Home),9
+J.Ramsey,MID,Newcastle,5.3,0.2,0.2,a,0,0,0,0,0,0,0,0.13,0.03,0.16,1.05,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,792,869,West Ham (Home),9
+Wissa,FWD,Newcastle,7.4,0.5,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,171,2848,West Ham (Home),9
+Pope,GKP,Newcastle,5.2,12.0,3.5,a,90,0,0,4,1,0,1,0.0,0.0,0.0,7.42,0,0,0,0,0,0,1,True,2.0,1.0,Fulham,27.4,0.0,0.0,2.7,14,0,3,119920,36394,West Ham (Home),9
+Gillespie,GKP,Newcastle,4.0,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,130,431,West Ham (Home),9
+Odysseas,GKP,Newcastle,4.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,0,54,West Ham (Home),9
+Hall,DEF,Newcastle,5.2,0.8,0.0,i,0,0,0,0,0,0,0,0.05,0.04,0.09,1.0,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,67,16100,West Ham (Home),9
+Schär,DEF,Newcastle,5.4,1.9,0.2,a,29,0,0,0,0,0,0,0.08,0.08,0.16,1.9,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,19.4,0.3,0.0,2.0,8,0,1,5342,15889,West Ham (Home),9
+Botman,DEF,Newcastle,4.9,0.7,3.0,a,60,0,0,0,1,0,0,0.24,0.13,0.37,5.77,0,0,0,0,0,0,1,True,2.0,1.0,Fulham,8.2,0.0,6.0,1.4,3,0,2,10013,4170,West Ham (Home),9
+Burn,DEF,Newcastle,5.1,10.7,3.8,a,90,0,0,0,1,0,1,0.19,0.05,0.24,7.42,0,0,0,0,0,0,1,True,2.0,1.0,Fulham,3.0,1.1,4.0,0.8,1,0,2,143544,42496,West Ham (Home),9
+Livramento,DEF,Newcastle,5.0,3.7,1.5,i,0,0,0,0,0,0,1,0.33,0.0,0.33,4.28,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,212,115727,West Ham (Home),9
+Trippier,DEF,Newcastle,5.0,2.7,2.2,a,90,0,0,0,1,0,0,0.87,0.0,0.87,4.87,0,0,0,0,0,0,1,True,2.0,1.0,Fulham,24.2,31.2,0.0,5.5,19,0,2,20015,13581,West Ham (Home),9
+Krafth,DEF,Newcastle,4.4,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,48,167,West Ham (Home),9
+Lascelles,DEF,Newcastle,4.3,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.04,0.04,0.55,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,93,300,West Ham (Home),9
+A.Murphy,DEF,Newcastle,3.9,0.6,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,1484,3361,West Ham (Home),9
+Ashby,DEF,Newcastle,3.9,0.1,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,72,1466,West Ham (Home),9
+Pivas,DEF,Newcastle,3.9,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,326,1124,West Ham (Home),9
+Targett,DEF,Newcastle,4.0,0.2,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,0,1309,West Ham (Home),9
+Gordon,MID,Newcastle,7.5,3.2,2.5,a,75,0,0,0,1,0,0,0.66,1.28,1.94,4.31,0,0,0,0,0,0,1,True,2.0,1.0,Fulham,3.4,28.7,10.0,4.2,12,0,2,68618,29487,West Ham (Home),9
+Elanga,MID,Newcastle,6.8,4.1,1.5,a,14,0,0,0,0,0,0,0.28,0.78,1.06,2.53,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,7.4,20.3,9.0,3.7,5,0,1,5394,47038,West Ham (Home),9
+Barnes,MID,Newcastle,6.4,0.4,1.0,a,29,0,0,0,0,0,0,0.92,0.71,1.63,1.85,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,5.0,16.8,8.0,3.0,6,0,1,4251,5667,West Ham (Home),9
+Bruno G.,MID,Newcastle,6.5,2.5,7.0,a,90,1,0,0,1,3,1,0.88,1.48,2.36,6.86,0,0,0,0,0,0,1,True,2.0,1.0,Fulham,46.0,46.9,25.0,11.8,39,3,10,28822,16394,West Ham (Home),9
+J.Murphy,MID,Newcastle,6.1,0.9,3.2,a,60,1,0,0,1,1,1,0.79,1.9,2.69,4.83,0,0,0,0,0,0,1,True,2.0,1.0,Fulham,41.0,3.8,57.0,10.2,30,1,8,4004,10941,West Ham (Home),9
+Joelinton,MID,Newcastle,5.9,0.3,2.8,a,90,0,0,0,1,0,0,0.39,0.62,1.01,5.22,0,0,0,0,0,0,1,True,2.0,1.0,Fulham,22.2,27.0,11.0,6.0,18,0,4,2503,2508,West Ham (Home),9
+Tonali,MID,Newcastle,5.4,1.4,3.0,a,29,0,0,0,0,0,1,1.05,0.45,1.5,5.57,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,8.6,1.8,24.0,3.4,7,0,1,11911,16872,West Ham (Home),9
+Antoñito C.,MID,Newcastle,4.9,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,0,98,West Ham (Home),9
+Willock,MID,Newcastle,5.0,0.1,0.0,a,0,0,0,0,0,0,0,0.01,0.09,0.1,0.52,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,431,455,West Ham (Home),9
+Hayden,MID,Newcastle,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,0,34,West Ham (Home),9
+Kuol,MID,Newcastle,4.4,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,0,261,West Ham (Home),9
+L.Miley,MID,Newcastle,4.4,2.1,1.8,a,60,0,0,0,1,0,1,0.32,0.03,0.35,2.67,0,0,0,0,0,0,1,True,2.0,1.0,Fulham,0.2,2.5,2.0,0.5,5,0,2,18720,14373,West Ham (Home),9
+White,MID,Newcastle,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,0,22,West Ham (Home),9
+Osula,FWD,Newcastle,5.5,0.3,1.8,a,4,0,1,0,0,1,1,0.02,0.53,0.55,1.77,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,3.0,0.0,12.0,1.5,13,0,4,1558,4096,West Ham (Home),9
+Neave,FWD,Newcastle,4.4,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,861,1515,West Ham (Home),9
+Ramsdale,GKP,Newcastle,4.8,0.6,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,736,2548,West Ham (Home),9
+Thiaw,DEF,Newcastle,4.9,0.4,3.5,a,90,0,0,0,1,0,0,0.28,0.74,1.02,5.57,0,0,0,0,0,0,1,True,2.0,1.0,Fulham,17.0,1.3,3.0,2.1,14,0,2,11573,2498,West Ham (Home),9
+Seung soo,MID,Newcastle,4.4,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,True,2.0,1.0,Fulham,0.0,0.0,0.0,0.0,0,0,0,1331,2173,West Ham (Home),9
+Woltemade,FWD,Newcastle,7.5,21.6,5.8,a,85,0,0,0,1,4,0,0.21,3.03,3.24,5.13,0,0,0,0,0,0,1,True,2.0,1.0,Fulham,1.4,12.2,15.0,2.9,4,0,2,968397,28074,West Ham (Home),9
 Zinchenko,DEF,Nott'm Forest,4.9,0.3,0.8,d,0,0,0,0,0,0,0,0.3,0.04,0.34,3.45,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,976,1488,Bournemouth (Home),9
 McAtee,MID,Nott'm Forest,5.2,0.1,0.2,a,0,0,0,0,0,0,0,0.17,0.02,0.19,2.77,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,353,961,Bournemouth (Home),9
-Sels,GKP,Nott'm Forest,4.8,9.2,1.8,a,0,0,0,0,0,0,0,0.0,0.0,0.0,13.85,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,3925,84060,Bournemouth (Home),9
+Sels,GKP,Nott'm Forest,4.8,9.1,1.8,a,0,0,0,0,0,0,0,0.0,0.0,0.0,13.85,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,3925,84060,Bournemouth (Home),9
 C.Miguel,GKP,Nott'm Forest,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,0,406,Bournemouth (Home),9
 Turner,GKP,Nott'm Forest,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,0,413,Bournemouth (Home),9
-Milenković,DEF,Nott'm Forest,5.3,4.5,1.2,a,0,0,0,0,0,0,0,0.2,0.38,0.58,13.85,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,3611,51362,Bournemouth (Home),9
+Milenković,DEF,Nott'm Forest,5.3,4.4,1.2,a,0,0,0,0,0,0,0,0.2,0.38,0.58,13.85,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,3611,51362,Bournemouth (Home),9
 Murillo,DEF,Nott'm Forest,5.3,2.1,0.2,a,0,0,0,0,0,0,0,0.21,0.0,0.21,7.38,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,2567,15155,Bournemouth (Home),9
 Aina,DEF,Nott'm Forest,4.8,2.8,0.0,i,0,0,0,0,0,0,0,0.32,0.04,0.36,5.02,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,62,32764,Bournemouth (Home),9
 N.Williams,DEF,Nott'm Forest,4.8,3.9,0.5,a,0,0,0,0,0,1,0,0.4,0.75,1.15,13.85,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,4611,47851,Bournemouth (Home),9
@@ -3496,8 +3497,8 @@ Sangaré,MID,Nott'm Forest,4.9,0.1,0.2,a,0,0,0,0,0,0,0,0.11,0.28,0.39,7.65,0,0,0
 Yates,MID,Nott'm Forest,4.8,0.1,0.2,a,0,0,0,0,0,0,0,0.01,0.07,0.08,1.11,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,186,608,Bournemouth (Home),9
 Da Silva Moreira,MID,Nott'm Forest,4.5,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,0,340,Bournemouth (Home),9
 Stamenic,MID,Nott'm Forest,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,0,90,Bournemouth (Home),9
-Wood,FWD,Nott'm Forest,7.2,8.2,1.2,d,0,0,0,0,0,2,0,0.11,2.81,2.92,7.84,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,6482,197602,Bournemouth (Home),9
-Igor Jesus,FWD,Nott'm Forest,5.8,0.6,0.8,a,0,0,0,0,0,0,0,0.05,1.0,1.05,6.02,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,6324,10825,Bournemouth (Home),9
+Wood,FWD,Nott'm Forest,7.2,8.1,1.2,d,0,0,0,0,0,2,0,0.11,2.81,2.92,7.84,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,6482,197602,Bournemouth (Home),9
+Igor Jesus,FWD,Nott'm Forest,5.8,0.7,0.8,a,0,0,0,0,0,0,0,0.05,1.0,1.05,6.02,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,6324,10825,Bournemouth (Home),9
 Awoniyi,FWD,Nott'm Forest,5.2,0.4,0.2,a,0,0,0,0,0,0,0,0.02,0.08,0.1,0.37,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,2578,2950,Bournemouth (Home),9
 Ndoye,MID,Nott'm Forest,5.8,1.5,0.8,a,0,0,0,0,0,1,1,0.64,0.15,0.79,7.36,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,1053,34648,Bournemouth (Home),9
 Gunn,GKP,Nott'm Forest,4.0,1.5,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,422,3340,Bournemouth (Home),9
@@ -3508,69 +3509,69 @@ John,GKP,Nott'm Forest,4.0,0.4,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0
 Savona,DEF,Nott'm Forest,4.5,0.0,0.5,a,0,0,0,0,0,0,0,0.05,0.0,0.05,4.43,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,104,144,Bournemouth (Home),9
 Cuiabano,DEF,Nott'm Forest,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,0,1,Bournemouth (Home),9
 Bakwa,MID,Nott'm Forest,6.0,0.0,0.8,i,0,0,0,0,0,0,0,0.27,0.13,0.4,3.23,0,0,0,0,0,0,0,False,,,Bournemouth,0.0,0.0,0.0,0.0,0,0,0,123,275,Bournemouth (Home),9
-Patterson,GKP,Sunderland,4.3,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,291,998,Chelsea (Home),9
-Moore,GKP,Sunderland,4.0,0.4,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,332,1226,Chelsea (Home),9
-Nna Noukeu,GKP,Sunderland,4.0,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,270,388,Chelsea (Home),9
-Ballard,DEF,Sunderland,4.6,2.4,3.5,a,0,0,0,0,0,1,0,0.31,0.55,0.86,3.07,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,9468,8191,Chelsea (Home),9
-Hume,DEF,Sunderland,4.5,0.4,4.5,a,0,0,0,0,0,0,1,0.36,0.35,0.71,9.21,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,7422,2186,Chelsea (Home),9
-Alese,DEF,Sunderland,4.0,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,38,18,Chelsea (Home),9
-Anderson,DEF,Sunderland,3.9,0.5,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,1387,2790,Chelsea (Home),9
-Cirkin,DEF,Sunderland,4.0,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,26,74,Chelsea (Home),9
-Hjelde,DEF,Sunderland,4.0,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,34,29,Chelsea (Home),9
-Huggins,DEF,Sunderland,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,423,Chelsea (Home),9
-Johnson,DEF,Sunderland,3.9,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,995,1454,Chelsea (Home),9
-O'Nien,DEF,Sunderland,4.0,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,384,302,Chelsea (Home),9
-Pembele,DEF,Sunderland,3.9,0.4,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,1282,2766,Chelsea (Home),9
-Reinildo,DEF,Sunderland,4.0,4.6,0.0,a,0,0,0,0,0,0,0,0.04,0.02,0.06,4.78,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,2946,31849,Chelsea (Home),9
-Seelt,DEF,Sunderland,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.01,0.0,0.01,1.33,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,738,Chelsea (Home),9
-Adingra,MID,Sunderland,5.2,0.6,0.5,a,0,0,0,0,0,0,1,0.25,0.14,0.39,3.03,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,942,8435,Chelsea (Home),9
-Diarra,MID,Sunderland,5.4,0.0,0.0,i,0,0,0,0,0,0,1,0.08,0.5,0.58,3.87,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,39,459,Chelsea (Home),9
-Roberts,MID,Sunderland,5.4,0.0,0.0,u,0,0,0,0,0,0,0,0.02,0.03,0.05,0.66,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,49,Chelsea (Home),9
-Aleksić,MID,Sunderland,4.9,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,52,Chelsea (Home),9
-E.Le Fée,MID,Sunderland,4.9,0.4,2.5,a,0,0,0,0,0,1,0,0.26,0.83,1.09,6.31,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,2319,3316,Chelsea (Home),9
-Mundle,MID,Sunderland,4.9,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,11,16,Chelsea (Home),9
-Neil,MID,Sunderland,4.8,0.0,0.2,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.2,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,124,109,Chelsea (Home),9
-Poveda,MID,Sunderland,4.8,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,37,65,Chelsea (Home),9
-Rigg,MID,Sunderland,4.8,0.0,1.0,a,0,0,0,0,0,0,0,0.05,0.12,0.17,1.17,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,438,285,Chelsea (Home),9
-Sadiki,MID,Sunderland,5.0,0.0,1.5,a,0,0,0,0,0,0,0,0.34,0.08,0.42,9.01,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,240,340,Chelsea (Home),9
-Talbi,MID,Sunderland,5.0,0.2,2.0,a,0,0,0,0,0,0,2,0.29,0.9,1.18,6.71,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,429,1999,Chelsea (Home),9
-Ba,MID,Sunderland,4.4,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,388,1313,Chelsea (Home),9
-Browne,MID,Sunderland,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,226,Chelsea (Home),9
-Ekwah,MID,Sunderland,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,31,Chelsea (Home),9
-H.Jones,MID,Sunderland,4.4,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,278,386,Chelsea (Home),9
-Matete,MID,Sunderland,4.4,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,1477,1734,Chelsea (Home),9
-Triantis,MID,Sunderland,4.4,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,283,Chelsea (Home),9
-Isidor,FWD,Sunderland,5.6,2.9,1.2,a,0,0,0,0,0,3,0,0.03,1.27,1.3,6.6,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,22073,89545,Chelsea (Home),9
-Mayenda,FWD,Sunderland,5.5,0.8,0.5,a,0,0,0,0,0,1,0,0.06,0.47,0.53,2.81,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,1217,10989,Chelsea (Home),9
-Abdullahi,FWD,Sunderland,4.4,0.4,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,1164,3352,Chelsea (Home),9
-Luís Hemir,FWD,Sunderland,4.4,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,849,Chelsea (Home),9
-Rusyn,FWD,Sunderland,4.4,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,607,Chelsea (Home),9
-Xhaka,MID,Sunderland,5.1,4.7,4.2,a,0,0,0,0,0,0,3,0.78,0.17,0.95,9.59,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,60651,30214,Chelsea (Home),9
-Roefs,GKP,Sunderland,4.6,5.8,4.8,a,0,0,0,0,0,0,0,0.01,0.0,0.01,9.59,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,84089,18808,Chelsea (Home),9
-Masuaku,DEF,Sunderland,3.9,0.8,0.0,a,0,0,0,0,0,0,0,0.08,0.07,0.15,2.09,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,10038,4438,Chelsea (Home),9
-Alderete,DEF,Sunderland,4.1,6.5,5.8,i,0,0,0,0,0,1,1,0.35,0.58,0.93,9.26,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,36754,81065,Chelsea (Home),9
-Mukiele,DEF,Sunderland,4.1,3.9,6.5,a,0,0,0,0,0,1,0,0.3,0.38,0.68,8.03,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,157542,12411,Chelsea (Home),9
-Geertruida,DEF,Sunderland,4.5,0.0,0.8,a,0,0,0,0,0,0,0,0.05,0.27,0.32,2.73,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,146,219,Chelsea (Home),9
-Brobbey,FWD,Sunderland,5.5,0.1,0.5,a,0,0,0,0,0,0,0,0.0,0.0,0.0,1.45,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,517,1142,Chelsea (Home),9
-Traoré,MID,Sunderland,5.5,0.0,1.0,a,0,0,0,0,0,0,0,0.03,0.21,0.24,2.86,0,0,0,0,0,0,0,False,,,Chelsea,0.0,0.0,0.0,0.0,0,0,0,475,415,Chelsea (Home),9
-Vicario,GKP,Spurs,5.1,10.9,1.5,a,0,0,0,0,0,0,0,0.01,0.0,0.01,9.15,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,9222,90601,Everton (Home),9
+Patterson,GKP,Sunderland,4.3,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,291,998,Everton (Away),9
+Moore,GKP,Sunderland,4.0,0.4,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,332,1226,Everton (Away),9
+Nna Noukeu,GKP,Sunderland,4.0,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,270,388,Everton (Away),9
+Ballard,DEF,Sunderland,4.6,2.4,4.0,a,90,0,0,0,1,1,0,0.32,0.6,0.92,3.97,0,0,0,0,0,0,1,False,1.0,2.0,Chelsea,18.2,0.6,19.0,3.8,4,0,2,9468,8191,Everton (Away),9
+Hume,DEF,Sunderland,4.5,0.4,5.0,a,90,0,0,0,1,0,1,0.37,0.35,0.72,10.11,0,0,0,0,0,0,1,False,1.0,2.0,Chelsea,11.0,1.6,0.0,1.3,11,0,2,7422,2186,Everton (Away),9
+Alese,DEF,Sunderland,4.0,0.0,0.0,d,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,38,18,Everton (Away),9
+Anderson,DEF,Sunderland,3.9,0.5,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,1387,2790,Everton (Away),9
+Cirkin,DEF,Sunderland,4.0,0.0,0.0,d,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,26,74,Everton (Away),9
+Hjelde,DEF,Sunderland,4.0,0.0,0.0,d,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,34,29,Everton (Away),9
+Huggins,DEF,Sunderland,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,423,Everton (Away),9
+Johnson,DEF,Sunderland,3.9,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,995,1454,Everton (Away),9
+O'Nien,DEF,Sunderland,4.0,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,384,302,Everton (Away),9
+Pembele,DEF,Sunderland,3.9,0.4,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,1282,2766,Everton (Away),9
+Reinildo,DEF,Sunderland,4.0,4.6,0.5,a,90,0,0,0,1,0,0,0.04,0.02,0.06,5.68,0,0,0,0,0,0,1,False,1.0,2.0,Chelsea,11.0,0.6,0.0,1.2,7,0,2,2946,31849,Everton (Away),9
+Seelt,DEF,Sunderland,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.01,0.0,0.01,1.33,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,738,Everton (Away),9
+Adingra,MID,Sunderland,5.2,0.6,0.5,a,0,0,0,0,0,0,1,0.25,0.14,0.39,3.03,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,942,8435,Everton (Away),9
+Diarra,MID,Sunderland,5.4,0.0,0.0,i,0,0,0,0,0,0,1,0.08,0.5,0.58,3.87,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,39,459,Everton (Away),9
+Roberts,MID,Sunderland,5.4,0.0,0.0,u,0,0,0,0,0,0,0,0.02,0.03,0.05,0.66,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,49,Everton (Away),9
+Aleksić,MID,Sunderland,4.9,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,52,Everton (Away),9
+E.Le Fée,MID,Sunderland,4.9,0.4,2.8,a,74,0,0,0,1,1,0,0.28,0.87,1.15,7.09,0,0,0,0,1,0,1,False,1.0,2.0,Chelsea,10.0,24.4,3.0,3.7,7,0,1,2319,3316,Everton (Away),9
+Mundle,MID,Sunderland,4.9,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,11,16,Everton (Away),9
+Neil,MID,Sunderland,4.8,0.0,0.2,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.2,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,124,109,Everton (Away),9
+Poveda,MID,Sunderland,4.8,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,37,65,Everton (Away),9
+Rigg,MID,Sunderland,4.8,0.0,1.2,a,15,0,0,0,0,0,0,0.06,0.12,0.18,1.29,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,1.2,0.6,0.0,0.2,4,0,1,438,285,Everton (Away),9
+Sadiki,MID,Sunderland,5.0,0.1,2.0,a,90,0,0,0,1,0,0,0.35,0.08,0.43,9.91,0,0,0,0,0,0,1,False,1.0,2.0,Chelsea,15.6,11.3,0.0,2.7,17,0,2,240,340,Everton (Away),9
+Talbi,MID,Sunderland,5.0,0.2,4.0,a,25,1,0,0,0,1,2,0.29,1.02,1.3,6.94,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,33.4,0.3,17.0,5.1,26,2,8,429,1999,Everton (Away),9
+Ba,MID,Sunderland,4.4,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,388,1313,Everton (Away),9
+Browne,MID,Sunderland,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,226,Everton (Away),9
+Ekwah,MID,Sunderland,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,31,Everton (Away),9
+H.Jones,MID,Sunderland,4.4,0.1,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,278,386,Everton (Away),9
+Matete,MID,Sunderland,4.4,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,1477,1734,Everton (Away),9
+Triantis,MID,Sunderland,4.4,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,283,Everton (Away),9
+Isidor,FWD,Sunderland,5.6,3.0,3.0,a,74,1,0,0,1,4,0,0.03,2.07,2.1,7.38,0,0,0,0,0,0,1,False,1.0,2.0,Chelsea,28.0,1.6,44.0,7.4,25,1,7,22073,89545,Everton (Away),9
+Mayenda,FWD,Sunderland,5.5,0.8,0.5,a,0,0,0,0,0,1,0,0.06,0.47,0.53,2.81,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,1217,10989,Everton (Away),9
+Abdullahi,FWD,Sunderland,4.3,0.4,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,1164,3352,Everton (Away),9
+Luís Hemir,FWD,Sunderland,4.4,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,849,Everton (Away),9
+Rusyn,FWD,Sunderland,4.4,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,0,607,Everton (Away),9
+Xhaka,MID,Sunderland,5.1,4.7,4.8,a,90,0,0,0,1,0,3,0.8,0.32,1.12,10.49,0,0,0,0,0,0,1,False,1.0,2.0,Chelsea,17.8,12.5,7.0,3.7,13,0,2,60651,30214,Everton (Away),9
+Roefs,GKP,Sunderland,4.6,5.9,5.8,a,90,0,0,6,1,0,0,0.01,0.0,0.01,10.49,0,0,0,0,0,0,1,False,1.0,2.0,Chelsea,43.8,0.0,0.0,4.4,22,0,4,84089,18808,Everton (Away),9
+Masuaku,DEF,Sunderland,3.9,0.8,0.0,a,0,0,0,0,0,0,0,0.08,0.07,0.15,2.09,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,10038,4438,Everton (Away),9
+Alderete,DEF,Sunderland,4.1,6.3,5.8,d,0,0,0,0,0,1,1,0.35,0.58,0.93,9.26,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,0.0,0.0,0.0,0.0,0,0,0,36754,81065,Everton (Away),9
+Mukiele,DEF,Sunderland,4.1,4.1,7.0,a,90,0,0,0,1,1,0,0.31,0.38,0.69,8.93,0,0,0,0,0,0,1,False,1.0,2.0,Chelsea,12.4,0.8,2.0,1.5,8,0,2,157542,12411,Everton (Away),9
+Geertruida,DEF,Sunderland,4.5,0.0,1.2,a,90,0,0,0,1,0,0,0.23,0.3,0.53,3.63,0,0,0,0,0,0,1,False,1.0,2.0,Chelsea,15.6,3.8,2.0,2.1,9,0,2,146,219,Everton (Away),9
+Brobbey,FWD,Sunderland,5.5,0.1,1.5,a,15,0,1,0,0,0,1,0.04,0.0,0.04,1.57,0,0,0,0,0,0,0,False,1.0,2.0,Chelsea,23.2,10.3,6.0,4.0,12,0,4,517,1142,Everton (Away),9
+Traoré,MID,Sunderland,5.5,0.0,2.2,a,64,0,1,0,1,0,1,0.12,0.33,0.45,3.52,0,0,0,0,0,0,1,False,1.0,2.0,Chelsea,13.2,15.7,16.0,4.5,23,0,5,475,415,Everton (Away),9
+Vicario,GKP,Spurs,5.1,10.8,1.5,a,0,0,0,0,0,0,0,0.01,0.0,0.01,9.15,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,9222,90601,Everton (Home),9
 Austin,GKP,Spurs,3.9,0.3,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,3416,1135,Everton (Home),9
 Kinsky,GKP,Spurs,3.9,2.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,14940,7450,Everton (Home),9
-Pedro Porro,DEF,Spurs,5.6,19.7,2.2,a,0,0,0,0,0,0,1,0.91,0.11,1.02,8.12,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,18979,171273,Everton (Home),9
-Romero,DEF,Spurs,5.1,5.5,0.8,i,0,0,0,0,0,0,1,0.25,0.1,0.35,8.83,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,2268,186283,Everton (Home),9
+Pedro Porro,DEF,Spurs,5.6,19.6,2.2,a,0,0,0,0,0,0,1,0.91,0.11,1.02,8.12,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,18979,171273,Everton (Home),9
+Romero,DEF,Spurs,5.1,5.3,0.8,i,0,0,0,0,0,0,1,0.25,0.1,0.35,8.83,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,2268,186283,Everton (Home),9
 Danso,DEF,Spurs,4.3,0.1,0.2,a,0,0,0,0,0,0,0,0.02,0.0,0.02,0.56,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,675,806,Everton (Home),9
 Davies,DEF,Spurs,4.3,0.1,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,22,566,Everton (Home),9
 Dragusin,DEF,Spurs,4.5,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,37,34,Everton (Home),9
 Spence,DEF,Spurs,4.5,1.8,0.8,a,0,0,0,0,0,0,0,0.19,0.18,0.37,5.87,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,3834,21670,Everton (Home),9
 Udogie,DEF,Spurs,4.4,0.5,1.0,i,0,0,0,0,0,0,0,0.24,0.02,0.26,4.18,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,566,10125,Everton (Home),9
-Van de Ven,DEF,Spurs,4.7,31.0,1.0,a,0,0,0,0,0,1,0,0.17,0.79,0.96,9.15,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,34528,301737,Everton (Home),9
+Van de Ven,DEF,Spurs,4.7,30.9,1.0,a,0,0,0,0,0,1,0,0.17,0.79,0.96,9.15,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,34528,301737,Everton (Home),9
 Phillips,DEF,Spurs,4.0,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,0,29,Everton (Home),9
 Takai,DEF,Spurs,4.0,0.1,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,34,213,Everton (Home),9
 Vuskovic,DEF,Spurs,3.9,0.4,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,0,2143,Everton (Home),9
 Son,MID,Spurs,8.5,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,0,148,Everton (Home),9
-Johnson,MID,Spurs,6.7,3.6,0.8,a,0,0,0,0,0,2,0,0.15,0.96,1.11,4.44,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,1054,52540,Everton (Home),9
+Johnson,MID,Spurs,6.7,3.5,0.8,a,0,0,0,0,0,2,0,0.15,0.96,1.11,4.44,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,1054,52540,Everton (Home),9
 Maddison,MID,Spurs,6.9,0.1,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,58,222,Everton (Home),9
-Kudus,MID,Spurs,6.8,34.5,4.0,a,0,0,0,0,0,1,5,1.21,1.29,2.5,8.9,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,136687,208307,Everton (Home),9
+Kudus,MID,Spurs,6.8,34.3,4.0,a,0,0,0,0,0,1,5,1.21,1.29,2.5,8.9,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,136687,208307,Everton (Home),9
 Kulusevski,MID,Spurs,6.4,0.0,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,24,50,Everton (Home),9
 Tel,MID,Spurs,6.3,0.1,2.8,a,0,0,0,0,0,1,0,0.05,0.19,0.24,2.13,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,1699,1840,Everton (Home),9
 Bentancur,MID,Spurs,5.3,0.2,4.5,a,0,0,0,0,0,1,0,0.38,0.2,0.58,6.95,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,6413,916,Everton (Home),9
@@ -3585,7 +3586,7 @@ P.M.Sarr,MID,Spurs,4.9,1.8,1.5,a,0,0,0,0,0,1,2,0.29,0.31,0.6,5.07,0,0,0,0,0,0,0,
 Min-hyeok,MID,Spurs,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,0,34,Everton (Home),9
 Olusesi,MID,Spurs,4.4,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,387,1036,Everton (Home),9
 Solanke,FWD,Spurs,7.2,1.0,0.0,i,0,0,0,0,0,0,0,0.0,0.2,0.2,0.22,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,134,3295,Everton (Home),9
-Richarlison,FWD,Spurs,6.6,10.7,1.0,a,0,0,0,0,0,3,1,0.3,1.69,1.99,6.78,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,19235,374498,Everton (Home),9
+Richarlison,FWD,Spurs,6.6,10.6,1.0,a,0,0,0,0,0,3,1,0.3,1.69,1.99,6.78,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,19235,374498,Everton (Home),9
 Lankshear,FWD,Spurs,4.5,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,0,98,Everton (Home),9
 Scarlett,FWD,Spurs,4.4,0.6,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,1205,3937,Everton (Home),9
 J.Palhinha,MID,Spurs,5.5,1.5,4.8,a,0,0,0,0,0,2,1,0.3,0.61,0.91,7.9,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,49656,9090,Everton (Home),9
@@ -3593,37 +3594,37 @@ Xavi,MID,Spurs,6.9,2.1,1.2,a,0,0,0,0,0,0,1,0.58,0.28,0.86,3.77,0,0,0,0,0,0,0,Fal
 Kolo Muani,FWD,Spurs,6.9,0.2,0.2,a,0,0,0,0,0,0,0,0.0,0.13,0.13,0.12,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,2989,1570,Everton (Home),9
 Byfield,DEF,Spurs,4.0,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,,,Everton,0.0,0.0,0.0,0.0,0,0,0,174,22,Everton (Home),9
 Igor,DEF,West Ham,4.5,0.1,0.2,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,695,425,Newcastle (Away),9
-Areola,GKP,West Ham,4.3,2.2,2.2,a,90,0,0,3,2,0,0,0.0,0.0,0.0,9.7,0,0,0,0,0,0,1,False,2.0,1.0,Leeds,22.0,0.0,0.0,2.2,8,0,2,4924,9329,Newcastle (Away),9
+Areola,GKP,West Ham,4.3,2.2,2.2,a,90,0,0,3,2,0,0,0.0,0.0,0.0,9.61,0,0,0,0,0,0,1,False,2.0,1.0,Leeds,22.0,0.0,0.0,2.2,8,0,2,4924,9329,Newcastle (Away),9
 Foderingham,GKP,West Ham,4.0,0.3,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,0,1677,Newcastle (Away),9
 Hegyi,GKP,West Ham,4.0,0.2,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,107,604,Newcastle (Away),9
-Diouf,DEF,West Ham,4.4,3.7,2.5,a,90,0,0,0,2,0,4,0.77,0.22,0.99,13.67,0,0,0,0,0,0,1,False,2.0,1.0,Leeds,9.6,3.2,3.0,1.6,3,0,1,15413,30742,Newcastle (Away),9
+Diouf,DEF,West Ham,4.4,3.6,2.5,a,90,0,0,0,2,0,4,0.77,0.22,0.99,13.58,0,0,0,0,0,0,1,False,2.0,1.0,Leeds,9.6,3.2,3.0,1.6,3,0,1,15413,30742,Newcastle (Away),9
 Emerson,DEF,West Ham,4.4,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,0,357,Newcastle (Away),9
-Kilman,DEF,West Ham,4.4,0.2,2.0,a,90,0,0,0,2,0,0,0.19,0.39,0.58,15.14,0,0,0,0,0,0,1,False,2.0,1.0,Leeds,15.6,1.1,0.0,1.7,4,0,1,1165,1261,Newcastle (Away),9
+Kilman,DEF,West Ham,4.4,0.2,2.0,a,90,0,0,0,2,0,0,0.19,0.39,0.58,15.05,0,0,0,0,0,0,1,False,2.0,1.0,Leeds,15.6,1.1,0.0,1.7,4,0,1,1165,1261,Newcastle (Away),9
 Mavropanos,DEF,West Ham,4.4,0.1,1.2,i,0,0,0,0,0,0,0,0.05,0.42,0.47,8.33,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,192,1017,Newcastle (Away),9
 N.Aguerd,DEF,West Ham,4.4,0.1,0.0,u,0,0,0,0,0,0,0,0.03,0.1,0.13,3.42,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,0,204,Newcastle (Away),9
-Scarles,DEF,West Ham,4.4,0.0,0.2,a,24,0,0,0,2,0,0,0.01,0.0,0.01,2.15,0,0,0,0,0,0,1,False,2.0,1.0,Leeds,0.0,0.2,0.0,0.0,-6,0,0,77,127,Newcastle (Away),9
-Todibo,DEF,West Ham,4.3,0.1,0.2,a,90,0,0,0,2,0,0,0.02,0.0,0.02,6.15,0,0,0,0,1,0,1,False,2.0,1.0,Leeds,18.4,1.3,0.0,2.0,8,0,0,332,451,Newcastle (Away),9
-Wan-Bissaka,DEF,West Ham,4.3,6.2,0.8,a,78,0,0,0,2,0,0,0.22,0.0,0.22,8.44,0,0,0,0,0,0,1,False,2.0,1.0,Leeds,12.4,17.7,0.0,3.0,4,0,1,4943,39937,Newcastle (Away),9
+Scarles,DEF,West Ham,4.4,0.0,0.2,d,24,0,0,0,2,0,0,0.01,0.0,0.01,2.14,0,0,0,0,0,0,1,False,2.0,1.0,Leeds,0.0,0.2,0.0,0.0,-6,0,0,77,127,Newcastle (Away),9
+Todibo,DEF,West Ham,4.3,0.1,0.2,a,90,0,0,0,2,0,0,0.02,0.0,0.02,6.06,0,0,0,0,1,0,1,False,2.0,1.0,Leeds,16.4,1.3,0.0,1.8,8,0,0,332,451,Newcastle (Away),9
+Wan-Bissaka,DEF,West Ham,4.3,6.2,0.8,a,78,0,0,0,2,0,0,0.22,0.0,0.22,8.35,0,0,0,0,0,0,1,False,2.0,1.0,Leeds,12.4,17.7,0.0,3.0,4,0,1,4943,39937,Newcastle (Away),9
 Casey,DEF,West Ham,4.0,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,0,312,Newcastle (Away),9
-L.Paquetá,MID,West Ham,5.9,3.0,2.0,a,90,0,0,0,2,2,0,1.02,1.66,2.68,14.63,0,0,0,0,1,0,1,False,2.0,1.0,Leeds,7.2,25.9,8.0,4.1,8,0,1,28054,35799,Newcastle (Away),9
-Souček,MID,West Ham,5.7,0.2,1.0,a,64,0,0,0,2,0,0,0.02,0.52,0.54,7.17,0,0,0,0,0,0,1,False,2.0,1.0,Leeds,5.2,3.9,7.0,1.6,10,0,2,700,863,Newcastle (Away),9
+L.Paquetá,MID,West Ham,5.9,2.9,2.0,a,90,0,0,0,2,2,0,1.04,1.69,2.73,14.54,0,0,0,0,1,0,1,False,2.0,1.0,Leeds,7.4,25.9,8.0,4.1,8,0,1,28054,35799,Newcastle (Away),9
+Souček,MID,West Ham,5.7,0.2,1.0,a,64,0,0,0,2,0,0,0.02,0.52,0.54,7.08,0,0,0,0,0,0,1,False,2.0,1.0,Leeds,5.2,3.9,7.0,1.6,10,0,2,700,863,Newcastle (Away),9
 Ward-Prowse,MID,West Ham,5.7,0.2,0.0,a,0,0,0,0,0,0,0,0.91,0.13,1.04,7.27,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,640,1494,Newcastle (Away),9
-Summerville,MID,West Ham,5.5,0.1,1.2,a,78,0,0,0,2,0,2,0.41,0.5,0.91,10.15,0,0,0,0,1,0,1,False,2.0,1.0,Leeds,2.8,3.1,0.0,0.6,1,0,1,3751,1588,Newcastle (Away),9
+Summerville,MID,West Ham,5.5,0.1,1.2,a,78,0,0,0,2,0,2,0.41,0.5,0.91,10.06,0,0,0,0,1,0,1,False,2.0,1.0,Leeds,2.8,3.3,0.0,0.6,1,0,1,3751,1588,Newcastle (Away),9
 Álvarez,MID,West Ham,4.9,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,0,170,Newcastle (Away),9
 Cornet,MID,West Ham,4.9,0.0,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,0,53,Newcastle (Away),9
 G.Rodriguez,MID,West Ham,4.8,0.0,0.2,a,0,0,0,0,0,0,0,0.03,0.03,0.06,0.97,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,135,135,Newcastle (Away),9
 L.Guilherme,MID,West Ham,4.9,0.0,0.2,a,0,0,0,0,0,0,0,0.0,0.07,0.07,0.88,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,48,69,Newcastle (Away),9
 Earthy,MID,West Ham,4.5,0.1,0.0,i,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,49,388,Newcastle (Away),9
-Irving,MID,West Ham,4.4,0.3,1.2,a,64,0,0,0,2,0,0,0.09,0.0,0.09,3.74,0,0,0,0,0,0,1,False,2.0,1.0,Leeds,4.2,4.3,0.0,0.9,13,0,2,1838,2422,Newcastle (Away),9
+Irving,MID,West Ham,4.4,0.3,1.2,a,64,0,0,0,2,0,0,0.09,0.0,0.09,3.65,0,0,0,0,0,0,1,False,2.0,1.0,Leeds,4.2,4.3,0.0,0.9,13,0,2,1838,2422,Newcastle (Away),9
 Orford,MID,West Ham,4.4,0.1,0.0,u,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,0,255,Newcastle (Away),9
-Potts,MID,West Ham,4.4,0.7,0.8,a,26,0,0,0,0,0,0,0.04,0.0,0.04,2.17,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,3.2,2.9,0.0,0.6,10,0,1,1220,5032,Newcastle (Away),9
-Bowen,FWD,West Ham,7.8,8.7,4.5,a,90,0,1,0,2,3,1,1.2,1.0,2.2,15.14,0,0,0,0,0,0,1,False,2.0,1.0,Leeds,26.8,48.3,22.0,9.7,20,0,5,94157,104596,Newcastle (Away),9
+Potts,MID,West Ham,4.4,0.6,0.8,a,26,0,0,0,0,0,0,0.04,0.0,0.04,2.17,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,3.2,2.9,0.0,0.6,10,0,1,1220,5032,Newcastle (Away),9
+Bowen,FWD,West Ham,7.8,8.7,4.5,a,90,0,1,0,2,3,1,1.15,1.01,2.16,15.05,0,0,0,0,0,0,1,False,2.0,1.0,Leeds,26.8,48.3,22.0,9.7,20,0,5,94157,104596,Newcastle (Away),9
 Füllkrug,FWD,West Ham,5.6,0.8,1.0,d,0,0,0,0,0,0,0,0.18,0.86,1.04,5.93,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,80,10145,Newcastle (Away),9
 Marshall,FWD,West Ham,4.4,0.7,0.5,a,0,0,0,0,0,0,0,0.0,0.13,0.13,1.55,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,2224,4657,Newcastle (Away),9
-Walker-Peters,DEF,West Ham,4.4,0.3,1.0,a,11,0,0,0,0,0,0,0.06,0.14,0.2,7.01,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,4.8,1.0,0.0,0.6,6,0,1,552,1782,Newcastle (Away),9
-Wilson,FWD,West Ham,5.9,0.4,0.5,a,65,0,0,0,0,1,0,0.05,1.17,1.22,4.54,1,0,0,0,0,0,0,False,2.0,1.0,Leeds,3.0,2.0,19.0,2.4,8,0,2,2377,3961,Newcastle (Away),9
+Walker-Peters,DEF,West Ham,4.4,0.3,1.0,a,11,0,0,0,0,0,0,0.07,0.14,0.21,7.01,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,3.0,1.3,0.0,0.4,4,0,1,552,1782,Newcastle (Away),9
+Wilson,FWD,West Ham,5.9,0.4,0.5,a,65,0,0,0,0,1,0,0.05,1.18,1.23,4.46,1,0,0,0,0,0,0,False,2.0,1.0,Leeds,3.0,2.0,19.0,2.4,9,0,2,2377,3961,Newcastle (Away),9
 Hermansen,GKP,West Ham,4.4,0.3,0.0,a,0,0,0,0,0,0,0,0.01,0.0,0.01,5.44,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,263,1421,Newcastle (Away),9
-M.Fernandes,MID,West Ham,5.5,0.0,3.2,a,25,1,0,0,0,1,0,0.31,0.28,0.59,8.47,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,38.0,16.8,19.0,7.4,22,0,6,576,333,Newcastle (Away),9
+M.Fernandes,MID,West Ham,5.5,0.0,3.2,a,25,1,0,0,0,1,0,0.31,0.25,0.56,8.47,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,38.0,16.8,19.0,7.4,22,0,6,576,333,Newcastle (Away),9
 S.Magassa,MID,West Ham,5.0,0.0,0.8,a,11,0,0,0,0,0,0,0.01,0.0,0.01,3.24,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,6.6,0.8,0.0,0.7,5,0,1,84,72,Newcastle (Away),9
 Fabianski,GKP,West Ham,4.5,0.0,0.0,a,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,False,2.0,1.0,Leeds,0.0,0.0,0.0,0.0,0,0,0,543,286,Newcastle (Away),9
 Johnstone,GKP,Wolves,4.5,0.2,1.5,a,0,0,0,0,0,0,0,0.01,0.0,0.01,4.22,0,0,0,0,0,0,0,True,,,Burnley,0.0,0.0,0.0,0.0,0,0,0,1402,765,Burnley (Away),9
